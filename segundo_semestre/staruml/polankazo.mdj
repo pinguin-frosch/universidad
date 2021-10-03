@@ -453,11 +453,30 @@
 									"model": {
 										"$ref": "AAAAAAF8Q1MXTNZF/6A="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8Rt7VL10Iu7M=",
+											"_parent": {
+												"$ref": "AAAAAAF8Q1MXT9ZOTWY="
+											},
+											"model": {
+												"$ref": "AAAAAAF8Rt7VFF0Fg7w="
+											},
+											"font": "Arial;13;0",
+											"left": 613,
+											"top": 202,
+											"width": 199,
+											"height": 13,
+											"text": "+infoProfesion(): string",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 197,
 									"width": 209,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -665,11 +684,30 @@
 									"model": {
 										"$ref": "AAAAAAF8Q1OkItaEJpk="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8Rt8zz11Tl0c=",
+											"_parent": {
+												"$ref": "AAAAAAF8Q1OkJtaNT/Q="
+											},
+											"model": {
+												"$ref": "AAAAAAF8Rt8zv11Q9kU="
+											},
+											"font": "Arial;13;0",
+											"left": 117,
+											"top": 468,
+											"width": 159,
+											"height": 13,
+											"text": "+infoLicencia(): string",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 112,
 									"top": 463,
 									"width": 169,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2088,6 +2126,27 @@
 								"$ref": "AAAAAAF8Q1Ugztbjef8="
 							}
 						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8Rt7VFF0Fg7w=",
+							"_parent": {
+								"$ref": "AAAAAAF8Q1MXTNZF/6A="
+							},
+							"name": "infoProfesion",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8Rt8JBV0qT9s=",
+									"_parent": {
+										"$ref": "AAAAAAF8Rt7VFF0Fg7w="
+									},
+									"type": "string",
+									"direction": "return"
+								}
+							]
+						}
 					]
 				},
 				{
@@ -2163,6 +2222,27 @@
 							"type": {
 								"$ref": "AAAAAAF8Q1lhS9fxT1Q="
 							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8Rt8zv11Q9kU=",
+							"_parent": {
+								"$ref": "AAAAAAF8Q1OkItaEJpk="
+							},
+							"name": "infoLicencia",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8Rt9bMF11N3A=",
+									"_parent": {
+										"$ref": "AAAAAAF8Rt8zv11Q9kU="
+									},
+									"type": "string",
+									"direction": "return"
+								}
+							]
 						}
 					]
 				},
