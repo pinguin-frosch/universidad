@@ -35,8 +35,8 @@ public class Licencia {
         this.detalle = detalle;
     }
 
+    // Creo que este método no tiene sentido, debería estar solo en el conductor
     public String infoLicencia() {
-        // Cambiar
-        return String.format("Mi licencia de conducir es %s", codigo);
+        return String.format("El código de licencia es %s.", codigo);
     }
 }

@@ -3,10 +3,12 @@ Gerente -> Persona
     -email: string
     -clave: string
     -profesion: Profesion (composicion)
+    +infoProfesion(): string
 
 Conductor -> Persona
     -codConductor: int
     -licencia: Licencia (composicion)
+    +infoLicencia(): string
 
 Persona
     -run: string

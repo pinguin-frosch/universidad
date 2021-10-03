@@ -27,8 +27,8 @@ public class Profesion {
         this.codigo = codigo;
     }
 
+    // Este método tampoco tiene sentido, solo debería estar en el gerente
     public String infoProfesion() {
-        // Cambiar
-        return String.format("Hola, mi profesión es %s", nombre);
+        return String.format("Esta profesión es %s.", nombre);
     }
 }

@@ -36,6 +36,6 @@ abstract class Persona {
     }
 
     public String infoPersona() {
-        return String.format("Hola, mi run es %s, y mi nombre es %s", run, nombre);
+        return String.format("Hola, mi run es %s, y mi nombre es %s.", run, nombre);
     }
 }
