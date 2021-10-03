@@ -1,0 +1,26 @@
+Gerente -> Persona
+    -telefono: string
+    -email: string
+    -clave: string
+    -profesion: Profesion (composicion)
+
+Conductor -> Persona
+    -codConductor: int
+    -licencia: Licencia (composicion)
+
+Persona
+    -run: string
+    -nombre: string
+    -direccion: string
+    +infoPersona(): string
+
+Profesion
+    -nombre: string
+    -codigo: string
+    +infoProfesion(): string
+
+Licencia
+    -codigo: int
+    -tipo: string
+    -detalle: string
+    +infoLicencia(): string
