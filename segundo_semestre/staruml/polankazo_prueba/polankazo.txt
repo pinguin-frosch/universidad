@@ -1,0 +1,40 @@
+// Hecho por Gabriel Barrientos
+
+// En el archivo anotaciones incluí explicaciones más desarrolladas de las cosas que
+// menciono aquí, los números entre corchetes guiarán a la expliacación adecuada.
+
+[1] Persona (Herencia) (Clase Padre)
+        -run: String
+        -nombres: String
+        -direccion: String
+        +infoPersona(): String
+
+[1] Administrativo -> Persona (Herencia) (Clase hija)
+        -telefono: String
+        -email: String
+        -clave: String
+[2]     -profesion: Profesion (composicion)
+        -estado: Estado (¿composicion?)
+[4]     +infoProfesion(): String (Creo que esto no debería estar en el diagrama)
+
+[1] Conductor -> Persona (Herencia) (Clase hija)
+        -codConductor: int
+[2]     -licencia: Licencia (composicion)
+[3]     -estado: Estado (¿composicion?)
+[5]     +infoLicencia(): String (Creo que esto no debería estar en el diagrama)
+
+    Profesion
+        -codProfesion: int
+        -nombreProfesion: String
+[4]     +infoProfesion(): String
+
+    Licencia
+        -codLicencia: int
+        -tipoLicencia: String
+        -detalleLicencia: String
+[5]     +infoLicencia(): String
+
+    Estado
+        -codEstado: int
+        -detalleEstado: String
+[6]     +infoEstado(): String (En este caso está bien diseñado)

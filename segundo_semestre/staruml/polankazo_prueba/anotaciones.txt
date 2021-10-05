@@ -1,0 +1,20 @@
+// Hecho por Gabriel Barrientos
+
+Estas son solo algunas anotaciones que hice durante el diseño, algunas son explicaciones y otras son especulaciones, pero creo que sí son ciertas,
+agradecería si usted me pudiera contestar respondiendo sobre los puntos 4 y 5.
+
+[1] En este caso hay herencia porque tanto conductor como adminstrativo tienen propiedades en común de otra clase abstracta,
+    en este contexto la clase padre es persona, pero podría ser trabajador o algo parecido, ya que el nombre no afecta en realidad,
+    y en este problema cualquiera de los dos sería igual de válido.
+[2] Ambos atributos generan una relación de composición porque es una relación obligatoria, si no estuviera la licencia o la profesión,
+    no podrían considerarse conductores o administrativos, ya que el problema dice explicitamente que la relación es obligatoria.
+[3] Con esta propiedad no estoy completamente seguro de si es composición o agregación, ya que el enunciado no lo dice textualmente, pero
+    eso significa que no necesariamente es una o la otra, podrían perfectamente ser ambos. Pero yo creo que es composción, ya que no tiene 
+    mucho sentido tener un estado sin la persona que lo posea, pero de nuevo, en otro contexto podría ser perfectamente agregación.
+[4] El enunciado del problema menciona que debe incluir el método infoProfesión tanto en el administrativo como en la clase profesión, aunque
+    considero que no es la mejor opción de diseño, ya que solo estamos repitiendo el método, además al ser composción un administrativo siempre
+    debera tener una profesión, por lo tanto puede acceder a los métodos de la profesión a través de ese atributo en particular. 
+[5] En este pasa lo mismo que la anotación anterior, se está duplicando código, en este caso el método infoLicencia. Debería estar solo en una
+    de las clases, y esa debería ser la Licencia, después de todo es la información de la licencia y no del conductor.
+[6] Finalmente en esta clase si está bien, la información del estado se encuentra solo en el estado, pues los conductores y administrativos pueden
+    acceder a este método mediante el atributo de tipo Estado.
