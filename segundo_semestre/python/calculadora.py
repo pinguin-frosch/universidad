@@ -1,5 +1,12 @@
 from typing import Any
 
+def isfloat(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
 class Calculadora:
     n1: float
     n2: float
@@ -34,8 +41,17 @@ class Calculadora:
         else:
             return "No se puede dividir por 0"
 
-n1 = float(input("Ingrese el primer número:  "))
-n2 = float(input("Ingrese el segundo número: "))
+while True:
+    n1 = input("Ingrese el primer número:  ")
+    if isfloat(n1):
+        n1 = float(n1)
+        break
+
+while True:
+    n2 = input("Ingrese el segundo número: ")
+    if isfloat(n2):
+        n2 = float(n2)
+        break
 
 calculadora = Calculadora(n1)
 
