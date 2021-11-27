@@ -16,15 +16,19 @@ def menu():
 
 
 class ConexionBD:
-    def __init__(self):
+    host: str
+    user: str
+    password: str
+    db: str
+    def __init__(self, host, user, password, db):
         try:
             print("Iniciando conexión en localhost en la base de datos"
                 " bd_ejercicio1.")
             self.connection = pymysql.connect(
-                host="localhost",
-                user="root",
-                passwd="",
-                db="bd_ejercicio1"
+                host=host,
+                user=user,
+                passwd=password,
+                db=db
             )
             self.cursor = self.connection.cursor()
             print("Conexión exitosa.")
@@ -33,26 +37,33 @@ class ConexionBD:
             print("Finalizando sesión...")
             exit(1)
 
+
+class Vehiculo(ConexionBD):
+    patente: str
+    marca: str
+    modelo: str
+    año: int
+
     def listar_vehiculos(self):
-        try:
-            consulta = "select * from tb_vehiculo;"
-            self.cursor.execute(consulta)
-            if self.cursor.rowcount > 0:
-                vehiculos = self.cursor.fetchall()
-                print("\n", "".center(30, "-"), sep="")
-                for i, vehiculo in enumerate(vehiculos):
-                    print(f"Vehículo {i + 1}.")
-                    print(f"Patente: {vehiculo[0]}")
-                    print(f"Marca:   {vehiculo[1]}")
-                    print(f"Modelo:  {vehiculo[2]}")
-                    print(f"Año:     {vehiculo[3]}")
-                    if i != len(vehiculos) - 1:
-                        print()
-                print("".center(30, "-"))
-            else:
-                print("\nNo hay vehículos que mostrar.")
-        except pymysql.Error as e:
-            error(e)
+            try:
+                consulta = "select * from tb_vehiculo;"
+                self.cursor.execute(consulta)
+                if self.cursor.rowcount > 0:
+                    vehiculos = self.cursor.fetchall()
+                    print("\n", "".center(30, "-"), sep="")
+                    for i, vehiculo in enumerate(vehiculos):
+                        print(f"Vehículo {i + 1}.")
+                        print(f"Patente: {vehiculo[0]}")
+                        print(f"Marca:   {vehiculo[1]}")
+                        print(f"Modelo:  {vehiculo[2]}")
+                        print(f"Año:     {vehiculo[3]}")
+                        if i != len(vehiculos) - 1:
+                            print()
+                    print("".center(30, "-"))
+                else:
+                    print("\nNo hay vehículos que mostrar.")
+            except pymysql.Error as e:
+                error(e)
 
     def buscar_vehiculo(self, patente):
         try:
@@ -114,7 +125,7 @@ class ConexionBD:
             error(e)
 
 
-bd = ConexionBD()
+bd = Vehiculo("localhost", "root", "", "bd_ejercicio1")
 
 estado = True
 
@@ -150,7 +161,7 @@ while(estado):
 
     # Realizar commit
     elif opcion == "5":
-        menu()
+        bd.commit()
 
     # Salir
     elif opcion == "6":
