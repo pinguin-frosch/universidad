@@ -23,21 +23,21 @@ def main():
 
     def asignar_moneda(opcion):
         if opcion == "1":
-            moneda_inicial = valores["peso"]
+            moneda = valores["peso"]
             nombre = "CLP"
         elif opcion == "2":
-            moneda_inicial = valores["euro"]
+            moneda = valores["euro"]
             nombre = "EUR"
         elif opcion == "3":
-            moneda_inicial = valores["utm"]
+            moneda = valores["utm"]
             nombre = "UTM"
         elif opcion == "4":
-            moneda_inicial = valores["dolar"]
+            moneda = valores["dolar"]
             nombre = "USD"
         elif opcion == "5":
-            moneda_inicial = valores["uf"]
+            moneda = valores["uf"]
             nombre = "UF"
-        return moneda_inicial, nombre
+        return moneda, nombre
 
     response = requests.get("https://mindicador.cl/api")
     # response.status_code = 300
