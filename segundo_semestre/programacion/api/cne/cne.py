@@ -2,7 +2,9 @@ import requests
 import json
 import datetime
 import os
+import platform
 
+sistema_operativo = platform.system()
 hoy = datetime.datetime.today()
 hoy = f"{hoy.day}-{hoy.month}-{hoy.year} {hoy.hour}-{hoy.minute}-{hoy.second}"
 
@@ -84,4 +86,7 @@ with open(f"datos {nombre_region} {hoy}.txt", "w") as file:
             file.write("\n" + "\n")
 
 if not guardar:
-    os.system(f"rm 'datos {nombre_region} {hoy}.txt'")
+    if sistema_operativo == "Windows":
+        os.system(f"powershell.exe rm 'datos {nombre_region} {hoy}.txt'")
+    else:
+        os.system(f"rm 'datos {nombre_region} {hoy}.txt'")
