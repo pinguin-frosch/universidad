@@ -1,0 +1,16 @@
+<button id="open">Abrir modal</button>
+<dialog id="modal">
+  <button id="close">Cerrar modal</button>
+</dialog>
+
+<script>
+  const open = document.getElementById("open")
+  const close = document.getElementById("close")
+  const modal = document.getElementById("modal")
+  open.onclick = () => {
+    modal.showModal()
+  }
+  close.onclick = () => {
+    modal.close()
+  }
+</script>

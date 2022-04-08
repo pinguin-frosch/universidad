@@ -1,0 +1,13 @@
+<body id="body">
+  <button id="change-color">Cambiar color</button>
+</body>
+
+<script>
+  const body = document.getElementById("body");
+  const button = document.getElementById("change-color");
+  const backgrounds = ["#ffffff", "#ff0000", "#00ff00", "#0000ff"];
+  let currentColor = 1;
+  button.onclick = () => {
+    body.style.backgroundColor = backgrounds[currentColor++ % 4];
+  };
+</script>
