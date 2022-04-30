@@ -1,0 +1,46 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1, h3, p, img {
+  opacity: 67%;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: large;
+  text-decoration: underline;
+  padding-bottom: 37px;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+  text-shadow: 2px 2px 1px #aaaaaa;
+  padding-left: 200px;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: larger;
+  font-style: italic;
+}
+
+.imagenes img {
+  width: 45%;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.github-logo {
+  width: 100px;
+  height: 100px;
+}
