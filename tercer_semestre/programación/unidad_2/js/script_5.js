@@ -125,10 +125,7 @@ const dia_valido = (mes, dia) => {
     "5": 31, "6": 30, "7": 31, "8": 31,
     "9": 30, "10": 31, "11": 30, "12": 31
   }
-  if (dia >= 1 && dia <= fechas[mes]) {
-    return true
-  }
-  return false
+  return dia >= 1 && dia <= fechas[mes]
 }
 
 main()
