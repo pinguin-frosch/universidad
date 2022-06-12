@@ -1,0 +1,101 @@
+// Crear la base de datos supermercado
+use('supermercado');
+
+// Crear la colección ventas
+db.createCollection('ventas');
+
+// Insertar dos documentos
+db.ventas.insertMany([
+    {
+        "folio": "A1BB43",
+        "fecha": new Date("2022-05-28"),
+        "montoDonacion": 590,
+        "porcentajeIVA": "21%",
+        "medioPago": [
+            {
+                "codMedioPago": "1",
+                "nombreMedioPago": "Efectivo"
+            }
+        ],
+        "productos": [
+            {
+                "nombreProducto": "Fideos N85",
+                "cantidad": 5,
+                "precio": 10000
+            },
+            {
+                "nombreProducto": "Jabón de lavanda",
+                "cantidad": 2,
+                "precio": 2500
+            },
+            {
+                "nombreProducto": "Lápiz pasta color negro",
+                "cantidad": 1,
+                "precio": 800
+            }
+        ]
+    },
+    {
+        "folio": "53BJDS2",
+        "fecha": new Date("2022-05-29"),
+        "montoDonacion": 1500,
+        "porcentajeIVA": "21%",
+        "medioPago": [
+            {
+                "codMedioPago": "3",
+                "nombreMedioPago": "Tarjeta de crédito"
+            },
+            {
+                "codMedioPago": "1",
+                "nombreMedioPago": "Efectivo"
+            }
+        ],
+        "productos": [
+            {
+                "nombreProducto": "Cereal trix",
+                "cantidad": 3,
+                "precio": 9000
+            },
+            {
+                "nombreProducto": "Televisión hd",
+                "cantidad": 1,
+                "precio": 168990
+            },
+            {
+                "nombreProducto": "Mamadera medio litro",
+                "cantidad": 2,
+                "precio": 3700
+            }
+        ]
+    }
+]);
+
+// Añadir la columna impuestoReciclaje
+db.ventas.updateMany(
+    {},
+    {
+        $set: {
+            "impuestoReciclaje": {}
+        }
+    }
+);
+
+// Añadir los valores de impuestoReciclaje
+db.ventas.updateMany(
+    {},
+    {
+        $set: {
+            "impuestoReciclaje": {
+                "porcentajeImpuesto": "8.5%",
+                "nombreReciclaje": "Impuesto Reciclaje"
+            }
+        }
+    }
+);
+
+// Eliminar la columna montoDonacion
+db.ventas.updateMany({}, {
+    $unset: {
+        "montoDonacion": ""
+    }
+});
