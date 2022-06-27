@@ -50,4 +50,10 @@ public class Medidor {
         pagos.add(pago);
         setPagos(pagos);
     }
+
+    public void registroBoleta(Boleta boleta) {
+        ArrayList<Boleta> boletas = getBoletas();
+        boletas.add(boleta);
+        setBoletas(boletas);
+    }
 }

@@ -16,7 +16,7 @@ public class Dueño extends Persona {
         this.direccion = direccion;
     }
 
-    public void pagarBoleta(Medidor medidor) {
-        medidor.registro
-    }
+    // public void pagarBoleta(Medidor medidor) {
+    //     medidor.registro
+    // }
 }

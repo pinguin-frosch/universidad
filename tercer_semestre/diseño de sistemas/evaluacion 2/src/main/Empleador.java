@@ -18,8 +18,8 @@ public class Empleador extends Persona {
     // }
 
     public Cobro hacerMedicion(int montoMedicion) {
-        int montoCobro = montoMedicion * precioAguaConsumida;
-        return new Cobro("Consumo mensual", new Date(), montoCobro);
+        // int montoCobro = montoMedicion * precioAguaConsumida;
+        return new Cobro("Consumo mensual", new Date(), montoMedicion);
     }
 
     Empleador(String run, String nombre, String apellido, String telefono) {

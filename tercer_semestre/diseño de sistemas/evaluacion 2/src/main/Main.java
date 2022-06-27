@@ -15,6 +15,9 @@ public class Main {
 
         boleta.añadirCobro(consumoMensual);
 
-        System.out.println(boleta.toString());
+        for (Cobro cobro : boleta.getCobros()) {
+            System.out.println(cobro.getTipoCobro());
+            System.out.println(cobro.getMontoCobro());
+        }
     }
 }
