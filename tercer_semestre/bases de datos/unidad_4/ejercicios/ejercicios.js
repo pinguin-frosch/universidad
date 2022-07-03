@@ -252,3 +252,59 @@ db.estaciones.updateMany(
 )
 // Se actualizaron 3 documentos
 
+// Creamos un índice compuesto para razon_social, nombre_comuna,
+// distribuidor.nombre y precios.gasolina 93
+db.estaciones.createIndex({
+    "distribuidor.nombre": 1,
+    "nombre_comuna": 1,
+    "razon_social": 1,
+    "precios.gasolina 93": 1
+})
+
+// Podemos verificar que se creó con db.coleccion.getIndices()
+db.estaciones.getIndices()
+
+// Crear un índice para id, con la restricción de ser único
+db.estaciones.createIndex({ "id": 1 }, { "unique": true })
+
+// Insertar un documento con id repetido para que el índice lo impida
+db.estaciones.insertOne({
+    "id": "co110101"
+})
+
+// Crear un índice compuesto a libre elección de al menos dos propiedades. Los
+// índices deberían ser usados para las columnas que sean más accedidas, ya aue
+// agregarlos a todas partes tendrá impacto en el rendimiento y no será muy
+// útil. En base a los ejemplos se usa mucho distribuidor.nombre junto a
+// nombre_comuna, así que haré un índice con esa combinación y luego realizar
+// una comparación.
+db.estaciones.createIndex({
+    "distribuidor.nombre": 1,
+    "nombre_comuna": 1
+})
+
+// Ejercicio con el cual comparar
+db.estaciones.find({
+    $and: [
+        {
+            $or: [
+                { "distribuidor.nombre": { $regex: "^p", $options: "i" } },
+                { "distribuidor.nombre": { $regex: "c$", $options: "i" } }
+            ]
+        },
+        {
+            $or: [
+                { "nombre_comuna": { $regex: "^p", $options: "i" } },
+                { "nombre_comuna": { $regex: "a$", $options: "i" } }
+            ]
+        }
+    ]
+}).explain('executionStats')
+
+// Sin índice
+// totalKeysExamined: 0,
+// totalDocsExamined: 1812,
+
+// Con índice
+// totalKeysExamined: 1812,
+// totalDocsExamined: 418,
