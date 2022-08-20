@@ -6,8 +6,13 @@ import { getDatabase, ref, set, get, child, remove } from 'https://www.gstatic.c
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
+  apiKey: "AIzaSyBWvB9LR97aLNaVZ_qiH7TnZnshUhN3RcE",
+  authDomain: "empleadosgb-f1d6e.firebaseapp.com",
   databaseURL: "https://empleadosgb-f1d6e-default-rtdb.firebaseio.com",
-};
+  projectId: "empleadosgb-f1d6e",
+  storageBucket: "empleadosgb-f1d6e.appspot.com",
+  messagingSenderId: "1091063224428",
+}
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
@@ -40,7 +45,7 @@ boton_buscar.addEventListener('click', async () => {
   let telefono = document.getElementById('telefono')
   let id = rut.value.replace(/\./g, '')
 
-  const snapshot = await get(child(ref(getDatabase()), `empleados/${id}`))
+  const snapshot = await get(child(ref(database), `empleados/${id}`))
   if (snapshot.exists()) {
     const values = snapshot.val()
     nombre.value = values.nombre
@@ -48,6 +53,16 @@ boton_buscar.addEventListener('click', async () => {
     telefono.value = values.telefono
   } else {
     console.error('No existe ese empleado')
+  }
+})
+
+const boton_registros = document.getElementById('registros')
+boton_registros.addEventListener('click', async () => {
+  const snapshot = await get(ref(database, 'empleados/'))
+  if (snapshot.exists()) {
+    console.log(snapshot.val())
+  } else {
+    console.log('No hay datos')
   }
 })
 
