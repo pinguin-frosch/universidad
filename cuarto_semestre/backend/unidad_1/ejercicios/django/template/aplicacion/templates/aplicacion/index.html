@@ -1,0 +1,18 @@
+{% extends 'aplicacion/plantilla.html' %}
+
+{% block cuerpo %}
+    <div class="container">
+        <h1 class="alert alert-success mt-3">Plantillas django</h1>
+        <div class="row text-center">
+            <div class="col">
+                <a href="{% url 'aplicacion:computacion' %}" class="btn btn-primary btn-lg">Computación</a>
+            </div>
+            <div class="col">
+                <a href="{% url 'aplicacion:videojuegos' %}" class="btn btn-warning btn-lg">Videojuegos</a>
+            </div>
+            <div class="col">
+                <a href="{% url 'aplicacion:electronica' %}" class="btn btn-danger btn-lg">Electrónica</a>
+            </div>
+        </div>
+    </div>
+{% endblock cuerpo %}
