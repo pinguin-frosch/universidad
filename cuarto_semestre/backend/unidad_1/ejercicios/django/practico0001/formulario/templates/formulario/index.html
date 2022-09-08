@@ -1,0 +1,12 @@
+{% extends 'formulario/plantilla.html' %}
+
+{% block contenido %}
+
+<form method="post">
+    {% csrf_token %}
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" class="form-control" id="nombre">
+    <input type="submit" class="btn btn-outline-primary mt-2" value="Guardar">
+</form>
+
+{% endblock contenido %}
