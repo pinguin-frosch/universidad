@@ -2,11 +2,25 @@
 
 {% block contenido %}
 
+<h4><a href="{% url 'formulario:lista' %}">Ver lista de nombres</a></h4>
+
 <form method="post">
     {% csrf_token %}
     <label for="nombre">Nombre: </label>
-    <input type="text" name="nombre" class="form-control" id="nombre">
-    <input type="submit" class="btn btn-outline-primary mt-2" value="Guardar">
+    <input type="text" name="nombre" class="form-control" id="nombre" required>
+    <input type="submit" class="btn btn-outline-primary mt-2" value="Guardar" id="subir">
 </form>
+
+<script>
+    const subir = document.getElementById('subir')
+
+    subir.onclick = () => {
+        const nombre = document.getElementById('nombre').value
+        if (nombre.trim() === '') {
+            return
+        }
+    }
+ 
+</script>
 
 {% endblock contenido %}

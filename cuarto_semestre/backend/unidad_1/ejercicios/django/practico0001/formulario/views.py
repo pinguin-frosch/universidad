@@ -8,11 +8,19 @@ class Formulario(forms.Form):
 def index(request):
     if request.method == 'POST':
         nombre = request.POST["nombre"]
-        return redirect('formulario:saludar', nombre)
+        with open('nombres.txt', 'a') as file:
+            file.write(f'Hola <b>{nombre}</b>\n')
 
     return render(request, 'formulario/index.html')
 
 def saludar(request, nombre):
     return render(request, 'formulario/saludar.html', {
         'nombre': nombre
+    })
+
+def lista(request):
+    with open('nombres.txt', 'r') as file:
+        nombres = file.readlines()
+    return render(request, 'formulario/lista.html', {
+        'lista': nombres
     })

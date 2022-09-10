@@ -1,0 +1,30 @@
+{% extends 'personas/plantilla.html' %}
+
+{% block contenido %}
+
+<h1>Lista de usuarios</h1>
+<p><a href="{% url 'personas:registrar' %}">Registrarse</a></p>
+
+{% if personas|length > 0 %}
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Fecha nacimiento</th>
+        </thead>
+        <tbody>
+            {% for persona in personas %}
+            <tr>
+                {% for elemento in persona %}
+                <td>{{ elemento }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No hay usuarios registrados</p>
+{% endif %}
+
+{% endblock contenido %}

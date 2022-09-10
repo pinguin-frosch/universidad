@@ -1,0 +1,18 @@
+{% extends 'formulario/plantilla.html' %}
+
+{% block contenido %}
+
+<div>
+    <h3 class="text-center">Lista de nombres</h3>
+
+    <a href="{% url 'formulario:index' %}">Agregar nombres</a>
+
+    {% for nombre in lista %}
+        <p>{{ nombre|safe }}</p>
+    {% empty %}
+        <p>No hay nombres</p>
+    {% endfor %}
+
+</div>
+
+{% endblock contenido %}
