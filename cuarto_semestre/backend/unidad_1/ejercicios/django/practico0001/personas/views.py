@@ -7,6 +7,7 @@ def registrar(request):
         apellido = request.POST['apellido'].strip()
         email = request.POST['email']
         fecha_nacimiento = request.POST['fecha_nacimiento']
+        comentario = request.POST['comentario']
 
         # Dar vuelta el año y el día en la fecha
         partes_fecha = fecha_nacimiento.split('-')
@@ -14,7 +15,7 @@ def registrar(request):
         fecha_nacimiento = '/'.join(partes_fecha)
 
         # Generar el formato de guardado con los datos
-        registro = f'{nombre}|{apellido}|{fecha_nacimiento}|{email}\n'
+        registro = f'{nombre}|{apellido}|{fecha_nacimiento}|{email}|{comentario}\n'
 
         # Guardar el usuario registrado en la "base de datos"
         with open('personas.txt', 'a') as archivo:

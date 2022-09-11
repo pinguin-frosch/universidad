@@ -2,38 +2,73 @@
 
 {% block contenido %}
 
-<h1>Registro de usuarios</h1>
+<div class="container">
+    <h1 class="text-center mt-3">Registro de usuarios</h1>
+    <p class="text-center"><a href="{% url 'personas:listar' %}">Ver usuarios registrados</a></p>
 
-<p><a href="{% url 'personas:listar' %}">Ver usuarios registrados</a></p>
+    <form method="post" action="{% url 'personas:registrar' %}" id="formulario" novalidate
+        class="row g-3 needs-validation">
+        {% csrf_token %}
+        <div class="form-floating mb-1 col-4">
+            <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="nombre"
+                pattern="^.*\S.*$">
+            <label for="nombre" class="form-label">Nombre</label>
+            <div class="invalid-feedback">
+                No debe contener únicamente espacios
+            </div>
+        </div>
 
-<form method="post" action="{% url 'personas:registrar' %}" id="formulario">
-    {% csrf_token %}
+        <div class="form-floating mb-1 col-4">
+            <input class="form-control" type="text" id="apellido" name="apellido" required placeholder="apellido"
+                pattern="^.*\S.*$">
+            <label for="apellido" class="form-label">Apellido</label>
+            <div class="invalid-feedback">
+                No debe contener únicamente espacios
+            </div>
+        </div>
 
-    <label for="nombre">Nombre: </label>
-    <input type="text" id="nombre" name="nombre" required><br>
+        <div class="form-floating mb-1 col-4">
+            <input class="form-control" type="email" id="email" name="email" required placeholder="email">
+            <label class="form-label" for="email">Email</label>
+            <div class="invalid-feedback">
+                Ingrese su dirección de correo electrónico
+            </div>
+        </div>
 
-    <label for="apellido">Apellido: </label>
-    <input type="text" id="apellido" name="apellido" required><br>
+        <div class="form-floating mb-1 col-4">
+            <input class="form-control" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required
+                placeholder="fecha nacimiento">
+            <label class="form-label" for="fecha_nacimiento">Fecha nacimiento</label>
+            <div class="invalid-feedback">
+                Por favor ingrese su fecha de nacimiento
+            </div>
+        </div>
 
-    <label for="email">Email: </label>
-    <input type="email" id="email" name="email" required><br>
+        <div class="form-floating mb-1 col-8">
+            <input class="form-control" type="text" id="comentario" name="comentario" required placeholder="comentario"
+                pattern="[\S\s]{40,100}">
+            <label class="form-label" for="comentario">Comentario</label>
+            <div class="invalid-feedback">
+                Ingrese entre 40 y 80 carácteres
+            </div>
+        </div>
 
-    <label for="fecha_nacimiento">Fecha nacimiento: </label>
-    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+        <div class="mb-1 col text-center">
+            <input class="btn btn-primary" type="submit" value="Registrar">
+        </div>
 
-    <input type="submit" value="Registrar">
-</form>
+    </form>
+</div>
 
 <script>
     const formulario = document.getElementById('formulario')
     formulario.addEventListener('submit', (evento) => {
-        const nombre = formulario['nombre'].value.trim()
-        const apellido = formulario['apellido'].value.trim()
-        const fecha_nacimiento = formulario['fecha_nacimiento'].value
-        const email = formulario['email'].value
-        if (nombre === '' || apellido === '') {
+        if (!formulario.checkValidity()) {
             evento.preventDefault()
+            evento.stopPropagation()
         }
+
+        formulario.classList.add('was-validated')
     })
 </script>
 
