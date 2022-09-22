@@ -2,6 +2,7 @@ package com.example.proyecto0002;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
         numero2 = findViewById(R.id.et_numero2);
     }
 
+    @SuppressLint("DefaultLocale") public static String processNumber(double number) {
+        if (Math.ceil(number) != Math.floor(number)) {
+            // Mostrar decimales con 4 digitos
+            return String.format("%.4f", number);
+        } else {
+            // Para los enteros no usar decimales
+            return String.format("%.0f", number);
+        }
+    }
+
+    @SuppressLint("DefaultLocale")
     public void sumar(View view) {
         // Obtener el texto de cada elemento
         String num1text = numero1.getText().toString();
@@ -33,15 +45,32 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Pasar a número cada texto
-        int num1 = Integer.parseInt(num1text);
-        int num2 = Integer.parseInt(num2text);
+        double num1 = Double.parseDouble(num1text);
+        double num2 = Double.parseDouble(num2text);
 
-        // Calcular el resultado
-        int resultado = num1 + num2;
-
-        // Crear un bundle y guardar el resultado como string
+        // Crear un bundle para guardar los resultados
         Bundle extras = new Bundle();
-        extras.putString("res", String.valueOf(resultado));
+
+        // Suma
+        double res_suma = num1 + num2;
+        extras.putString("res_suma", processNumber(res_suma));
+
+        // Resta
+        double res_resta = num1 - num2;
+        extras.putString("res_resta", processNumber(res_resta));
+
+        // Multiplicación
+        double res_multiplicacion = num1 * num2;
+        extras.putString("res_multiplicacion", processNumber(res_multiplicacion));
+
+        // División
+        if (num2 == 0) {
+            // No se puede dividir por 0
+            extras.putString("res_division", "Error");
+        } else {
+            double res_division = num1 / num2;
+            extras.putString("res_division", processNumber(res_division));
+        }
 
         // Crear un intent, pasarle el bundle y iniciarlo
         Intent i = new Intent(this, Resultado.class);
