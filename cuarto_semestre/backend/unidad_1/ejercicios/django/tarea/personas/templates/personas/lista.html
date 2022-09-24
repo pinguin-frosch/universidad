@@ -1,0 +1,29 @@
+<h1>Lista de personas</h1>
+
+<p><a href="{% url 'personas:registro' %}">Registrarse</a></p>
+
+<table>
+
+    <!-- Imprimir solo si hay personas -->
+    {% if lista_personas|length != 0 %}
+    <tr>
+        <td>Run</td>
+        <td>Nombre</td>
+        <td>Correo</td>
+        <td>Teléfono</td>
+        <td>Estado civil</td>
+        <td>Género</td>
+        <td>Comentario</td>
+    </tr>
+    {% endif %}
+
+    <!-- Imprimir los elementos en la tabla -->
+    {% for persona in lista_personas %}
+    <tr>
+        {% for elemento in persona %}
+        <td>{{ elemento }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>

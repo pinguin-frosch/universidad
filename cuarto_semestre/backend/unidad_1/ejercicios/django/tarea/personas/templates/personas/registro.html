@@ -1,0 +1,49 @@
+<h1>Registro de personas</h1>
+
+<p><a href="{% url 'personas:lista' %}">Ver lista de personas</a></p>
+
+<form method="post">
+    {% csrf_token %}
+
+    <label for="run">Run: </label>
+    <input type="text" id="run" name="run" required pattern="^\d{1,2}\.\d{3}\.\d{3}-[\dkK]$" placeholder="11.111.111-1">
+    <br>
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" name="nombre" required pattern="^\S.*\S$">
+    <br>
+
+    <label for="correo">Correo: </label>
+    <input type="email" id="correo" name="correo" required>
+    <br>
+
+    <label for="telefono">Teléfono: </label>
+    <input type="tel" id="telefono" name="telefono" required pattern="\+569\d{8}$" placeholder="+56912345678">
+    <br>
+
+    <select name="estado_civil" id="estado_civil">
+        <option value="Casad@">Casad@</option>
+        <option value="Soltero@">Soltero@</option>
+        <option value="Viud@">Viud@</option>
+    </select>
+    <br>
+
+    <input type="radio" name="genero" id="masculino" value="Masculino" checked>
+    <label for="masculino">Masculino</label>
+    <br>
+
+    <input type="radio" name="genero" id="femenino" value="Femenino">
+    <label for="femenino">Femenino</label>
+    <br>
+
+    <input type="radio" name="genero" id="no_binario" value="No binario">
+    <label for="no_binario">No binario</label>
+    <br>
+
+    <label for="comentario">Comentario: </label>
+    <br>
+    <textarea name="comentario" id="comentario" cols="30" rows="10" minlength="50" maxlength="80" required></textarea>
+    <br>
+
+    <input type="submit" value="Registrarse">
+</form>
