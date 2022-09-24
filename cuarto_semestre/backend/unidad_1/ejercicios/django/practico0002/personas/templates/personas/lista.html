@@ -1,0 +1,39 @@
+{% extends 'personas/plantilla.html' %}
+
+{% block cuerpo %}
+
+<div class="container">
+    <h1 class="text-center">Personas registradas</h1>
+    
+    <p class="text-center"><a href="{% url 'personas:registro' %}">Registrarse</a></p>
+</div>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+
+            <thead>
+                <tr>
+                    <td>Run</td>
+                    <td>Nombre</td>
+                    <td>Correo</td>
+                    <td>Teléfono</td>
+                    <td>Estado civil</td>
+                    <td>Género</td>
+                    <td>Comentario</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for persona in lista_personas %}
+                <tr>
+                    {% for elemento in persona %}
+                    <td>{{ elemento }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock cuerpo %}
