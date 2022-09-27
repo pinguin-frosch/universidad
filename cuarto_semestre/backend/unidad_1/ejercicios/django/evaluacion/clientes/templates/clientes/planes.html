@@ -1,0 +1,62 @@
+{% extends 'clientes/plantilla.html' %}
+
+{% block cuerpo %}
+
+<h2 class="text-center">Formulario planes</h2>
+
+<p class="text-center"><a href="{% url 'clientes:lista' %}">Ver clientes</a></p>
+
+<form method="post">
+    {% csrf_token %}
+
+    <!-- Rut -->
+    <label for="rut">Rut: </label>
+    <input type="text" name="rut" id="rut" required pattern="^\d{1,2}\.\d{3}\.\d{3}-[\dkK]$" title="12.345.678-9"
+        placeholder="12.345.678-9">
+    <br>
+
+    <!-- Nombre -->
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre" required pattern="^\S.*" title="No empiece con espacios">
+    <br>
+
+    <!-- Teléfono -->
+    <label for="telefono">Teléfono: </label>
+    <input type="tel" name="telefono" id="telefono" required pattern="^\+569\d{8}$" title="+56912345678"
+        placeholder="+56912345678">
+    <br>
+
+    <!-- Correo -->
+    <label for="correo">Correo: </label>
+    <input type="email" name="correo" id="correo" required title="Ingrese un correo válido">
+    <br>
+
+    <!-- Dirección -->
+    <label for="direccion">Dirección: </label>
+    <input type="text" name="direccion" id="direccion" required pattern="^\S.*" title="No empiece con espacios"
+        minlength="20">
+    <br>
+
+    <!-- Plan -->
+    <label for="plan">Plan: </label>
+    <select name="plan" id="plan">
+        <option value="S">S - $15990</option>
+        <option value="M">M - $19990</option>
+        <option value="L">L - $29990</option>
+    </select>
+    <br>
+
+    <!-- Comentario -->
+    <label for="comentario">Comentario: </label>
+    <textarea name="comentario" id="comentario" cols="30" rows="10" required minlength="30"></textarea>
+    <br>
+
+    <!-- Enviar -->
+    <input type="submit" value="Contratar plan">
+
+    <!-- Limpiar -->
+    <input type="reset" value="Limpiar formulario">
+
+</form>
+
+{% endblock cuerpo %}

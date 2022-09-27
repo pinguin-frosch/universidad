@@ -1,0 +1,29 @@
+{% extends 'clientes/plantilla.html' %}
+
+{% block cuerpo %}
+
+<h2 class="text-center">Lista de clientes</h2>
+<p class="text-center"><a href="{% url 'clientes:planes' %}">Contratar plan</a></p>
+
+{% if clientes|length > 0 %}
+<table class="table">
+    <tr>
+        <td>Rut</td>
+        <td>Nombre</td>
+        <td>Teléfono</td>
+        <td>Correo</td>
+        <td>Dirección</td>
+        <td>Plan</td>
+        <td>Comentario</td>
+    </tr>
+    {% for cliente in clientes %}
+    <tr>
+        {% for elemento in cliente %}
+        <td>{{ elemento }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+
+{% endblock cuerpo %}
