@@ -9,14 +9,15 @@ public class moveSprite : MonoBehaviour
     private int v_speed;
     public Transform Checker;
     public float RadioChecker;
-    public bool TouchFloor;
     public LayerMask IsFloor;
+    private int jumps;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         speed = 10;
         v_speed = 500;
+        jumps = 1;
     }
 
     void Update()
@@ -25,17 +26,24 @@ public class moveSprite : MonoBehaviour
         float v = Input.GetAxis("Vertical");
         rb.velocity = new Vector2(h * speed, rb.velocity.y);
 
-        TouchFloor = Physics2D.OverlapCircle(Checker.position, RadioChecker, IsFloor);
-
-        if (Input.GetButtonDown("Jump") && TouchFloor) {
+        if (Input.GetButtonDown("Jump") && jumps > 0)
+        {
             rb.AddForce(new Vector2(0, 1) * v_speed);
+            jumps -= 1;
+        }
+
+        if (Physics2D.OverlapCircle(Checker.position, RadioChecker, IsFloor))
+        {
+            jumps = 1;
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.CompareTag("Star")) {
-            // Debug.Log(collision);
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Star"))
+        {
             collision.gameObject.SetActive(false);
         }
+
     }
 }
