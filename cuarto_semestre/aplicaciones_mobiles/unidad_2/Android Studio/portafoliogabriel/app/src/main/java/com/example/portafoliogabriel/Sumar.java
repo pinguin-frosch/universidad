@@ -17,9 +17,9 @@ public class Sumar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sumar);
 
-        editTextNumero1 = findViewById(R.id.ocrEditTextNumero1);
-        editTextNumero2 = findViewById(R.id.editTextNumero2);
-        textViewResultado = findViewById(R.id.textViewResultado);
+        editTextNumero1 = findViewById(R.id.suEditTextNumero1);
+        editTextNumero2 = findViewById(R.id.suEditTextNumero2);
+        textViewResultado = findViewById(R.id.suEextViewResultado);
     }
 
     public void sumar(View view) {

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ocrEditTextNumero1"
+        android:id="@+id/suEditTextNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -33,16 +33,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
-        android:id="@+id/editTextNumero2"
+        android:id="@+id/suEditTextNumero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Número 2:"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/ocrEditTextNumero1"
-        app:layout_constraintStart_toStartOf="@+id/ocrEditTextNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/ocrEditTextNumero1" />
+        app:layout_constraintEnd_toEndOf="@+id/suEditTextNumero1"
+        app:layout_constraintStart_toStartOf="@+id/suEditTextNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/suEditTextNumero1" />
 
     <Button
         android:id="@+id/button"
@@ -51,12 +51,12 @@
         android:layout_marginTop="50dp"
         android:onClick="sumar"
         android:text="Sumar"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumero2"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumero2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumero2" />
+        app:layout_constraintEnd_toEndOf="@+id/suEditTextNumero2"
+        app:layout_constraintStart_toStartOf="@+id/suEditTextNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/suEditTextNumero2" />
 
     <TextView
-        android:id="@+id/textViewResultado"
+        android:id="@+id/suEextViewResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"

@@ -17,8 +17,8 @@ public class Signo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signo);
 
-        editTextNumero = findViewById(R.id.editTextNumero);
-        textViewSigno = findViewById(R.id.textViewSigno);
+        editTextNumero = findViewById(R.id.siEditTextNumero);
+        textViewSigno = findViewById(R.id.siTextViewSigno);
     }
 
     public void determinarSigno(View view) {

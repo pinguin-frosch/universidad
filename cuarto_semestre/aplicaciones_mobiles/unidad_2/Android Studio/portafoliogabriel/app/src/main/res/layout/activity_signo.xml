@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumero"
+        android:id="@+id/siEditTextNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -40,12 +40,12 @@
         android:onClick="determinarSigno"
         android:text="Determinar signo"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumero"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumero"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumero" />
+        app:layout_constraintEnd_toEndOf="@+id/siEditTextNumero"
+        app:layout_constraintStart_toStartOf="@+id/siEditTextNumero"
+        app:layout_constraintTop_toBottomOf="@+id/siEditTextNumero" />
 
     <TextView
-        android:id="@+id/textViewSigno"
+        android:id="@+id/siTextViewSigno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
