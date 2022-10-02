@@ -6,4 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".OperacionesConCheckbox">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Operaciones con checkbox"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ochEditTextNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Número 1:"
+        android:inputType="numberSigned"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/ochEditTextNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Número 2:"
+        android:inputType="numberSigned"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/ochEditTextNumero1"
+        app:layout_constraintStart_toStartOf="@+id/ochEditTextNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero1" />
+
+    <CheckBox
+        android:id="@+id/ochCheckBoxSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Sumar"
+        app:layout_constraintStart_toStartOf="@+id/ochEditTextNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero2" />
+
+    <CheckBox
+        android:id="@+id/ochCheckBoxRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="Restar"
+        app:layout_constraintEnd_toEndOf="@+id/ochEditTextNumero2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ochCheckBoxSumar"
+        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="operar"
+        android:text="Calcular"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/ochCheckBoxRestar"
+        app:layout_constraintStart_toStartOf="@+id/ochCheckBoxSumar"
+        app:layout_constraintTop_toBottomOf="@+id/ochCheckBoxSumar" />
+
+    <TextView
+        android:id="@+id/ochTextViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
