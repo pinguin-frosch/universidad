@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumero1"
+        android:id="@+id/ocrEditTextNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -40,9 +40,9 @@
         android:ems="10"
         android:hint="Número 2:"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumero1"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumero1" />
+        app:layout_constraintEnd_toEndOf="@+id/ocrEditTextNumero1"
+        app:layout_constraintStart_toStartOf="@+id/ocrEditTextNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/ocrEditTextNumero1" />
 
     <Button
         android:id="@+id/button"
