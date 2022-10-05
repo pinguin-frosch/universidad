@@ -7,13 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 public class OperacionesConCheckbox extends AppCompatActivity {
 
     EditText editTextNumero1, editTextNumero2;
     CheckBox checkBoxSumar, checkBoxRestar;
-    TextView textViewResultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +23,6 @@ public class OperacionesConCheckbox extends AppCompatActivity {
         editTextNumero2 = findViewById(R.id.ochEditTextNumero2);
         checkBoxSumar = findViewById(R.id.ochCheckBoxSumar);
         checkBoxRestar = findViewById(R.id.ochCheckBoxRestar);
-        textViewResultado = findViewById(R.id.ochTextViewResultado);
     }
 
     @SuppressLint("DefaultLocale")
@@ -54,6 +52,6 @@ public class OperacionesConCheckbox extends AppCompatActivity {
             return;
         }
 
-        textViewResultado.setText(stringResultado);
+        Toast.makeText(this, stringResultado, Toast.LENGTH_LONG).show();
     }
 }
