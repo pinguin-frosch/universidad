@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, OperacionesConCheckbox.class);
         startActivity(i);
     }
+
+    public void iniciarSpinnerActivity(View view) {
+        Intent i = new Intent(this, SpinnerActivity.class);
+        startActivity(i);
+    }
 }
