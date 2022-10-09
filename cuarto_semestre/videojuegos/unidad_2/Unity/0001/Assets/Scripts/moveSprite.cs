@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class moveSprite : MonoBehaviour
 {
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
     private int speed;
     private int v_speed;
+
     public Transform Checker;
     public float RadioChecker;
     public LayerMask IsFloor;
+
     private int jumps;
 
     void Start()
@@ -38,12 +40,11 @@ public class moveSprite : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Star"))
+        if (other.gameObject.CompareTag("Star"))
         {
-            collision.gameObject.SetActive(false);
+            other.gameObject.SetActive(false);
         }
-
     }
 }
