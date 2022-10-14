@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, SpinnerActivity.class);
         startActivity(i);
     }
+
+    public void iniciarListViewActivity(View view) {
+        Intent i = new Intent(this, ListViewActivity.class);
+        startActivity(i);
+    }
 }
