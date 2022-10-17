@@ -67,8 +67,16 @@ public class PlayerMovement : MonoBehaviour
         }
         if (other.gameObject.CompareTag("YellowPad"))
         {
-            rb.velocity = new Vector2(0, 0);
-            rb.AddForce(new Vector2(rb.velocity.x, JumpSpeed * 1.5f));
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.up * JumpSpeed * 1.2f);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if (other.gameObject.CompareTag("YellowOrb") && Input.GetButton("Jump"))
+        {
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.up * JumpSpeed * 1.2f);
         }
     }
 
