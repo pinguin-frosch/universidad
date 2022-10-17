@@ -65,8 +65,9 @@ public class PlayerMovement : MonoBehaviour
             rb.gravityScale = -3;
             JumpSpeed = -700;
         }
-        if (other.gameObject.CompareTag("YellowOrb"))
+        if (other.gameObject.CompareTag("YellowPad"))
         {
+            rb.velocity = new Vector2(0, 0);
             rb.AddForce(new Vector2(rb.velocity.x, JumpSpeed * 1.5f));
         }
     }
