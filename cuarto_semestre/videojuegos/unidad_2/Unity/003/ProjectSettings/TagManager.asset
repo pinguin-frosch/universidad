@@ -11,6 +11,7 @@ TagManager:
   - YellowOrb
   - InverseGravityPortal
   - YellowPad
+  - BlueOrb
   layers:
   - Default
   - TransparentFX

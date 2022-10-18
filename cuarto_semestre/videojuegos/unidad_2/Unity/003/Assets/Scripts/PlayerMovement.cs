@@ -78,6 +78,14 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * JumpSpeed * 1.2f);
         }
+
+        if (other.gameObject.CompareTag("BlueOrb") && Input.GetButton("Jump"))
+        {
+            rb.gravityScale = -3;
+            JumpSpeed = -700;
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.down * JumpSpeed / 2);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)
