@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 from personas.forms import PersonaForm
 from personas.models import Persona
 
@@ -17,6 +18,7 @@ def registro(request):
         formulario = PersonaForm(request.POST)
         if formulario.is_valid():
             formulario.save()
+            return redirect(reverse('personas:registro'))
 
     return render(request, 'personas/registro.html', {
         'formulario': formulario
