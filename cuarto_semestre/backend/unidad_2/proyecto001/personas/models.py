@@ -8,4 +8,4 @@ class Persona(models.Model):
     genero = models.CharField(max_length=30)
     direccion = models.CharField(max_length=150)
     comentario = models.CharField(max_length=150, null=True)
-    fono = models.IntegerField()
+    fono = models.CharField(max_length=15)

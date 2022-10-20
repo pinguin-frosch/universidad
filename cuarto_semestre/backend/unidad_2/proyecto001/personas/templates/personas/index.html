@@ -1,5 +1,42 @@
 {% extends 'personas/plantilla.html' %}
 
 {% block contenido %}
-<h1>Hola mundo</h1>
+
+<div class="container mt-3">
+    <div class="row">
+        <h1 class="text-center mt-3">Lista de personas</h1>
+        <h4 class="text-center"><a href="{% url 'personas:registro' %}">Registrarse</a></h4>
+        <div class="table-responsive">
+            {% if personas|length > 0 %}
+            <table class="table mt-3">
+                <tr>
+                    <th>Run</th>
+                    <th>Nombre</th>
+                    <th>Fecha nacimiento</th>
+                    <th>Estado civil</th>
+                    <th>Género</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
+                    <th>Comentario</th>
+                </tr>
+                {% for persona in personas %}
+                <td>{{ persona.run }}</td>
+                <td>{{ persona.nombre }}</td>
+                <td>{{ persona.fecha_nacimiento }}</td>
+                <td>{{ persona.estado_civil }}</td>
+                <td>{{ persona.genero }}</td>
+                <td>{{ persona.fono }}</td>
+                <td>{{ persona.direccion }}</td>
+                <td>{{ persona.comentario }}</td>
+                {% endfor %}
+            </table>
+            {% else %}
+            <div>
+                <h2>No hay personas</h2>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
 {% endblock contenido %}
