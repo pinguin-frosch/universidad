@@ -21,5 +21,27 @@ def registro(request):
             return redirect(reverse('personas:registro'))
 
     return render(request, 'personas/registro.html', {
-        'formulario': formulario
+        'formulario': formulario,
+        'titulo': 'Registro de persona'
     })
+
+
+def editar_persona(request, run):
+    p = Persona.objects.get(run=run)
+    formulario = PersonaForm(instance=p)
+
+    if request.method == 'POST':
+        formulario = PersonaForm(request.POST, instance=p)
+        if formulario.is_valid():
+            formulario.save()
+            return redirect(reverse('personas:index'))
+
+    return render(request, 'personas/registro.html', {
+        'formulario': formulario,
+        'titulo': 'Actualizar persona'
+    })
+
+def eliminar_persona(request, run):
+    p = Persona.objects.get(run=run)
+    p.delete()
+    return redirect(reverse('personas:index'))

@@ -4,7 +4,7 @@
 
 <div class="container mt-3">
     <div class="row">
-        <h1 class="text-center mt-3">Registrarse</h1>
+        <h1 class="text-center mt-3">{{ titulo }}</h1>
         <h4 class="text-center"><a href="{% url 'personas:index' %}">Lista de usuarios</a></h4>
         <form method="post" class="mt-3">
             {% csrf_token %}

@@ -1,0 +1,11 @@
+{% extends 'marcas/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    <h1>{{ titulo }}</h1>
+    <form method="post">
+        {{ formulario }}
+        {% csrf_token %}
+    </form>
+</div>
+{% endblock contenido %}

@@ -1,0 +1,33 @@
+{% extends 'marcas/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    <h1>Listado de marcas</h1>
+    {% if marcas %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        {% for marca in marcas %}
+        <tr>
+            <td>{{ marca.id }}</td>
+            <td>{{ marca.nombre }}</td>
+            <td>
+                <a href="{% url 'marcas:actualizar' marca.id %}" class="btn">🔵</a>
+            </td>
+            <td>
+                <a href="{% url 'marcas:eliminar' marca.id %}" class="btn">🔴</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <h3>No hay marcas</h3>
+    {% endif %}
+</div>
+{% endblock contenido %}

@@ -18,16 +18,26 @@
                     <th>Teléfono</th>
                     <th>Dirección</th>
                     <th>Comentario</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
                 </tr>
                 {% for persona in personas %}
-                <td>{{ persona.run }}</td>
-                <td>{{ persona.nombre }}</td>
-                <td>{{ persona.fecha_nacimiento }}</td>
-                <td>{{ persona.estado_civil }}</td>
-                <td>{{ persona.genero }}</td>
-                <td>{{ persona.fono }}</td>
-                <td>{{ persona.direccion }}</td>
-                <td>{{ persona.comentario }}</td>
+                <tr>
+                    <td>{{ persona.run }}</td>
+                    <td>{{ persona.nombre }}</td>
+                    <td>{{ persona.fecha_nacimiento }}</td>
+                    <td>{{ persona.estado_civil }}</td>
+                    <td>{{ persona.genero }}</td>
+                    <td>{{ persona.fono }}</td>
+                    <td>{{ persona.direccion }}</td>
+                    <td>{{ persona.comentario }}</td>
+                    <td>
+                        <a href="{% url 'personas:editar' persona.run %}" class="btn btn-primary">🖉</a>
+                    </td>
+                    <td>
+                        <a href="{% url 'personas:eliminar' persona.run %}" class="btn btn-primary">☠</a>
+                    </td>
+                </tr>
                 {% endfor %}
             </table>
             {% else %}
