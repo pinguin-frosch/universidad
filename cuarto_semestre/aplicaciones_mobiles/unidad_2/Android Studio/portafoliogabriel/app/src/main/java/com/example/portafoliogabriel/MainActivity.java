@@ -15,22 +15,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void iniciarSumar(View view) {
-        Intent i = new Intent(this, Sumar.class);
+        Intent i = new Intent(this, SumarActivity.class);
         startActivity(i);
     }
 
     public void iniciarOperacionesConRadio(View view) {
-        Intent i = new Intent(this, OperacionesConRadio.class);
+        Intent i = new Intent(this, RadioActivity.class);
         startActivity(i);
     }
 
     public void iniciarSigno(View view) {
-        Intent i = new Intent(this, Signo.class);
+        Intent i = new Intent(this, SignoActivity.class);
         startActivity(i);
     }
 
     public void iniciarOperacionesConCheckbox(View view) {
-        Intent i = new Intent(this, OperacionesConCheckbox.class);
+        Intent i = new Intent(this, CheckboxActivity.class);
         startActivity(i);
     }
 

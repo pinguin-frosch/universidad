@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OperacionesConCheckbox">
+    tools:context=".CheckboxActivity">
 
     <TextView
         android:id="@+id/textView9"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ochEditTextNumero1"
+        android:id="@+id/chEtNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/ochEditTextNumero2"
+        android:id="@+id/chEtNumero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -41,31 +41,31 @@
         android:hint="Número 2:"
         android:inputType="numberSigned"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/ochEditTextNumero1"
-        app:layout_constraintStart_toStartOf="@+id/ochEditTextNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero1" />
+        app:layout_constraintEnd_toEndOf="@+id/chEtNumero1"
+        app:layout_constraintStart_toStartOf="@+id/chEtNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero1" />
 
     <CheckBox
-        android:id="@+id/ochCheckBoxSumar"
+        android:id="@+id/chCbSumar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="30dp"
         android:text="Sumar"
-        app:layout_constraintStart_toStartOf="@+id/ochEditTextNumero2"
-        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero2" />
+        app:layout_constraintStart_toStartOf="@+id/chEtNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
 
     <CheckBox
-        android:id="@+id/ochCheckBoxRestar"
+        android:id="@+id/chCbRestar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:text="Restar"
-        app:layout_constraintEnd_toEndOf="@+id/ochEditTextNumero2"
+        app:layout_constraintEnd_toEndOf="@+id/chEtNumero2"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/ochCheckBoxSumar"
-        app:layout_constraintTop_toBottomOf="@+id/ochEditTextNumero2" />
+        app:layout_constraintStart_toEndOf="@+id/chCbSumar"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
 
     <Button
         android:id="@+id/button4"
@@ -75,8 +75,8 @@
         android:onClick="operar"
         android:text="Calcular"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/ochCheckBoxRestar"
-        app:layout_constraintStart_toStartOf="@+id/ochCheckBoxSumar"
-        app:layout_constraintTop_toBottomOf="@+id/ochCheckBoxSumar" />
+        app:layout_constraintEnd_toEndOf="@+id/chCbRestar"
+        app:layout_constraintStart_toStartOf="@+id/chCbSumar"
+        app:layout_constraintTop_toBottomOf="@+id/chCbSumar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

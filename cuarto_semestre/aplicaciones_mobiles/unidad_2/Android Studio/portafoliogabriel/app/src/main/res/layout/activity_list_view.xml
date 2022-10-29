@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/lvTextView"
+        android:id="@+id/lvTvNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -35,7 +35,7 @@
         android:layout_width="262dp"
         android:layout_height="292dp"
         android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/lvTextView"
-        app:layout_constraintStart_toStartOf="@+id/lvTextView"
-        app:layout_constraintTop_toBottomOf="@+id/lvTextView" />
+        app:layout_constraintEnd_toEndOf="@+id/lvTvNumero"
+        app:layout_constraintStart_toStartOf="@+id/lvTvNumero"
+        app:layout_constraintTop_toBottomOf="@+id/lvTvNumero" />
 </androidx.constraintlayout.widget.ConstraintLayout>

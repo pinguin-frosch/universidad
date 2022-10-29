@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signo">
+    tools:context=".SignoActivity">
 
     <TextView
         android:id="@+id/textView7"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/siEditTextNumero"
+        android:id="@+id/siEtNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -40,12 +40,12 @@
         android:onClick="determinarSigno"
         android:text="Determinar signo"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/siEditTextNumero"
-        app:layout_constraintStart_toStartOf="@+id/siEditTextNumero"
-        app:layout_constraintTop_toBottomOf="@+id/siEditTextNumero" />
+        app:layout_constraintEnd_toEndOf="@+id/siEtNumero"
+        app:layout_constraintStart_toStartOf="@+id/siEtNumero"
+        app:layout_constraintTop_toBottomOf="@+id/siEtNumero" />
 
     <TextView
-        android:id="@+id/siTextViewSigno"
+        android:id="@+id/siTvSigno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"

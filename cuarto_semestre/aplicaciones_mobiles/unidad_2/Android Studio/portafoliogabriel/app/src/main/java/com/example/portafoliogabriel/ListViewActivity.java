@@ -11,27 +11,27 @@ import android.widget.TextView;
 
 public class ListViewActivity extends AppCompatActivity {
 
-    private ListView listViewNombres;
-    private TextView textViewNumero;
+    private ListView lvNombres;
+    private TextView tvNumero;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
 
-        listViewNombres = findViewById(R.id.lvListView);
-        textViewNumero = findViewById(R.id.lvTextView);
+        lvNombres = findViewById(R.id.lvListView);
+        tvNumero = findViewById(R.id.lvTvNumero);
 
         String[] nombres = {"asdf", "fdsa", "afsd"};
         String[] numeros = {"1234", "4321", "1423"};
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, nombres);
-        listViewNombres.setAdapter(adapter);
+        ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, nombres);
+        lvNombres.setAdapter(adaptador);
 
-        listViewNombres.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvNombres.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                textViewNumero.setText(numeros[i]);
+                tvNumero.setText(numeros[i]);
             }
         });
     }

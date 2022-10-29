@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OperacionesConRadio">
+    tools:context=".RadioActivity">
 
     <TextView
         android:id="@+id/textView8"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ocrEditTextNumero1"
+        android:id="@+id/raEtNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -33,29 +33,29 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
-        android:id="@+id/ocrEditTextNumero2"
+        android:id="@+id/raEtNumero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Número 2:"
         android:inputType="numberSigned|numberDecimal"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/ocrEditTextNumero1"
-        app:layout_constraintStart_toStartOf="@+id/ocrEditTextNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/ocrEditTextNumero1" />
+        app:layout_constraintEnd_toEndOf="@+id/raEtNumero1"
+        app:layout_constraintStart_toStartOf="@+id/raEtNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/raEtNumero1" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:checkedButton="@id/ocrRadioButtonSumar"
-        app:layout_constraintEnd_toEndOf="@+id/ocrEditTextNumero2"
-        app:layout_constraintStart_toStartOf="@+id/ocrEditTextNumero2"
-        app:layout_constraintTop_toBottomOf="@+id/ocrEditTextNumero2">
+        android:checkedButton="@id/raRbSumar"
+        app:layout_constraintEnd_toEndOf="@+id/raEtNumero2"
+        app:layout_constraintStart_toStartOf="@+id/raEtNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/raEtNumero2">
 
         <RadioButton
-            android:id="@+id/ocrRadioButtonSumar"
+            android:id="@+id/raRbSumar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sumar"
@@ -63,7 +63,7 @@
             android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/ocrRadioButtonRestar"
+            android:id="@+id/raRbRestar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Restar"
@@ -71,7 +71,7 @@
             android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/ocrRadioButtonMultiplicar"
+            android:id="@+id/raRbMultiplicar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Multiplicar"
@@ -79,7 +79,7 @@
             android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/ocrRadioButtonDividir"
+            android:id="@+id/raRbDividir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dividir"
@@ -101,7 +101,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
-        android:id="@+id/ocrTextViewResultado"
+        android:id="@+id/raTvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
