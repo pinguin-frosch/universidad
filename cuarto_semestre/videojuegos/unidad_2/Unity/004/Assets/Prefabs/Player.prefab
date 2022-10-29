@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1704072162027626878}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   GroundMask:
     serializedVersion: 2
     m_Bits: 8
+  StartingPosition: {x: 0, y: 0}
 --- !u!1 &1704072162639445193
 GameObject:
   m_ObjectHideFlags: 0

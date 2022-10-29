@@ -5,13 +5,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-
     public int Speed;
     public int JumpSpeed;
-
     public Transform GroundCheckTransform;
     public float GroundCheckRadius;
     public LayerMask GroundMask;
+    public Vector2 StartingPosition;
 
     void Start()
     {
@@ -28,6 +27,12 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * JumpSpeed, ForceMode2D.Impulse);
         }
+    }
+
+    public void resetPosition()
+    {
+        rb.velocity = Vector2.zero;
+        transform.position = StartingPosition;
     }
 
     bool onGround()

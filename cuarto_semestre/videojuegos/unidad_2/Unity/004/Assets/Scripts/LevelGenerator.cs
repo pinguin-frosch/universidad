@@ -8,13 +8,26 @@ public class LevelGenerator : MonoBehaviour
     public Transform PlayerTransform;
     public Transform LevelStart;
     public GameObject[] GameParts;
+    public GameObject FinalPoint;
     public Transform endPosition;
+    public int TotalLevels;
+
+    private bool gameOver = false;
 
     void Update()
     {
-        if (Vector2.Distance(PlayerTransform.position, endPosition.position) < MinimumDistance)
+        if (TotalLevels > 0)
         {
-            addNextLevel();
+            if (Vector2.Distance(PlayerTransform.position, endPosition.position) < MinimumDistance)
+            {
+                TotalLevels -= 1;
+                addNextLevel();
+            }
+        }
+        else if (!gameOver)
+        {
+            gameOver = true;
+            Instantiate(FinalPoint, endPosition.position, Quaternion.identity);
         }
     }
 
