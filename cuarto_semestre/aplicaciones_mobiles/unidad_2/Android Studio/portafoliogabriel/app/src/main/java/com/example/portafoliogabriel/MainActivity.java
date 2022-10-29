@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, ListViewActivity.class);
         startActivity(i);
     }
+
+    public void iniciarAgendaActivity(View view) {
+        Intent i = new Intent(this, AgendaActivity.class);
+        startActivity(i);
+    }
 }

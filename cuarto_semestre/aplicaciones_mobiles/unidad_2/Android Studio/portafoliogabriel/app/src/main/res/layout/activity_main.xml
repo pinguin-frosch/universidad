@@ -1,165 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Portafolio"
-        android:textColor="#673AB7"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:background="#3F51B5"
-        android:contentDescription="Botón sumar"
-        android:onClick="iniciarSumar"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Portafolio"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="Sumar"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#3F51B5"
+            android:onClick="iniciarSumar"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@android:drawable/ic_input_add" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#4CAF50"
-        android:contentDescription="Botón de operaciones con radio"
-        android:onClick="iniciarOperacionesConRadio"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@android:drawable/btn_radio" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Sumar"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="Operaciones con radio"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#4CAF50"
+            android:onClick="iniciarOperacionesConRadio"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton"
+            app:layout_constraintStart_toStartOf="@+id/imageButton"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@android:drawable/btn_radio" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#FF9800"
-        android:contentDescription="Botón de operaciones con checkbox"
-        android:onClick="iniciarOperacionesConCheckbox"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@android:drawable/checkbox_on_background" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Operaciones con radio"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="@+id/imageButton2" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="Operaciones con checkbox"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF9800"
+            android:onClick="iniciarOperacionesConCheckbox"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+            app:layout_constraintStart_toStartOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:backgroundTint="#FFEB3B"
-        android:contentDescription="Botón para signo"
-        android:onClick="iniciarSigno"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@android:drawable/ic_menu_compass" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Operaciones con checkbox"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintTop_toTopOf="@+id/imageButton3" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="Signo"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-        app:layout_constraintTop_toTopOf="@+id/imageButton4" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="iniciarSigno"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+            app:layout_constraintStart_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:srcCompat="@android:drawable/ic_menu_compass" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:contentDescription="Botón de Spinner"
-        android:onClick="iniciarSpinnerActivity"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-        app:layout_constraintStart_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@android:drawable/btn_dropdown" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Signo"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintTop_toTopOf="@+id/imageButton4" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="Spinner"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:onClick="iniciarSpinnerActivity"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+            app:layout_constraintStart_toStartOf="@+id/imageButton3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            app:srcCompat="@android:drawable/btn_dropdown" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#E91E63"
-        android:contentDescription="Botón de ListView"
-        android:onClick="iniciarListViewActivity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
-        app:layout_constraintStart_toStartOf="@+id/imageButton5"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@android:drawable/ic_lock_idle_low_battery" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Spinner"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton5"
+            app:layout_constraintTop_toTopOf="@+id/imageButton5" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="ListView"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
-        app:layout_constraintTop_toTopOf="@+id/imageButton6" />
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#E91E63"
+            android:onClick="iniciarListViewActivity"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+            app:layout_constraintStart_toStartOf="@+id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:srcCompat="@android:drawable/ic_lock_idle_low_battery" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="ListView"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
+            app:layout_constraintStart_toEndOf="@+id/imageButton6"
+            app:layout_constraintTop_toTopOf="@+id/imageButton6" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFEB3B"
+            android:onClick="iniciarAgendaActivity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+            app:layout_constraintStart_toStartOf="@+id/imageButton6"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Agenda"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+            app:layout_constraintStart_toEndOf="@+id/imageButton7"
+            app:layout_constraintTop_toTopOf="@+id/imageButton7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
