@@ -45,38 +45,75 @@
         app:layout_constraintStart_toStartOf="@+id/chEtNumero1"
         app:layout_constraintTop_toBottomOf="@+id/chEtNumero1" />
 
-    <CheckBox
-        android:id="@+id/chCbSumar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:text="Sumar"
-        app:layout_constraintStart_toStartOf="@+id/chEtNumero2"
-        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
-
-    <CheckBox
-        android:id="@+id/chCbRestar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="10dp"
-        android:text="Restar"
-        app:layout_constraintEnd_toEndOf="@+id/chEtNumero2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/chCbSumar"
-        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
-
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:onClick="operar"
         android:text="Calcular"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/chCbRestar"
-        app:layout_constraintStart_toStartOf="@+id/chCbSumar"
-        app:layout_constraintTop_toBottomOf="@+id/chCbSumar" />
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/chEtNumero2"
+        app:layout_constraintStart_toStartOf="@+id/chEtNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chCbSumar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Sumar" />
+
+            <CheckBox
+                android:id="@+id/chCbMultiplicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Multiplicar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chCbRestar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:text="Restar" />
+
+            <CheckBox
+                android:id="@+id/chCbDividir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dividir" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
