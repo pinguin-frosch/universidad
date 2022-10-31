@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class SpinnerActivity extends AppCompatActivity {
 
     private EditText etNumero1, etNumero2;
-    private Spinner sOpciones;
+    private Spinner spOpciones;
     private TextView tvResultado;
 
     @Override
@@ -20,14 +20,14 @@ public class SpinnerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner);
 
-        etNumero1 = findViewById(R.id.sEditTextNumero1);
-        etNumero2 = findViewById(R.id.sEditTextNumero2);
-        sOpciones = findViewById(R.id.sSpinnerOpciones);
-        tvResultado = findViewById(R.id.sTextViewResultado);
+        etNumero1 = findViewById(R.id.spEtNumero1);
+        etNumero2 = findViewById(R.id.spEtNumero2);
+        spOpciones = findViewById(R.id.spSpOpciones);
+        tvResultado = findViewById(R.id.spTvResultado);
 
         String[] opciones = {"Sumar", "Restar", "Multiplicar", "Dividir"};
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, opciones);
-        sOpciones.setAdapter(adaptador);
+        ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, opciones);
+        spOpciones.setAdapter(adaptador);
     }
 
     public void operar(View view) {
@@ -39,26 +39,26 @@ public class SpinnerActivity extends AppCompatActivity {
             return;
         }
 
-        String opcion = sOpciones.getSelectedItem().toString();
+        String opcion = spOpciones.getSelectedItem().toString();
 
-        int iNumero1 = Integer.parseInt(sNumero1);
-        int iNumero2 = Integer.parseInt(sNumero2);
+        double numero1 = Double.parseDouble(sNumero1);
+        double numero2 = Double.parseDouble(sNumero2);
 
         if (opcion.equals("Sumar")) {
-            int resultado = iNumero1 + iNumero2;
+            double resultado = numero1 + numero2;
             tvResultado.setText(String.valueOf(resultado));
         } else if (opcion.equals("Restar")) {
-            int resultado = iNumero1 - iNumero2;
+            double resultado = numero1 - numero2;
             tvResultado.setText(String.valueOf(resultado));
         } else if (opcion.equals("Multiplicar")) {
-            int resultado = iNumero1 * iNumero2;
+            double resultado = numero1 * numero2;
             tvResultado.setText(String.valueOf(resultado));
         } else {
-            if (iNumero2 == 0) {
+            if (numero2 == 0) {
                 tvResultado.setText("");
                 return;
             }
-            int resultado = iNumero1 / iNumero2;
+            double resultado = numero1 / numero2;
             tvResultado.setText(String.valueOf(resultado));
         }
     }

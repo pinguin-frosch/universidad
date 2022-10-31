@@ -20,37 +20,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/sEditTextNumero1"
+        android:id="@+id/spEtNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Número 1:"
-        android:inputType="number"
+        android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintEnd_toEndOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
-        android:id="@+id/sEditTextNumero2"
+        android:id="@+id/spEtNumero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Número 2:"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/sEditTextNumero1"
-        app:layout_constraintStart_toStartOf="@+id/sEditTextNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/sEditTextNumero1" />
+        android:inputType="numberSigned|number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/spEtNumero1"
+        app:layout_constraintStart_toStartOf="@+id/spEtNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/spEtNumero1" />
 
     <Spinner
-        android:id="@+id/sSpinnerOpciones"
+        android:id="@+id/spSpOpciones"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/sEditTextNumero2"
-        app:layout_constraintStart_toStartOf="@+id/sEditTextNumero2"
-        app:layout_constraintTop_toBottomOf="@+id/sEditTextNumero2" />
+        app:layout_constraintEnd_toEndOf="@+id/spEtNumero2"
+        app:layout_constraintStart_toStartOf="@+id/spEtNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/spEtNumero2" />
 
     <Button
         android:id="@+id/button5"
@@ -60,9 +60,9 @@
         android:onClick="operar"
         android:text="Operar"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@+id/sSpinnerOpciones"
-        app:layout_constraintStart_toStartOf="@+id/sSpinnerOpciones"
-        app:layout_constraintTop_toBottomOf="@+id/sSpinnerOpciones" />
+        app:layout_constraintEnd_toEndOf="@+id/spSpOpciones"
+        app:layout_constraintStart_toStartOf="@+id/spSpOpciones"
+        app:layout_constraintTop_toBottomOf="@+id/spSpOpciones" />
 
     <TextView
         android:id="@+id/textView12"
@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <TextView
-        android:id="@+id/sTextViewResultado"
+        android:id="@+id/spTvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
