@@ -58,6 +58,7 @@
             android:id="@+id/raRbSumar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Sumar"
             android:textAlignment="center"
             android:textSize="16sp" />

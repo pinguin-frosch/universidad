@@ -33,23 +33,28 @@ public class RadioActivity extends AppCompatActivity {
         String sNumero2 = etNumero2.getText().toString();
 
         if (sNumero1.equals("") || sNumero2.equals("")) {
+            tvResultado.setText("");
             return;
         }
 
-        float fNumero1 = Float.parseFloat(sNumero1);
-        float fNumero2 = Float.parseFloat(sNumero2);
-        float fResultado;
+        double numero1 = Double.parseDouble(sNumero1);
+        double numero2 = Double.parseDouble(sNumero2);
+        double resultado;
 
         if (rbSumar.isChecked()) {
-            fResultado = fNumero1 + fNumero2;
+            resultado = numero1 + numero2;
         } else if (rbRestar.isChecked()) {
-            fResultado = fNumero1 - fNumero2;
+            resultado = numero1 - numero2;
         } else if (rbMultiplicar.isChecked()) {
-            fResultado = fNumero1 * fNumero2;
+            resultado = numero1 * numero2;
         } else {
-            fResultado = fNumero1 / fNumero2;
+            if (numero2 == 0) {
+                tvResultado.setText("");
+                return;
+            }
+            resultado = numero1 / numero2;
         }
 
-        tvResultado.setText(String.valueOf(fResultado));
+        tvResultado.setText(String.valueOf(resultado));
     }
 }
