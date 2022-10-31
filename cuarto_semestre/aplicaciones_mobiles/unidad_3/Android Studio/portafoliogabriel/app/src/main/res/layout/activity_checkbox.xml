@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckboxActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Operaciones con checkbox"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/chEtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Número 1:"
+        android:inputType="numberSigned"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/chEtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Número 2:"
+        android:inputType="numberSigned"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/chEtNumero1"
+        app:layout_constraintStart_toStartOf="@+id/chEtNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero1" />
+
+    <CheckBox
+        android:id="@+id/chCbSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Sumar"
+        app:layout_constraintStart_toStartOf="@+id/chEtNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
+
+    <CheckBox
+        android:id="@+id/chCbRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="Restar"
+        app:layout_constraintEnd_toEndOf="@+id/chEtNumero2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/chCbSumar"
+        app:layout_constraintTop_toBottomOf="@+id/chEtNumero2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="operar"
+        android:text="Calcular"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/chCbRestar"
+        app:layout_constraintStart_toStartOf="@+id/chCbSumar"
+        app:layout_constraintTop_toBottomOf="@+id/chCbSumar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
