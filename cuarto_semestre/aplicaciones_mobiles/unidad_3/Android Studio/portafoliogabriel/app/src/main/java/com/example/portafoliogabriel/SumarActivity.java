@@ -30,11 +30,10 @@ public class SumarActivity extends AppCompatActivity {
             return;
         }
 
-        int iNumero1 = Integer.parseInt(sNumero1);
-        int iNumero2 = Integer.parseInt(sNumero2);
+        double numero1 = Double.parseDouble(sNumero1);
+        double numero2 = Double.parseDouble(sNumero2);
+        double resultado = numero1 + numero2;
 
-        int intResultado = iNumero1 + iNumero2;
-
-        tvResultado.setText(String.valueOf(intResultado));
+        tvResultado.setText(String.valueOf(resultado));
     }
 }

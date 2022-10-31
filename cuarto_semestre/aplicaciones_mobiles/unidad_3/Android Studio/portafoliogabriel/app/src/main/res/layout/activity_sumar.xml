@@ -26,11 +26,12 @@
         android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="Número 1:"
-        android:inputType="number"
+        android:inputType="numberSigned|number|numberDecimal"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/suEtNumero2"
@@ -39,10 +40,11 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Número 2:"
-        android:inputType="number"
+        android:inputType="numberSigned|number|numberDecimal"
         app:layout_constraintEnd_toEndOf="@+id/suEtNumero1"
         app:layout_constraintStart_toStartOf="@+id/suEtNumero1"
-        app:layout_constraintTop_toBottomOf="@+id/suEtNumero1" />
+        app:layout_constraintTop_toBottomOf="@+id/suEtNumero1"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button"
