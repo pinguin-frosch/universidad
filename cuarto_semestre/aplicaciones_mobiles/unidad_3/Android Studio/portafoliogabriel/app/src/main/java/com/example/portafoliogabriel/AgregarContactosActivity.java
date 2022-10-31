@@ -25,6 +25,11 @@ public class AgregarContactosActivity extends AppCompatActivity {
     public void agregarContacto(View view) {
         String nombre = etNombre.getText().toString();
         String numero = etNumero.getText().toString();
+
+        if (nombre.equals("") || numero.equals("")) {
+            return;
+        }
+
         FirebaseDatabase baseDeDatos = FirebaseDatabase.getInstance();
         DatabaseReference referencia = baseDeDatos.getReference("contactos");
 
