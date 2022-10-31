@@ -3,6 +3,7 @@ package com.example.portafoliogabriel;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,21 +26,21 @@ public class SignoActivity extends AppCompatActivity {
         String sNumero = etNumero.getText().toString();
 
         if (sNumero.equals("")) {
+            tvSigno.setText("");
             return;
         }
 
-        int iNumero = Integer.parseInt(sNumero);
+        double numero = Double.parseDouble(sNumero);
+        String signo;
 
-        String sSigno;
-
-        if (iNumero > 0) {
-            sSigno = "Positivo";
-        } else if (iNumero < 0) {
-            sSigno = "Negativo";
+        if (numero > 0) {
+            signo = "Positivo";
+        } else if (numero < 0) {
+            signo = "Negativo";
         } else {
-            sSigno = "Neutro";
+            signo = "Neutro";
         }
 
-        tvSigno.setText(sSigno);
+        tvSigno.setText(signo);
     }
 }

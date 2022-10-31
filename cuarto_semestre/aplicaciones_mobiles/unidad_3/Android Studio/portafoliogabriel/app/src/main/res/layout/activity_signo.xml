@@ -26,7 +26,7 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="Número:"
-        android:inputType="numberSigned"
+        android:inputType="numberSigned|numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="@+id/textView7"
