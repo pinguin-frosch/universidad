@@ -1,0 +1,41 @@
+{% extends 'productos/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    <h1>Listar productos</h1>
+    {% if productos %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Marca</th>
+                    <th>Categoría</th>
+                    <th>Actualizar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for producto in productos %}
+                    <tr>
+                        <td>{{ producto.id }}</td>
+                        <td>{{ producto.nombre }}</td>
+                        <td>{{ producto.precio }}</td>
+                        <td>{{ producto.marca }}</td>
+                        <td>{{ producto.categoria }}</td>
+                        <td>
+                            <a href="{% url 'productos:actualizar' producto.id %}">A</a>
+                        </td>
+                        <td>
+                            <a href="{% url 'productos:eliminar' producto.id %}">E</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+    <h3>No hay productos</h3>
+    {% endif %}
+</div>
+{% endblock contenido %}

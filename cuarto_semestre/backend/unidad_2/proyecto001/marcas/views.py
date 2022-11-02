@@ -1,11 +1,11 @@
 from django.shortcuts import render, redirect
 from django.urls import reverse
 
-from .models import MarcaModel
+from .models import Marca
 from marcas.forms import MarcaForm
 
 def listar(request):
-    marcas = MarcaModel.objects.all()
+    marcas = Marca.objects.all()
     return render(request, 'marcas/listar.html', {
         'marcas': marcas
     })
@@ -25,12 +25,12 @@ def crear(request):
     })
 
 def eliminar(_, id):
-    marca = MarcaModel.objects.get(id=id)
+    marca = Marca.objects.get(id=id)
     marca.delete()
     return redirect(reverse('marcas:listar'))
 
 def actualizar(request, id):
-    marca = MarcaModel.objects.get(id=id)
+    marca = Marca.objects.get(id=id)
     formulario = MarcaForm(instance=marca)
 
     if request.method == 'POST':

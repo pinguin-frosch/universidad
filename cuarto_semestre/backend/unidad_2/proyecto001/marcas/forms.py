@@ -1,10 +1,10 @@
 from django.forms import ModelForm, widgets
-from .models import MarcaModel
+from .models import Marca
 
 
 class MarcaForm(ModelForm):
     class Meta:
-        model = MarcaModel
+        model = Marca
         fields = '__all__'
         widgets = {
             'nombre': widgets.TextInput(
