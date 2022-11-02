@@ -1,0 +1,34 @@
+{% extends 'categorias/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    {% if categorias %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for categoria in categorias %}
+            <tr>
+                <td>{{ categoria.id }}</td>
+                <td>{{ categoria.nombre }}</td>
+                <td>
+                    <a href="{% url 'categorias:actualizar' categoria.id %}" class="btn">⟳</a>
+                </td>
+                <td>
+                    <a href="{% url 'categorias:eliminar' categoria.id %}" class="btn">X</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <h3>No hay categorías</h3>
+    {% endif %}
+</div>
+{% endblock contenido %}
