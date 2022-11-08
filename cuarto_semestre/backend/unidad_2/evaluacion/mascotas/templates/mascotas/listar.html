@@ -1,0 +1,38 @@
+{% extends 'mascotas/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    <h1 class="text-center">Listado de mascotas</h1>
+    <h4 class="text-center">
+        <a href="{% url 'mascotas:crear' %}">Crear una mascota</a>
+    </h4>
+    {% if mascotas %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for mascota in mascotas %}
+            <tr>
+                <td>{{ mascota.nombre }}</td>
+                <td>{{ mascota.tipo }}</td>
+                <td>
+                    <a href="{% url 'mascotas:actualizar' mascota.id %}" class="btn btn-secondary">⟳</a>
+                </td>
+                <td>
+                    <a href="{% url 'mascotas:eliminar' mascota.id %}" class="btn btn-secondary">X</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <h3>No hay mascotas</h3>
+    {% endif %}
+</div>
+{% endblock contenido %}

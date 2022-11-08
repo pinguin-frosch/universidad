@@ -1,0 +1,28 @@
+{% extends 'tipos/plantilla.html' %}
+
+{% block contenido %}
+<div class="container">
+    <h1 class="text-center">Listado de tipos</h1>
+    <h4 class="text-center">
+        <a href="{% url 'tipos:crear' %}">Crear un tipo</a>
+    </h4>
+    {% if tipos %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tipo in tipos %}
+            <tr>
+                <td>{{ tipo.nombre }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <h3>No hay tipos</h3>
+    {% endif %}
+</div>
+{% endblock contenido %}
