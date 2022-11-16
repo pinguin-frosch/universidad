@@ -1,8 +1,11 @@
-package com.example.portafoliogabriel;
+package com.example.portafoliogabriel.DAO;
 
 public class Contacto {
     private String nombre;
     private String numero;
+
+    public Contacto() {
+    }
 
     public Contacto(String nombre, String numero) {
         this.nombre = nombre;

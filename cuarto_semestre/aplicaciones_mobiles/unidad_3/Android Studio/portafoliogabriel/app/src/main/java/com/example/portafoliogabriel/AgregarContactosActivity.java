@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.portafoliogabriel.DAO.Contacto;
+import com.example.portafoliogabriel.DAO.DAOContacto;
 
 public class AgregarContactosActivity extends AppCompatActivity {
 
@@ -30,10 +30,11 @@ public class AgregarContactosActivity extends AppCompatActivity {
             return;
         }
 
-        FirebaseDatabase baseDeDatos = FirebaseDatabase.getInstance();
-        DatabaseReference referencia = baseDeDatos.getReference("contactos");
-
         Contacto contacto = new Contacto(nombre, numero);
-        referencia.push().setValue(contacto);
+        DAOContacto dao = new DAOContacto();
+        dao.InsertarContacto(contacto);
+
+        etNombre.setText("");
+        etNumero.setText("");
     }
 }
