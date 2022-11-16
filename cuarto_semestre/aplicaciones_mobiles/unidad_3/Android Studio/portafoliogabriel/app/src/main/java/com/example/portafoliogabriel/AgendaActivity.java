@@ -17,30 +17,48 @@ import com.google.firebase.database.ValueEventListener;
 
 public class AgendaActivity extends AppCompatActivity {
 
-    private ListView lvListView;
+    // Declarar el listView y el adaptador
+    // No se pueden asignar aquí porque aún no se "crean"
+    // los elementos de android que necesitamos (id, layout, etc)
+    private ListView listaContactos;
     private ArrayAdapter<String> adaptador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agenda);
-        lvListView = findViewById(R.id.agLvListView);
+
+        // Asignar el listView a su elemento correspondiente en el .xml
+        listaContactos = findViewById(R.id.agLvListView);
+
+        // Asignar el adaptador con el contexto, además de indicar que tendrá el estilo
+        // de un elemento simple en una lista
         adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
 
+        // Vincular el listView con el adaptador
+        listaContactos.setAdapter(adaptador);
+
+        // Obtener dao para trabajar con las referencias de la base de datos
         DAOContacto dao = new DAOContacto();
+
+        // Añadir un escuchador de evento de firebase
         dao.getReferencia().addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                // Borrar elementos del adaptador
                 adaptador.clear();
 
+                // Iterar por cada uno de los contactos
                 for (DataSnapshot contacto_actual : snapshot.getChildren()) {
                     Contacto contacto = contacto_actual.getValue(Contacto.class);
+
+                    // Agregar el nombre del contacto al adaptador solo si no es nulo
                     if (contacto != null) {
                         adaptador.add(contacto.getNombre());
                     }
-                }
 
-                lvListView.setAdapter(adaptador);
+                }
             }
 
             @Override
