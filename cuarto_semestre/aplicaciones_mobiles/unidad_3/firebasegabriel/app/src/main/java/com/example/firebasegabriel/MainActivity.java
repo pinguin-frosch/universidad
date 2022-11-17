@@ -1,17 +1,62 @@
 package com.example.firebasegabriel;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import com.example.firebasegabriel.dao.Contacto;
+import com.example.firebasegabriel.dao.DaoContacto;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
+    private ListView listaContactos;
+    private ArrayAdapter<Contacto> adaptador;
 
-    @Override
+   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        listaContactos = findViewById(R.id.lvContactos);
+        adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        listaContactos.setAdapter(adaptador);
+
+        listaContactos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Log.d("Gabriel", String.valueOf(i));
+                Log.d("Gabriel", adaptador.getItem(i).getNumero());
+            }
+        });
+
+        DaoContacto dao = new DaoContacto();
+        dao.getReferencia().addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                adaptador.clear();
+
+                for (DataSnapshot contactoActual : snapshot.getChildren()) {
+                    Contacto contacto = contactoActual.getValue(Contacto.class);
+                    if (contacto != null) {
+                        adaptador.add(contacto);
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 
     public void iniciarAgregarContactosActivity(View view) {

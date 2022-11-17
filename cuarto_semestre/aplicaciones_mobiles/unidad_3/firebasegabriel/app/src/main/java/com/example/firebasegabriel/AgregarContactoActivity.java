@@ -18,15 +18,15 @@ public class AgregarContactoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agregar_contacto);
 
-        etNombre = findViewById(R.id.etNombre);
-        etNumero = findViewById(R.id.etNumero);
+        etNombre = findViewById(R.id.agEtNombre);
+        etNumero = findViewById(R.id.agEtNumero);
     }
 
     public void agregarContacto(View view) {
         String nombre = etNombre.getText().toString();
         String numero = etNumero.getText().toString();
 
-        if (nombre.equals("") || numero.equals("")) {
+       if (nombre.equals("")) {
             return;
         }
 

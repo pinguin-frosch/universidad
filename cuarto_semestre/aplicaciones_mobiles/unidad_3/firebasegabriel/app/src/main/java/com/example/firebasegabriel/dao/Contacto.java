@@ -1,5 +1,7 @@
 package com.example.firebasegabriel.dao;
 
+import androidx.annotation.NonNull;
+
 public class Contacto {
     private String nombre;
     private String numero;
@@ -8,12 +10,20 @@ public class Contacto {
 
     }
 
+    @Override
+    public String toString() {
+        return nombre;
+    }
+
     public Contacto(String nombre, String numero) {
         this.nombre = nombre;
         this.numero = numero;
     }
 
     public String getNombre() {
+        if (nombre == null) {
+            return "";
+        }
         return nombre;
     }
 
@@ -22,6 +32,9 @@ public class Contacto {
     }
 
     public String getNumero() {
+        if (numero == null) {
+            return "";
+        }
         return numero;
     }
 

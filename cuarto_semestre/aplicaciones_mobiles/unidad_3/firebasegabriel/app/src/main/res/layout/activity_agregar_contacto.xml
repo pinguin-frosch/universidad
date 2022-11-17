@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etNombre"
+        android:id="@+id/agEtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -32,16 +32,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <EditText
-        android:id="@+id/etNumero"
+        android:id="@+id/agEtNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Número"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/etNombre"
-        app:layout_constraintStart_toStartOf="@+id/etNombre"
-        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+        app:layout_constraintEnd_toEndOf="@+id/agEtNombre"
+        app:layout_constraintStart_toStartOf="@+id/agEtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/agEtNombre" />
 
     <Button
         android:id="@+id/button6"
@@ -51,8 +51,8 @@
         android:onClick="agregarContacto"
         android:text="Guardar contacto"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/etNumero"
-        app:layout_constraintStart_toStartOf="@+id/etNumero"
-        app:layout_constraintTop_toBottomOf="@+id/etNumero" />
+        app:layout_constraintEnd_toEndOf="@+id/agEtNumero"
+        app:layout_constraintStart_toStartOf="@+id/agEtNumero"
+        app:layout_constraintTop_toBottomOf="@+id/agEtNumero" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
