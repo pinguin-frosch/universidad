@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listaContactos;
     private ArrayAdapter<Contacto> adaptador;
 
-   @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         listaContactos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Log.d("Gabriel", String.valueOf(i));
-                Log.d("Gabriel", adaptador.getItem(i).getNumero());
+                Log.d("Gabriel", adaptador.getItem(i).getId());
+                iniciarDetallesContactoActivity(adaptador.getItem(i));
             }
         });
 
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 for (DataSnapshot contactoActual : snapshot.getChildren()) {
                     Contacto contacto = contactoActual.getValue(Contacto.class);
                     if (contacto != null) {
+                        contacto.setId(contactoActual.getKey());
                         adaptador.add(contacto);
                     }
                 }
@@ -61,6 +62,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void iniciarAgregarContactosActivity(View view) {
         Intent i = new Intent(this, AgregarContactoActivity.class);
+        startActivity(i);
+    }
+
+    public void iniciarDetallesContactoActivity(Contacto contacto) {
+        Bundle extras = new Bundle();
+        extras.putSerializable("contacto", contacto);
+
+        Intent i = new Intent(this, DetallesContactoActivity.class);
+        i.putExtras(extras);
         startActivity(i);
     }
 

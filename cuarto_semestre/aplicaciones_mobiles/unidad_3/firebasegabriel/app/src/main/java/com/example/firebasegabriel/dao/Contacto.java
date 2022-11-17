@@ -1,10 +1,11 @@
 package com.example.firebasegabriel.dao;
 
-import androidx.annotation.NonNull;
+import java.io.Serializable;
 
-public class Contacto {
+public class Contacto implements Serializable {
     private String nombre;
     private String numero;
+    private String id;
 
     public Contacto() {
 
@@ -40,5 +41,13 @@ public class Contacto {
 
     public void setNumero(String numero) {
         this.numero = numero;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
