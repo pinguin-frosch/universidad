@@ -17,4 +17,9 @@ public class DaoContacto {
     public void insertarContacto(Contacto contacto) {
         referencia.push().setValue(contacto);
     }
+
+    public void eliminarContacto(Contacto contacto) {
+        String id = contacto.getId();
+        referencia.child(id).removeValue();
+    }
 }
