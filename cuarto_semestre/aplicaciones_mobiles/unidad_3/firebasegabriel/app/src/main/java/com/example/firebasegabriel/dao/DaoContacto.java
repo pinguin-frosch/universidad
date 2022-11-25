@@ -22,4 +22,10 @@ public class DaoContacto {
         String id = contacto.getId();
         referencia.child(id).removeValue();
     }
+
+    public void actualizarContacto(Contacto contacto) {
+        String id = contacto.getId();
+        contacto.setId(null);
+        referencia.child(id).setValue(contacto);
+    }
 }

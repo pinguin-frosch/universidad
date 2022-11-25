@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -37,11 +37,12 @@
         android:id="@+id/imageButton9"
         android:layout_width="50dp"
         android:layout_height="45dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+        android:onClick="buscarContactos"
+        app:layout_constraintBottom_toBottomOf="@+id/etNombre"
         app:layout_constraintEnd_toStartOf="@+id/imageButton10"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toEndOf="@+id/etNombre"
+        app:layout_constraintTop_toTopOf="@+id/etNombre"
         app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
 
     <ImageButton
@@ -63,8 +64,8 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageButton10"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toStartOf="@+id/etNombre"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
 
     <Button
         android:id="@+id/button"
@@ -73,6 +74,7 @@
         android:layout_marginTop="20dp"
         android:onClick="iniciarAgregarContactosActivity"
         android:text="Agregar contacto"
+        android:textAllCaps="false"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

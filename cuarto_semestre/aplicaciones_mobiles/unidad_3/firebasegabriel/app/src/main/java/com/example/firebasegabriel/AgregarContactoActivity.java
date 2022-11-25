@@ -26,7 +26,7 @@ public class AgregarContactoActivity extends AppCompatActivity {
         String nombre = etNombre.getText().toString();
         String numero = etNumero.getText().toString();
 
-       if (nombre.equals("")) {
+        if (nombre.equals("")) {
             return;
         }
 
@@ -34,8 +34,7 @@ public class AgregarContactoActivity extends AppCompatActivity {
         DaoContacto dao = new DaoContacto();
         dao.insertarContacto(contacto);
 
-        etNombre.setText("");
-        etNumero.setText("");
+        finish();
     }
 
 }
