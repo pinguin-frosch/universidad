@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
         DaoContacto dao = new DaoContacto();
 
-        dao.getReferencia().orderByChild("nombre").startAt(nombre).endAt(nombre + "b\uf8ff").addListenerForSingleValueEvent(new ValueEventListener() {
+        dao.getReferencia().orderByChild("nombre").startAt(nombre).endAt(nombre + "ÿ").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 adaptador.clear();
