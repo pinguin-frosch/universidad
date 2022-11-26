@@ -101,4 +101,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void quitarBusqueda(View view) {
+        etNombre.setText("");
+        buscarContactos(null);
+    }
+
 }
