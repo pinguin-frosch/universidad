@@ -1,19 +1,29 @@
 package com.example.evaluacion3gabrielbarrientos;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.evaluacion3gabrielbarrientos.dao.DaoUsuario;
 import com.example.evaluacion3gabrielbarrientos.dao.Usuario;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
     // Declarar los inputs de los elementos
     private EditText etRun, etNombre, etCorreo;
+
+    // Declarar el listView y el adaptador
+    private ListView lvUsuarios;
+    private ArrayAdapter<String> adaptador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +34,36 @@ public class MainActivity extends AppCompatActivity {
         etRun = findViewById(R.id.run);
         etNombre = findViewById(R.id.nombre);
         etCorreo = findViewById(R.id.correo);
+        lvUsuarios = findViewById(R.id.listView);
+
+        // Configurar el adaptador
+        adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+
+        // Vincular el adaptador con el listView
+        lvUsuarios.setAdapter(adaptador);
+
+        // Leer datos en tiempo real
+        DaoUsuario dao = new DaoUsuario();
+        dao.getReferencia().orderByChild("nombre").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                // Limpiar el adaptador antes de agregar datos
+                adaptador.clear();
+
+                // Añadir todos los usuarios
+                for (DataSnapshot usuarioActual : snapshot.getChildren()) {
+                    Usuario usuario = usuarioActual.getValue(Usuario.class);
+                    if (usuario != null) {
+                        adaptador.add(usuario.getNombre());
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 
     public void insertarUsuario(View view) {
