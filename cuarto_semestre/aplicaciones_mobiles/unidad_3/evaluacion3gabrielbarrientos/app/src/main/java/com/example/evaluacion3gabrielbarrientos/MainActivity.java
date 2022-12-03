@@ -102,6 +102,6 @@ public class MainActivity extends AppCompatActivity {
         etCorreo.setText("");
 
         // Mostrar mensaje de inserción exitosa
-        Toast.makeText(this, "Usuario registrado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Usuario registrado / actualizado", Toast.LENGTH_SHORT).show();
     }
 }
