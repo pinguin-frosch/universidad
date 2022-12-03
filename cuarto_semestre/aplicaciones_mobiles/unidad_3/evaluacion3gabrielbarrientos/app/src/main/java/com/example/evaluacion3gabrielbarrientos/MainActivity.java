@@ -104,4 +104,32 @@ public class MainActivity extends AppCompatActivity {
         // Mostrar mensaje de inserción exitosa
         Toast.makeText(this, "Usuario registrado / actualizado", Toast.LENGTH_SHORT).show();
     }
+
+    public void eliminarUsuario(View view) {
+        // Obtener el run y verificar que sea válido
+        String run = etRun.getText().toString();
+        if (run.equals("")) {
+            Toast.makeText(this, "El run no puede estar vacío", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        // Reemplazar los . en el un porque no se pueden usar en firebase directamente
+        run = run.replace(".", "|");
+
+        // Crear un usuario que solo incluya el run
+        Usuario usuario = new Usuario();
+        usuario.setRut(run);
+
+        // Eliminar el contacto usando dao
+        DaoUsuario dao = new DaoUsuario();
+        dao.eliminarUsuario(usuario);
+
+        // Limpiar los EditText
+        etRun.setText("");
+        etNombre.setText("");
+        etCorreo.setText("");
+
+        // Mostrar mensaje de eliminación exitosa
+        Toast.makeText(this, "Usuario eliminado", Toast.LENGTH_SHORT).show();
+    }
 }

@@ -1,7 +1,5 @@
 package com.example.evaluacion3gabrielbarrientos.dao;
 
-import android.widget.Toast;
-
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -20,5 +18,10 @@ public class DaoUsuario {
         String rut = usuario.getRut();
         usuario.setRut(null);
         referencia.child(rut).setValue(usuario);
+    }
+
+    public void eliminarUsuario(Usuario usuario) {
+        String rut = usuario.getRut();
+        referencia.child(rut).removeValue();
     }
 }
