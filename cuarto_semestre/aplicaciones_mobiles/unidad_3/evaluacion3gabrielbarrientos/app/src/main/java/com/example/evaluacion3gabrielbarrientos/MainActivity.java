@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Declarar el listView y el adaptador
     private ListView lvUsuarios;
-    private ArrayAdapter<String> adaptador;
+    private ArrayAdapter<Usuario> adaptador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,10 @@ public class MainActivity extends AppCompatActivity {
                 for (DataSnapshot usuarioActual : snapshot.getChildren()) {
                     Usuario usuario = usuarioActual.getValue(Usuario.class);
                     if (usuario != null) {
-                        adaptador.add(usuario.getNombre());
+                        String run = usuarioActual.getKey();
+                        run = run.replace("|", ".");
+                        usuario.setRut(run);
+                        adaptador.add(usuario);
                     }
                 }
             }

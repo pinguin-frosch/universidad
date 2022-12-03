@@ -14,6 +14,11 @@ public class Usuario {
     public Usuario() {
     }
 
+    @Override
+    public String toString() {
+        return rut + ": " + nombre;
+    }
+
     public String getRut() {
         return rut;
     }
