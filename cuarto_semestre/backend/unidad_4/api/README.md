@@ -111,3 +111,81 @@ Una vez que hayamos llegado hasta aquí podemos proceder a crear las vistas,
 tendremos dos. Una principal que permitirá ver todos los alumnos y a su vez
 crearlos. Por otra parte habrá otra vista que permita ver la información para
 cada alumno en específico, así como actulizarlo o eliminarlo.
+
+## Lista de usuarios
+Primero haremos la vista de lista para los alumnos, lo haremos en `views.py` de
+la aplicación. De esta forma:
+
+```python
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from alumnos.models import Alumno
+from alumnos.serializers import AlumnoSerializer
+
+
+@api_view(['GET'])
+def lista_alumnos(request):
+    if request.method == 'GET':
+        alumnos = Alumno.objects.all()
+        serializer = AlumnoSerializer(alumnos, many=True)
+        return Response(serializer.data)
+```
+
+Luego en `urls.py` de la aplicación vamos a añadir una ruta para acceder a la
+vista que creamos:
+
+```python
+from django.urls import path
+from alumnos import views
+
+urlpatterns = [
+    path('', views.lista_alumnos, name='alumnos')
+]
+```
+
+Finalmente en `urls.py` del proyecto lo modificaremos para que se vea así:
+
+```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path('api/alumnos/', include('alumnos.urls'))
+]
+```
+
+Usando un programa para probar apis, o el mismo navegador, podemos entrar a esa
+ruta y deberíamos ver una lista vacía, ya que aún no hemos añadido a ningún
+usuario.
+
+Agregaremos una nueva vista. Esta nos permitirá añadir un alumno a nuestra base
+de datos mediante la misma ruta, pero usando el método POST.
+
+En `views.py` tenemos que agregar el siguiente import: `from rest_framework
+import status`. Y cambiamos la función así:
+
+```python
+@api_view(['GET', 'POST'])
+def lista_alumnos(request):
+    if request.method == 'GET':
+        # ...
+
+    elif request.method == 'POST':
+        serializer = AlumnoSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+```
+
+Ahora deberíamos poder agregar alumnos enviando una petición POST con la
+información que necesitamos. Ejemplo:
+
+```json
+{
+    "nombre": "Gabriel Barrientos",
+    "correo": "gabri12.rubik@gmail.com",
+    "matricula": 14
+}
+```
