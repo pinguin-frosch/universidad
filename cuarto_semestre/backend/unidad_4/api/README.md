@@ -189,3 +189,51 @@ información que necesitamos. Ejemplo:
     "matricula": 14
 }
 ```
+
+## Información de usuario
+Lo siguiente es crear una nueva ruta que permita ver la información de solo un
+usuario, al mismo tiempo que permita actualizarlo y eliminarlo.
+
+En `views.py` agregaremos una nueva vista, de momento solo haremos la lectura:
+
+```python
+@api_view(['GET', 'PUT', 'DELETE'])
+def detalle_alumno(request, id):
+    try:
+        alumno = Alumno.objects.get(id=id)
+    except Alumno.DoesNotExist:
+        data = {f'No existe el alumno con id {id}'}
+        return Response(data, status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'GET':
+        serializer = AlumnoSerializer(alumno)
+        return Response(serializer.data)
+```
+
+En `urls.py` cambiaremos `urlpatterns` de la siguiente forma:
+
+```python
+urlpatterns = [
+    path('', views.lista_alumnos, name='alumnos'),
+    path('<int:id>', views.detalle_alumno, name='detalle_alumno'),
+]
+```
+
+El resto de los métodos harán los siguiente:
+
+```python
+elif request.method == 'PUT':
+    serializer = AlumnoSerializer(alumno, data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+elif request.method == 'DELETE':
+    alumno.delete()
+    data = {f'El alumno con id {id} ha sido eliminado'}
+    return Response(data, status=status.HTTP_204_NO_CONTENT)
+```
+
+Con eso ya se podría actualizar, eliminar y ver la información de un usuario,
+usando los métodos HTTP respectivos.
