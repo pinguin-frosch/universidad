@@ -55,3 +55,59 @@ Finalmente vamos a aplicar las migraciones:
 ```bash
 python manage.py migrate
 ```
+
+# Modelos y serializadores
+Dentro de alumnos, vamos a crear un modelo de base de datos que lo represente,
+vamos a usar esta estrucutra:
+
+```python
+class Alumno(models.Model):
+    nombre = models.CharField(max_length=100)
+    matricula = models.PositiveIntegerField()
+    correo = models.EmailField()
+
+    def __str__(self):
+        return f'{self.nombre} {self.matricula}'
+```
+
+Luego solo vamos a crear las migraciones y luego aplicarlas:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Vamos a instalar `djangorestframework` y lo añadiremos en las aplicaciones
+instaladas en `settings.py`. 
+
+```bash
+pip install djangorestframework
+```
+
+```python
+INSTALLED_APPS = [
+    # ...
+    "rest_framework"
+]
+```
+
+Con esto podemos agregar un serializador para nuestro modelo de `Alumno`. Lo
+haremos en un archivo nuevo llamado `serializers.py` en la aplicación de
+alumnos.
+
+```python
+from rest_framework import serializers
+from alumnos.models import Alumno
+
+
+class AlumnoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Alumno
+        fields = '__all__'
+```
+
+# Vistas
+Una vez que hayamos llegado hasta aquí podemos proceder a crear las vistas,
+tendremos dos. Una principal que permitirá ver todos los alumnos y a su vez
+crearlos. Por otra parte habrá otra vista que permita ver la información para
+cada alumno en específico, así como actulizarlo o eliminarlo.
