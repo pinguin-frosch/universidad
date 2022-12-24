@@ -271,3 +271,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 ```
+
+En cuanto al html, será mejor usar un enlace, haremos este archivo:
+[index.html](index.html)
+
+Ahora falta incluir la opción para actualizar y eliminar a un usuario, pero de
+momento lo dejaré hasta aquí.
