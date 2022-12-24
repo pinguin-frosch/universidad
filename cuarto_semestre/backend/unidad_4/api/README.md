@@ -237,3 +237,37 @@ elif request.method == 'DELETE':
 
 Con eso ya se podría actualizar, eliminar y ver la información de un usuario,
 usando los métodos HTTP respectivos.
+
+# Configuración CORS
+Ahora que ya contamos con todos los métodos de la api para manipular los
+usuarios, haremos una página simple en html que se encargue de consumir la
+información por medio de la api. Por razones de estilo además agregaremos
+bootstrap al proyecto para que se vea algo mejor.
+
+Antes que nada, por temas de políticas CORS tendremos que modificar algunas
+cosas en django, de lo contrario no podremos usar nuestra api directamente
+desde el navegador con fetch.
+
+Usando pip vamos a instalar django-cors-headers:
+
+```bash
+pip install django-cors-headers
+```
+
+Luego en `settings.py` tenemos que agregar estas configuraciones o modificarlas
+para que se vean así:
+
+```python
+ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
+
+INSTALLED_APPS = [
+    # ...
+    'corsheaders'
+]
+
+MIDDLEWARE = [
+    # ...
+    'corsheaders.middleware.CorsMiddleware'
+]
+```
