@@ -28,10 +28,37 @@
                         <th>Matrícula</th>
                         <th>Nombre</th>
                         <th>Correo</th>
+                        <th>Eliminar</th>
+                        <th>Actualizar</th>
                     </tr>
                 </thead>
                 <tbody id="lista_alumnos"></tbody>
             </table>
+        </div>
+    </div>
+
+    <!-- Modal para actualizar alumno -->
+    <div class="modal fade" id="modal_actualizar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar Alumno</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="id">
+                    <label for="matricula">Matricula</label>
+                    <input type="text" id="matricula_actualizar" class="form-control">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre_actualizar" class="form-control">
+                    <label for="correo">Correo</label>
+                    <input type="text" id="correo_actualizar" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type=" button" class="btn btn-primary" id="actualizar_alumno">Actualizar</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -62,11 +89,17 @@
     <script>
         // Variables importantes
         const lista_alumnos = document.getElementById('lista_alumnos')
-        const modal = new bootstrap.Modal(document.getElementById('modal'))
+        const modal_crear = new bootstrap.Modal(document.getElementById('modal'))
+        const modal_actualizar = new bootstrap.Modal(document.getElementById('modal_actualizar'))
         const guardar = document.getElementById('guardar_alumno')
+        const actualizar = document.getElementById('actualizar_alumno')
         const matricula = document.getElementById('matricula')
         const nombre = document.getElementById('nombre')
         const correo = document.getElementById('correo')
+        const matricula_actualizar = document.getElementById('matricula_actualizar')
+        const nombre_actualizar = document.getElementById('nombre_actualizar')
+        const correo_actualizar = document.getElementById('correo_actualizar')
+        const id_alumno = document.getElementById('id')
 
         // Leer alumnos
         const cargar_datos = async () => {
@@ -78,15 +111,68 @@
             })
             const data = await res.json();
             lista_alumnos.innerHTML = ''
-            lista_alumnos.innerHTML += data.map(alumno => `
-                <tr>
-                    <td>${alumno.matricula}</td>
-                    <td>${alumno.nombre}</td>
-                    <td>${alumno.correo}</td>
-                </tr>
-            `).join('')
+            data.forEach(alumno => {
+                lista_alumnos.innerHTML += `
+                    <tr id="${alumno.id}">
+                        <td>${alumno.matricula}</td>
+                        <td>${alumno.nombre}</td>
+                        <td>${alumno.correo}</td>
+                        <td><button class="btn btn-danger" onclick="eliminar_alumno(${alumno.id})">Eliminar</button></td>
+                        <td><button class="btn btn-warning" onclick="abrir_modal_actualizar(${alumno.id})">Actualizar</button></td>
+                    </tr>
+                `
+            })
         }
         cargar_datos()
+
+        // Abrir modal actualizar alumno
+        const abrir_modal_actualizar = (id) => {
+            const tr = document.getElementById(id)
+            matricula_actualizar.value = tr.children[0].innerText
+            nombre_actualizar.value = tr.children[1].innerText
+            correo_actualizar.value = tr.children[2].innerText
+            id_alumno.value = id
+            modal_actualizar.show()
+        }
+
+        // Actualizar alumno
+        const actualizar_alumno = (id) => {
+            const data = {
+                matricula: matricula_actualizar.value,
+                correo: correo_actualizar.value,
+                nombre: nombre_actualizar.value
+            }
+            fetch(`http://127.0.0.1:8000/api/alumnos/${id}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+
+            const tr = document.getElementById(id)
+            tr.children[0].innerText = matricula_actualizar.value
+            tr.children[1].innerText = nombre_actualizar.value
+            tr.children[2].innerText = correo_actualizar.value
+
+            modal_actualizar.hide()
+        }
+
+        actualizar.addEventListener('click', () => {
+            const id = document.getElementById('id').value
+            actualizar_alumno(id)
+        })
+
+        // Eliminar alumno
+        const eliminar_alumno = (id) => {
+            fetch(`http://127.0.0.1:8000/api/alumnos/${id}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            document.getElementById(id).remove()
+        }
 
         // Crear alumno
         const crear_alumno = () => {
@@ -109,7 +195,7 @@
             correo.value = ''
 
             cargar_datos()
-            modal.hide()
+            modal_crear.hide()
         }
 
         guardar.addEventListener('click', crear_alumno)
