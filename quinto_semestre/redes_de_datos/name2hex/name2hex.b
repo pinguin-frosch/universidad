@@ -3,80 +3,74 @@ Get first char
 [
   Fix char
   ++++++++++
-  Store 16 to use divmod
-  >>++[<++++++++>-]<<
+
   Perform divmod
+  >>++[<++++++++>-]<<
   [
     ->-
     [>+>>]
     >[+[-<+>]>+>>]
     <<<<<
   ]
-  Reset b minus a mod b (M1)
+
+  Ignore second value
   >[-]
-  Move a / b to M7
+
+  Move nibbles
   >>[>>>>+<<<<-]
-  Move a % b to M8
   <[>>>>>>+<<<<<<-]
-  Move to M7 and save TRUE value
   >>>+>>
 
-  Transform char into hex
   [
-    Copy to M0 and increase M2
+    Move to correct location
     <<<<<+<<+
-    Move to test value
-    >>
+
     Check if it's 10
+    >>
     [
-      Create a copy of M2 in M3
+      Create a copy
       [>+>+<<-]>>[<<+>>-]<
-      Check if the number is 10
+
       [
-        Remove 10
         ----------
-        Move to TRUE (M5) or FALSE (M6)
+
+        Perform IF
         [>]>>
-        Run statements
         [
           Extra for hex number bigger than 9
-          <<<<+++++++
-          >>>>[-]>
+          <<<<+++++++>>>>[-]>
         ]
       ]
     ]
-    Reset copy
-    <<<[-]>>>
-    Go back to the nibble
-    >-
+
+    Reset copy and go back
+    <<<[-]>>>>-
   ]
+
   Reset count and TRUE
   <<[-]<<<[-]
-  Turn nibble into a number
-  ++++++++[<<++++++>>-]
-  Add extra if bigger than 10
-  <[<+>-]
+
+  Turn into hex representation
+  ++++++++[<<++++++>>-]<[<+>-]
 
   Go to next nibble
   >>>>>+>>
 
-  Transform char into hex
   [
-    Copy to M0 and increase M2
+    Copy to correct location
     <<<<<+<<+
-    Move to test value
-    >>
+
     Check if it's 10
+    >>
     [
-      Create a copy of M2 in M3
+      Create a copy
       [>+>+<<-]>>[<<+>>-]<
-      Check if the number is 10
+
       [
-        Remove 10
         ----------
-        Move to TRUE (M5) or FALSE (M6)
+
+        Perform IF
         [>]>>
-        Run statements
         [
           Extra for hex number bigger than 9
           <<<<+++++++
@@ -84,24 +78,23 @@ Get first char
         ]
       ]
     ]
-    Reset copy
-    <<<[-]>>>
-    Go back to the nibble
-    >-
+
+    Reset copy and go back
+    <<<[-]>>>>-
   ]
 
   Reset count and TRUE
   <<[-]<<<[-]
-  Turn nibble into a number
-  ++++++++[<<++++++>>-]
-  Add extra if bigger than 10
-  <[<+>-]
 
-  Print and go to next nibble
+  Turn into hex representation
+  ++++++++[<<++++++>>-]<[<+>-]
+
+  Print hex representation
   <<[.>]
 
-  Keep asking until LF
+  Keep recording chars
   ,----------
 ]
+
 Print LF
 ++++++++++.
