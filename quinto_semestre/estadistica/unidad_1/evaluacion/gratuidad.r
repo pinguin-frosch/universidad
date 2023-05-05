@@ -12,15 +12,15 @@ datos$sueldo_per_capita <- round(datos$remuneracion / datos$integrantes)
 datos$decil <- 10
 
 # Valores máximos para cada decil
-rangos <- c(
+deciles <- c(
     48750, 74969, 100709, 125558, 154166,
     193104, 250663, 352743, 611728
 )
 
 # Actualizar cada registro con el decil correcto
 for (i in seq_along(datos$sueldo_per_capita)) {
-    for (j in seq_along(rangos)) {
-        if (datos$sueldo_per_capita[i] <= rangos[j]) {
+    for (j in seq_along(deciles)) {
+        if (datos$sueldo_per_capita[i] <= deciles[j]) {
             datos$decil[i] <- j
             break
         }
