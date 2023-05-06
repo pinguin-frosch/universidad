@@ -1,5 +1,5 @@
 # Leer la base de datos
-datos <- read.csv(file = "datos.csv", header = TRUE, sep = ",")
+datos <- read.csv(file = file.choose(), header = TRUE, sep = ",")
 
 ## 1. Crear la variable sueldo per-cápita en R usando la estructura adecuada.
 datos$sueldo_per_capita <- round(datos$remuneracion / datos$integrantes)
@@ -40,8 +40,15 @@ datos$gratuidad[datos$decil <= 6] <- "Si"
 
 ## 5. Construya un gráfico circular con el porcentaje de estudiantes con y sin
 ## gratuidad.
+percentages <- paste(
+    round(prop.table(table(datos$gratuidad)) * 100, 4),
+    "%",
+    sep = ""
+)
+names <- c("Sin gratuidad", "Con gratuidad")
+
 pie(
     table(datos$gratuidad),
-    labels = c("Sin gratuidad", "Con gratuidad"),
+    labels = paste(names, percentages, sep = " "),
     main = "Gráfico del nivel de gratuidad"
 )
