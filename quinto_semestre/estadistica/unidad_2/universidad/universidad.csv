@@ -1,0 +1,975 @@
+Nombre Institución;Tipo Institución;Nombre de la Sede;Comuna donde se imparte la carrera o programa;Nombre Region;Orden Geográfico de la Región (Norte aSur);Carrera Genérica;Nombre Programa;Area Conocimiento;Vacantes (1)
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Antofagasta;Antofagasta;Región de Antofagasta;3;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Arica;Arica;Región de Arica y Parinacota;1;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Calama;Calama;Región de Antofagasta;3;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Chillán;Chillán;Región de Ñuble;11;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Copiapó;Copiapó;Región de Atacama;4;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Coyhaique;Coyhaique;Región de Aysén;15;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Curicó;Curicó;Región del Maule;9;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Iquique;Iquique;Región de Tarapacá;2;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;La Serena;La Serena;Región de Coquimbo;5;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Maipú;Maipú;Región Metropolitana;7;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Maipú;Maipú;Región Metropolitana;7;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Osorno;Osorno;Región de Los Lagos;14;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Talca;Talca;Región del Maule;9;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Temuco;Temuco;Región de La Araucanía;12;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Valdivia;Valdivia;Región de los Ríos;13;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+U. TECNOLÓGICA DE CHILE INACAP;Univ.;Valparaíso;Valparaíso;Región de Valparaíso;6;Trabajo Social, Servicio Social, Planificación Social y similares;Trabajo Social (P.E.);Ciencias Sociales;15
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;15
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;15
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;35
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;30
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;25
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;35
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Administración Hotelera, Turística y similares;Administración Turística Internacional;Administración y Comercio;15
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;20
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;35
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;20
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;30
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Contabilidad, Auditoría y similares;Contador Público;Administración y Comercio;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;70
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;40
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;45
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;275
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;50
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;30
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;52
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;70
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;35
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Gastronomía, Cocina Internacional y similares;Administración Gastronómica;Administración y Comercio;40
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;45
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;55
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;45
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;45
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;65
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;40
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;25
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;40
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;50
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;55
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;65
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;35
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;35
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;20
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;40
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas;Administración y Comercio;35
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Administración, Administración de Empresas y similares;Ingeniería en Administración de Empresas Financieras;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Finanzas y similares;Ingeniería Financiera;Administración y Comercio;10
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;80
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;20
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;50
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;25
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;85
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;20
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;70
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;25
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;60
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;55
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería Agrícola y Agropecuaría;Ingeniería Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;40
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Construcción Civil;Construcción Civil;Tecnología;45
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Construcción Civil;Construcción Civil;Tecnología;70
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Coyhaique;Coyhaique;Región de Aysén;15;Construcción Civil;Construcción Civil;Tecnología;35
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Construcción Civil;Construcción Civil;Tecnología;60
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Construcción Civil;Construcción Civil;Tecnología;35
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;50
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Construcción Civil;Construcción Civil;Tecnología;20
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;55
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;85
+I.P. INACAP;I.P.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Construcción Civil;Construcción Civil;Tecnología;75
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Construcción Civil;Construcción Civil;Tecnología;25
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Construcción Civil;Construcción Civil;Tecnología;55
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Construcción Civil;Construcción Civil;Tecnología;20
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Construcción Civil;Construcción Civil;Tecnología;25
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Construcción Civil;Construcción Civil;Tecnología;55
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Construcción Civil;Construcción Civil;Tecnología;50
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Construcción Civil;Construcción Civil;Tecnología;35
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Construcción Civil;Construcción Civil;Tecnología;85
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Construcción Civil;Construcción Civil;Tecnología;40
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Construcción Civil;Construcción Civil;Tecnología;35
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Construcción Civil;Construcción Civil;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;15
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;15
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;15
+I.P. INACAP;I.P.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;15
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;15
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería Ambiental;Ingeniería en Energía;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;45
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;50
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;20
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;60
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;45
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;20
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;35
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;25
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;25
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;35
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;40
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería Eléctrica  y similares;Ingeniería Eléctrica;Tecnología;40
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería Electrónica y similares;Ingeniería en Electrónica y Sistemas Inteligentes;Tecnología;45
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería Electrónica y similares;Ingeniería en Electrónica y Sistemas Inteligentes;Tecnología;30
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería Electrónica y similares;Ingeniería en Electrónica y Sistemas Inteligentes;Tecnología;20
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;20
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;25
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;10
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;50
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;20
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;10
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Automatización, Control Industrial y similares;Ingeniería en Automatización y Robótica;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;30
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;15
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;65
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;10
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;30
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;25
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;40
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;30
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;75
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;25
+I.P. INACAP;I.P.;Renca;Las Condes;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;40
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;75
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;45
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Renca;Ñuñoa;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;25
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;25
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;20
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;90
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;70
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;80
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;50
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;45
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;50
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;50
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;35
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Computación e Informática y similares;Ingeniería en Informática;Tecnología;25
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Computación e Informática y similares;Ingeniería en Informática (P.E.);Tecnología;40
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Geomensura y similares;Ingeniería en Geomensura;Tecnología;20
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Geomensura y similares;Ingeniería en Geomensura;Tecnología;15
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Geomensura y similares;Ingeniería en Geomensura;Tecnología;10
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;35
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;20
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;20
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;25
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;25
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;20
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;25
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;13
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;25
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Logística y similares;Ingeniería en Logística;Tecnología;45
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Logística y similares;Ingeniero en Logística;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;50
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;50
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;25
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;25
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;40
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;40
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;20
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;15
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;15
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;35
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;35
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;40
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Mantenimiento Industrial y similares;Ingeniería en Mantenimiento Industrial;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;65
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;30
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;35
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;50
+I.P. INACAP;I.P.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Maquinaria Pesada y Vehículos Automotrices;Tecnología;35
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;45
+I.P. INACAP;I.P.;Arica;Arica;Región de Arica y Parinacota;1;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;35
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;105
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Coyhaique;Coyhaique;Región de Aysén;15;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Curicó;Curicó;Región del Maule;9;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;20
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;20
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;95
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;35
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;50
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;70
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;55
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;55
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Osorno;Osorno;Región de Los Lagos;14;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;25
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;50
+I.P. INACAP;I.P.;Puente Alto;Puente Alto;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;45
+I.P. INACAP;I.P.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;70
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;45
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;45
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;65
+I.P. INACAP;I.P.;Talca;Talca;Región del Maule;9;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;35
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;95
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;120
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;40
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;30
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;55
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Mecánica Automotriz;Ingeniería en Mecánica y Electromovilidad Automotriz;Tecnología;35
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;30
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;30
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;35
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Metalurgia;Ingeniería en Metalurgia;Tecnología;30
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;25
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;50
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;10
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;10
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;10
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;10
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;20
+I.P. INACAP;I.P.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;10
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Mantenimiento de Plantas Mineras;Tecnología;20
+I.P. INACAP;I.P.;Antofagasta;Antofagasta;Región de Antofagasta;3;Ingeniería en Minas;Ingeniería en Minas;Tecnología;60
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Minas;Ingeniería en Minas;Tecnología;45
+I.P. INACAP;I.P.;Calama;Calama;Región de Antofagasta;3;Ingeniería en Minas;Ingeniería en Minas;Tecnología;30
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Minas;Ingeniería en Minas;Tecnología;45
+I.P. INACAP;I.P.;Copiapó;Copiapó;Región de Atacama;4;Ingeniería en Minas;Ingeniería en Minas;Tecnología;50
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Minas;Ingeniería en Minas;Tecnología;55
+I.P. INACAP;I.P.;Iquique;Iquique;Región de Tarapacá;2;Ingeniería en Minas;Ingeniería en Minas;Tecnología;35
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Minas;Tecnología;60
+I.P. INACAP;I.P.;Renca;Maipú;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Minas;Tecnología;40
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Minas;Tecnología;40
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Minas;Ingeniería en Minas;Tecnología;30
+I.P. INACAP;I.P.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones Conectividad y Redes;Tecnología;20
+I.P. INACAP;I.P.;Chillán;Chillán;Región de Ñuble;11;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones, Conectividad y Redes;Tecnología;25
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+I.P. INACAP;I.P.;Renca;La Granja;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+I.P. INACAP;I.P.;Valdivia;Valdivia;Región de los Ríos;13;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+I.P. INACAP;I.P.;La Serena;La Serena;Región de Coquimbo;5;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;30
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;45
+I.P. INACAP;I.P.;Renca;Macul;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;30
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;25
+I.P. INACAP;I.P.;Renca;Renca;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;25
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;45
+I.P. INACAP;I.P.;Renca;Santiago;Región Metropolitana;7;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;30
+I.P. INACAP;I.P.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;30
+I.P. INACAP;I.P.;Temuco;Temuco;Región de La Araucanía;12;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;35
+I.P. INACAP;I.P.;Valparaíso;Valparaíso;Región de Valparaíso;6;Ingeniería en Telecomunicaciones y similares;Ingeniería en Telecomunicaciones/ Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Administración de Empresas;TNS Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Administración de Empresas;TNS Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS Administración de Empresas;Administración y Comercio;50
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;95
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;65
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;90
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;70
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;110
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;100
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;50
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;55
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;95
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;50
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;55
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;115
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;175
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;190
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;179
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;95
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;90
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Administración de Empresas;TNS en Administración de Empresas;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Administración de Empresas;TNS en Administración de Empresas Financieras;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;15
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;90
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;70
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Comercio Exterior;TNS en Comercio Exterior;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Contabilidad, Auditoría y similares;TNS Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Contabilidad, Auditoría y similares;TNS Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Contabilidad, Auditoría y similares;TNS Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Contabilidad, Auditoría y similares;TNS Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Contabilidad, Auditoría y similares;TNS Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Contabilidad, Auditoría y similares;TNS en Contabilidad General;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Finanzas y similares;TNS Financiero;Administración y Comercio;25
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;99
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;36
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;150
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;90
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;150
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;50
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;210
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;70
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;265
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;85
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;95
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;115
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;50
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;90
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;80
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;175
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Gastronomía, Cocina y similares;TNS en Gastronomía;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;15
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;40
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;65
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;35
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;75
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;60
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Turismo, Hotelería y similares;TNS en Turismo;Administración y Comercio;45
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;75
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;30
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;25
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;65
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;60
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;25
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;95
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;85
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;35
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;30
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;75
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;90
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico Agropecuario y similares;TNS Agrícola;Agricultura, Silvicultura, Pesca y Veterinaria;35
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Diseño de Vestuario;TNS Diseño & Producción de Moda;Arte y Arquitectura;40
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Diseño de Vestuario;TNS Diseño & Producción de Moda;Arte y Arquitectura;40
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Diseño de Vestuario;TNS Diseño & Producción de Moda;Arte y Arquitectura;45
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Diseño de Vestuario;TNS Diseño & Producción de Moda;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Grafica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Grafica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Grafica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Grafica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;35
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;45
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;25
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;20
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;45
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;20
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;40
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;35
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;50
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Diseño Gráfico y similares;TNS en Diseño y Producción Gráfica;Arte y Arquitectura;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Química, Análisis Químico y similares;TNS en Tecnología en Análisis Químico;Ciencias;95
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Química, Análisis Químico y similares;TNS en Tecnología en Análisis Químico;Ciencias;40
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Química, Análisis Químico y similares;TNS en Tecnología en Análisis Químico;Ciencias;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Química, Análisis Químico y similares;TNS en Tecnología en Análisis Químico;Ciencias;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;140
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;115
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;30
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;30
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;115
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;150
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;80
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;60
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;40
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;120
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;280
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;110
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;60
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;60
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Enfermería y Similares;TNS en Enfermería;Salud;120
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Farmacia;TNS en Farmacia;Salud;35
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Farmacia;TNS en Farmacia;Salud;35
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Farmacia;TNS en Farmacia;Salud;45
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Farmacia;TNS en Farmacia;Salud;40
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Farmacia;TNS en Farmacia;Salud;40
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Farmacia;TNS en Farmacia;Salud;30
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;30
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;95
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;115
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;45
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Odontología, Asistente Dental y similares;TNS en Odontología;Salud;45
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico Laboratorista Clínico;TNS en Laboratorista Clínico, Banco de Sangre e Imagenología;Salud;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico Laboratorista Clínico;TNS en Laboratorista Clínico, Banco de Sangre e Imagenología;Salud;95
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico Laboratorista Clínico;TNS en Laboratorista Clínico, Banco de Sangre e Imagenología;Salud;50
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;35
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;35
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;20
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Administración de Redes Computacionales;TNS en Telecomunicaciones, Conectividad y Redes;Tecnología;30
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;55
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;50
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;20
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;35
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;35
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;70
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Las Condes;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;35
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;85
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;60
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;70
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;70
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;40
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;40
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;20
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;90
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;50
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;130
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;80
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;35
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;55
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;90
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;35
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;45
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;65
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Análisis de Sistemas Informáticos;TNS Analista Programador;Tecnología;40
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Análisis de Sistemas Informáticos;TNS en Analista Programador;Tecnología;25
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;45
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;50
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;35
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;60
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;60
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;10
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;40
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;60
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;74
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;36
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;15
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;40
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;45
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Automatización, Control automático y similares;TNS en Automatización y Robótica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Construcción;TNS en Construccion;Tecnología;15
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Construcción;TNS en Construccion;Tecnología;15
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Construcción;TNS en Construccion;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Construcción;TNS en Construccion;Tecnología;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Construcción;TNS en Construccion;Tecnología;25
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Construcción;TNS en Construccion;Tecnología;25
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Construcción;TNS en Construccion;Tecnología;30
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Construcción;TNS en Construcción;Tecnología;35
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Construcción;TNS en Construcción;Tecnología;35
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Construcción;TNS en Construcción;Tecnología;40
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Construcción;TNS en Construcción;Tecnología;35
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Construcción;TNS en Construcción;Tecnología;35
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Construcción;TNS en Construcción;Tecnología;85
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Construcción;TNS en Construcción;Tecnología;25
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Construcción;TNS en Construcción;Tecnología;50
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Construcción;TNS en Construcción;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Construcción;TNS en Construcción;Tecnología;35
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Construcción;TNS en Construcción;Tecnología;40
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;35
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;65
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Electricidad, Electrónica y similares;TNS Electricidad Industrial;Tecnología;50
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;10
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;45
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;45
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;40
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;25
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS Electromecánica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;55
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;45
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;70
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;80
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;70
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;35
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;45
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;40
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;95
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;60
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;55
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Electricidad, Electrónica y similares;TNS en Electricidad Industrial;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electrónica;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electrónica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Electricidad, Electrónica y similares;TNS en Electrónica;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Electricidad, Electrónica y similares;TNS en Electrónica;Tecnología;20
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Electricidad, Electrónica y similares;TNS en Electrónica;Tecnología;30
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;60
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;60
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Energías Renovables;TNS en Energías Renovables;Tecnología;30
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Logística y similares;TNS en Logística;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Logística y similares;TNS en Logística;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;20
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;80
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;45
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Logística y similares;TNS en Logística;Tecnología;20
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Logística y similares;TNS en Logística;Tecnología;35
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Logística y similares;TNS en Logística;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;95
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;25
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Santiago;Región Metropolitana;7;Técnico en Logística y similares;TNS en Logística;Tecnología;30
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Logística y similares;TNS en Logística;Tecnología;40
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Logística y similares;TNS en Logística;Tecnología;20
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;40
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Logística y similares;TNS en Logística;Tecnología;40
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Logística y similares;TNS en Logística;Tecnología;35
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;55
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;60
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;35
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;50
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;100
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;35
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;30
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;25
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;30
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;45
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Mecánica Automotriz;TNS en Mecánica Automotriz en Maquinaria Pesada;Tecnología;30
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Automotriz;TNS Mecánica Automotriz en Maquinaria Pesada;Tecnología;25
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantención Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;25
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;15
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;35
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;15
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento de Plantas Mineras;Tecnología;40
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;60
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;60
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;15
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;20
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;70
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;50
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;43
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;42
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;40
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;25
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;45
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;35
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;35
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;55
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mantenimiento Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;50
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;55
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;65
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;50
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;45
+C.F.T. INACAP;C.F.T.;Coyhaique;Coyhaique;Región de Aysén;15;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;40
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;25
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;25
+C.F.T. INACAP;C.F.T.;Las Condes;La Granja;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;20
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;95
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;70
+C.F.T. INACAP;C.F.T.;Los Ángeles;Los Ángeles;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;55
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;45
+C.F.T. INACAP;C.F.T.;Osorno;Osorno;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;35
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;40
+C.F.T. INACAP;C.F.T.;Puente Alto;Puente Alto;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;50
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;35
+C.F.T. INACAP;C.F.T.;Puerto Montt;Puerto Montt;Región de Los Lagos;14;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Punta Arenas;Punta Arenas;Región de Magallanes;16;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;30
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;95
+C.F.T. INACAP;C.F.T.;Rancagua;Rancagua;Región del Gral. B. O`Higgins;8;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;96
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;80
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;50
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;140
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;70
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;60
+C.F.T. INACAP;C.F.T.;Valparaíso;Valparaíso;Región de Valparaíso;6;Técnico en Mecánica Industrial, mantención y similares ;TNS en Mecánica y Electromovilidad Automotriz;Tecnología;50
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Metalurgia y similares;TNS en Metalurgia Extractiva;Tecnología;30
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Metalurgia y similares;TNS en Metalurgia Extractiva;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Metalurgia y similares;TNS en Metalurgia Extractiva;Tecnología;20
+C.F.T. INACAP;C.F.T.;Antofagasta;Antofagasta;Región de Antofagasta;3;Técnico en Minas y similares;TNS en Minería;Tecnología;40
+C.F.T. INACAP;C.F.T.;Calama;Calama;Región de Antofagasta;3;Técnico en Minas y similares;TNS en Minería;Tecnología;25
+C.F.T. INACAP;C.F.T.;Copiapó;Copiapó;Región de Atacama;4;Técnico en Minas y similares;TNS en Minería;Tecnología;55
+C.F.T. INACAP;C.F.T.;Iquique;Iquique;Región de Tarapacá;2;Técnico en Minas y similares;TNS en Minería;Tecnología;35
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Minas y similares;TNS en Minería;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Minas y similares;TNS en Minería;Tecnología;20
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Minas y similares;TNS en Minería;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Minas y similares;TNS en Minería;Tecnología;40
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Operaciones Industriales y similares;TNS en Fabricación y Montaje Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Renca;Región Metropolitana;7;Técnico en Operaciones Industriales y similares;TNS en Fabricación y Montaje Industrial;Tecnología;35
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Operaciones Industriales y similares;TNS en Fabricación y Montaje Industrial;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Refrigeración, Climatización y similares;TNS en Climatización;Tecnología;45
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Refrigeración, Climatización y similares;TNS en Climatización;Tecnología;40
+C.F.T. INACAP;C.F.T.;Curicó;Curicó;Región del Maule;9;Técnico en Refrigeración, Climatización y similares;TNS en Refrigeración;Tecnología;30
+C.F.T. INACAP;C.F.T.;Las Condes;Macul;Región Metropolitana;7;Técnico en Refrigeración, Climatización y similares;TNS en Refrigeración;Tecnología;30
+C.F.T. INACAP;C.F.T.;Arica;Arica;Región de Arica y Parinacota;1;Técnico en Topografía;TNS en Topografía;Tecnología;30
+C.F.T. INACAP;C.F.T.;Chillán;Chillán;Región de Ñuble;11;Técnico en Topografía;TNS en Topografía;Tecnología;30
+C.F.T. INACAP;C.F.T.;La Serena;La Serena;Región de Coquimbo;5;Técnico en Topografía;TNS en Topografía;Tecnología;35
+C.F.T. INACAP;C.F.T.;Las Condes;Maipú;Región Metropolitana;7;Técnico en Topografía;TNS en Topografía;Tecnología;15
+C.F.T. INACAP;C.F.T.;Las Condes;Ñuñoa;Región Metropolitana;7;Técnico en Topografía;TNS en Topografía;Tecnología;20
+C.F.T. INACAP;C.F.T.;San Pedro de la Paz;San Pedro de La Paz;Región del Bío-Bío;10;Técnico en Topografía;TNS en Topografía;Tecnología;25
+C.F.T. INACAP;C.F.T.;Talca;Talca;Región del Maule;9;Técnico en Topografía;TNS en Topografía;Tecnología;35
+C.F.T. INACAP;C.F.T.;Concepción - Talcahuano;Talcahuano;Región del Bío-Bío;10;Técnico en Topografía;TNS en Topografía;Tecnología;30
+C.F.T. INACAP;C.F.T.;Temuco;Temuco;Región de La Araucanía;12;Técnico en Topografía;TNS en Topografía;Tecnología;25
+C.F.T. INACAP;C.F.T.;Valdivia;Valdivia;Región de los Ríos;13;Técnico en Topografía;TNS en Topografía;Tecnología;30
