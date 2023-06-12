@@ -68,3 +68,26 @@ datos %>%
 
 ## d) ¿Qué tramo de empresa tiene mayor y menor rango de ventas anuales?
 ## Las empresas "Grande" tienen el mayor rango y las "Micro" el menor
+
+## Actividad 4
+## Crea un gráfico circular del número de empresas del año 2020 por tramo
+empresas2020 <- datos %>%
+    filter(año == 2020) %>%
+    group_by(tramo) %>%
+    summarise(empresas = sum(empresas)) %>%
+    mutate(porcentaje = empresas / sum(empresas) * 100)
+labels <- paste(
+    empresas2020$tramo,
+    empresas2020$empresas,
+    paste(
+        round(empresas2020$porcentaje, 2),
+        "%",
+        sep = ""
+    ),
+    sep = " - "
+)
+pie(
+    x = empresas2020$empresas,
+    labels = labels,
+    main = "Empresas 2020 por tramo"
+)
