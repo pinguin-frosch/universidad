@@ -91,3 +91,38 @@ pie(
     labels = labels,
     main = "Empresas 2020 por tramo"
 )
+
+## Actividad 5
+## Realizar un gráfico de barras comparando el número total de empresas con
+## con las empresas de la región del biobío. Agrupar por tramos.
+total <- datos %>%
+    group_by(tramo) %>%
+    summarise(empresas = sum(empresas))
+
+region_total <- function(nombre) {
+    region <- datos %>%
+        filter(region == nombre) %>%
+        group_by(tramo) %>%
+        summarise(empresas = sum(empresas))
+    data <- matrix(
+        c(region$empresas, total$empresas),
+        nrow = 5,
+        ncol = 2,
+        dimnames = list(
+            c("Grande", "Mediana", "Micro", "Pequeña", "Sin Ventas")
+        )
+    )
+    barplot(
+        data,
+        names.arg = c(nombre, "Total general"),
+        col = rainbow(5),
+        legend = rownames(data),
+        main = "Distribución por tamaño",
+        axes = FALSE,
+        args.legend = list(
+            x = "topleft"
+        )
+    )
+}
+
+region_total("Región del Biobío")
