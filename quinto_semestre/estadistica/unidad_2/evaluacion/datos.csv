@@ -1,0 +1,1001 @@
+ID,Género,Rango Etareo,Fuerza de Trabajo,Estado Laboral,Ingreso
+1,Femenino,35-44,SI,Trabajo Formal,603677
+2,Masculino,15-24,NO,No corresponde,No corresponde
+3,Masculino,15-24,SI,Trabajo Formal,633412
+4,Masculino,15-24,SI,Sin trabajo,No corresponde
+5,Femenino,45-54,NO,No corresponde,No corresponde
+6,Masculino,35-44,SI,Sin trabajo,No corresponde
+7,Femenino,55-64,NO,No corresponde,No corresponde
+8,Masculino,25-34,SI,Sin trabajo,No corresponde
+9,Masculino,35-44,SI,Trabajo Formal,682080
+10,Masculino,35-44,NO,No corresponde,No corresponde
+11,Masculino,25-34,NO,No corresponde,No corresponde
+12,Masculino,25-34,NO,No corresponde,No corresponde
+13,Masculino,25-34,SI,Trabajo Formal,601473
+14,Masculino,25-34,SI,Sin trabajo,No corresponde
+15,Femenino,25-34,NO,No corresponde,No corresponde
+16,Femenino,35-44,SI,Trabajo Formal,635118
+17,Femenino,45-54,NO,No corresponde,No corresponde
+18,Femenino,35-44,SI,Trabajo Formal,484807
+19,Masculino,15-24,SI,Trabajo Informal,752044
+20,Masculino,25-34,SI,Trabajo Formal,510945
+21,Masculino,35-44,SI,Trabajo Formal,492857
+22,Masculino,15-24,SI,Trabajo Formal,505902
+23,Masculino,45-54,SI,Sin trabajo,No corresponde
+24,Femenino,55-64,NO,No corresponde,No corresponde
+25,Masculino,45-54,SI,Trabajo Formal,714330
+26,Femenino,55-64,NO,No corresponde,No corresponde
+27,Masculino,15-24,NO,No corresponde,No corresponde
+28,Femenino,35-44,SI,Sin trabajo,No corresponde
+29,Masculino,25-34,SI,Trabajo Formal,476521
+30,Masculino,25-34,SI,Trabajo Formal,622982
+31,Masculino,25-34,SI,Trabajo Formal,572963
+32,Femenino,35-44,SI,Trabajo Informal,464949
+33,Femenino,45-54,SI,Trabajo Formal,518439
+34,Masculino,15-24,SI,Trabajo Formal,611133
+35,Femenino,25-34,SI,Trabajo Formal,733901
+36,Femenino,15-24,SI,Trabajo Formal,360917
+37,Femenino,25-34,SI,Sin trabajo,No corresponde
+38,Masculino,25-34,NO,No corresponde,No corresponde
+39,Masculino,35-44,NO,No corresponde,No corresponde
+40,Masculino,35-44,SI,Trabajo Formal,788018
+41,Masculino,15-24,SI,Trabajo Formal,748033
+42,Masculino,15-24,SI,Trabajo Formal,733498
+43,Masculino,35-44,SI,Trabajo Formal,801389
+44,Masculino,35-44,NO,No corresponde,No corresponde
+45,Masculino,45-54,NO,No corresponde,No corresponde
+46,Masculino,35-44,SI,Trabajo Informal,648317
+47,Masculino,15-24,SI,Trabajo Formal,826816
+48,Masculino,15-24,SI,Sin trabajo,No corresponde
+49,Masculino,35-44,SI,Trabajo Informal,604885
+50,Masculino,35-44,SI,Trabajo Formal,700927
+51,Masculino,45-54,SI,Trabajo Formal,768117
+52,Masculino,15-24,NO,No corresponde,No corresponde
+53,Femenino,45-54,SI,Trabajo Formal,561951
+54,Femenino,45-54,SI,Trabajo Formal,639027
+55,Masculino,35-44,SI,Trabajo Informal,839090
+56,Masculino,15-24,SI,Trabajo Formal,821248
+57,Masculino,25-34,SI,Trabajo Formal,839549
+58,Masculino,25-34,SI,Trabajo Formal,636179
+59,Femenino,35-44,SI,Trabajo Formal,389011
+60,Masculino,15-24,SI,Trabajo Formal,489295
+61,Femenino,55-64,SI,Trabajo Formal,416426
+62,Masculino,25-34,SI,Trabajo Formal,521551
+63,Masculino,45-54,SI,Trabajo Informal,761323
+64,Masculino,15-24,SI,Trabajo Formal,568544
+65,Femenino,45-54,NO,No corresponde,No corresponde
+66,Femenino,35-44,NO,No corresponde,No corresponde
+67,Femenino,25-34,SI,Trabajo Formal,371936
+68,Femenino,45-54,SI,Sin trabajo,No corresponde
+69,Femenino,25-34,SI,Trabajo Informal,650226
+70,Masculino,55-64,SI,Trabajo Formal,490113
+71,Masculino,15-24,SI,Trabajo Formal,460200
+72,Masculino,45-54,SI,Sin trabajo,No corresponde
+73,Masculino,45-54,SI,Trabajo Informal,503471
+74,Masculino,35-44,NO,No corresponde,No corresponde
+75,Femenino,35-44,SI,Trabajo Formal,372830
+76,Femenino,35-44,NO,No corresponde,No corresponde
+77,Femenino,25-34,SI,Trabajo Formal,720283
+78,Masculino,25-34,SI,Sin trabajo,No corresponde
+79,Masculino,25-34,SI,Trabajo Informal,814807
+80,Femenino,55-64,SI,Trabajo Formal,708646
+81,Masculino,25-34,SI,Trabajo Formal,513641
+82,Femenino,35-44,NO,No corresponde,No corresponde
+83,Masculino,45-54,SI,Trabajo Informal,518691
+84,Masculino,15-24,SI,Trabajo Formal,515054
+85,Femenino,25-34,SI,Trabajo Formal,476446
+86,Femenino,55-64,SI,Trabajo Formal,569397
+87,Femenino,45-54,SI,Trabajo Informal,350424
+88,Masculino,25-34,NO,No corresponde,No corresponde
+89,Masculino,25-34,SI,Trabajo Formal,677174
+90,Masculino,45-54,SI,Trabajo Formal,737667
+91,Masculino,35-44,SI,Trabajo Formal,645954
+92,Masculino,45-54,NO,No corresponde,No corresponde
+93,Femenino,55-64,SI,Trabajo Formal,635771
+94,Masculino,35-44,NO,No corresponde,No corresponde
+95,Femenino,15-24,NO,No corresponde,No corresponde
+96,Masculino,45-54,SI,Sin trabajo,No corresponde
+97,Masculino,25-34,SI,Trabajo Informal,722780
+98,Masculino,15-24,SI,Trabajo Formal,520600
+99,Femenino,25-34,SI,Trabajo Formal,422293
+100,Masculino,25-34,SI,Sin trabajo,No corresponde
+101,Masculino,35-44,SI,Trabajo Formal,479554
+102,Masculino,45-54,NO,No corresponde,No corresponde
+103,Femenino,45-54,NO,No corresponde,No corresponde
+104,Masculino,25-34,NO,No corresponde,No corresponde
+105,Masculino,15-24,SI,Trabajo Formal,747749
+106,Femenino,35-44,SI,Trabajo Formal,378804
+107,Masculino,25-34,NO,No corresponde,No corresponde
+108,Femenino,55-64,SI,Trabajo Formal,438385
+109,Femenino,45-54,SI,Trabajo Formal,616730
+110,Femenino,45-54,SI,Trabajo Formal,366385
+111,Masculino,15-24,SI,Trabajo Formal,582248
+112,Masculino,35-44,NO,No corresponde,No corresponde
+113,Masculino,15-24,SI,Trabajo Informal,451310
+114,Femenino,55-64,SI,Trabajo Formal,698357
+115,Femenino,45-54,SI,Trabajo Informal,519467
+116,Femenino,45-54,SI,Trabajo Informal,408045
+117,Masculino,15-24,NO,No corresponde,No corresponde
+118,Masculino,25-34,SI,Trabajo Formal,562936
+119,Femenino,55-64,NO,No corresponde,No corresponde
+120,Femenino,55-64,SI,Sin trabajo,No corresponde
+121,Masculino,35-44,SI,Sin trabajo,No corresponde
+122,Femenino,55-64,SI,Sin trabajo,No corresponde
+123,Masculino,45-54,SI,Trabajo Formal,770660
+124,Masculino,15-24,SI,Trabajo Informal,531666
+125,Femenino,45-54,NO,No corresponde,No corresponde
+126,Masculino,35-44,SI,Trabajo Formal,719387
+127,Femenino,55-64,SI,Trabajo Formal,411362
+128,Masculino,25-34,SI,Sin trabajo,No corresponde
+129,Masculino,15-24,SI,Trabajo Formal,745994
+130,Masculino,15-24,SI,Trabajo Formal,688538
+131,Masculino,45-54,NO,No corresponde,No corresponde
+132,Femenino,35-44,NO,No corresponde,No corresponde
+133,Masculino,55-64,SI,Sin trabajo,No corresponde
+134,Femenino,45-54,SI,Trabajo Informal,693365
+135,Femenino,35-44,SI,Trabajo Formal,686045
+136,Femenino,45-54,SI,Sin trabajo,No corresponde
+137,Femenino,35-44,SI,Sin trabajo,No corresponde
+138,Masculino,15-24,NO,No corresponde,No corresponde
+139,Femenino,55-64,SI,Trabajo Formal,584529
+140,Masculino,15-24,SI,Trabajo Formal,595637
+141,Femenino,55-64,SI,Trabajo Formal,646232
+142,Masculino,15-24,SI,Trabajo Formal,531790
+143,Masculino,35-44,SI,Trabajo Formal,783383
+144,Femenino,55-64,SI,Trabajo Formal,703421
+145,Femenino,45-54,SI,Trabajo Informal,661804
+146,Femenino,25-34,SI,Trabajo Informal,713707
+147,Masculino,15-24,SI,Trabajo Informal,835065
+148,Masculino,25-34,SI,Sin trabajo,No corresponde
+149,Masculino,15-24,SI,Trabajo Formal,657535
+150,Femenino,45-54,NO,No corresponde,No corresponde
+151,Masculino,15-24,SI,Sin trabajo,No corresponde
+152,Masculino,15-24,SI,Trabajo Formal,765804
+153,Masculino,15-24,NO,No corresponde,No corresponde
+154,Masculino,25-34,SI,Trabajo Formal,515290
+155,Masculino,25-34,SI,Trabajo Formal,614257
+156,Femenino,55-64,SI,Trabajo Formal,732093
+157,Masculino,45-54,SI,Sin trabajo,No corresponde
+158,Masculino,35-44,SI,Sin trabajo,No corresponde
+159,Masculino,25-34,SI,Trabajo Informal,748227
+160,Femenino,25-34,SI,Trabajo Informal,393952
+161,Masculino,35-44,SI,Trabajo Formal,837344
+162,Masculino,35-44,SI,Trabajo Formal,686686
+163,Masculino,15-24,SI,Trabajo Informal,524384
+164,Masculino,25-34,SI,Trabajo Formal,706415
+165,Femenino,25-34,SI,Trabajo Informal,682504
+166,Masculino,15-24,SI,Trabajo Formal,773748
+167,Masculino,15-24,NO,No corresponde,No corresponde
+168,Masculino,45-54,SI,Sin trabajo,No corresponde
+169,Femenino,45-54,NO,No corresponde,No corresponde
+170,Masculino,15-24,NO,No corresponde,No corresponde
+171,Masculino,15-24,NO,No corresponde,No corresponde
+172,Masculino,25-34,SI,Trabajo Formal,709022
+173,Masculino,25-34,SI,Trabajo Formal,784975
+174,Masculino,25-34,SI,Trabajo Formal,503883
+175,Femenino,55-64,SI,Trabajo Informal,383953
+176,Femenino,55-64,SI,Sin trabajo,No corresponde
+177,Femenino,55-64,NO,No corresponde,No corresponde
+178,Femenino,15-24,NO,No corresponde,No corresponde
+179,Masculino,35-44,NO,No corresponde,No corresponde
+180,Masculino,25-34,SI,Trabajo Formal,841613
+181,Masculino,15-24,SI,Sin trabajo,No corresponde
+182,Femenino,15-24,SI,Trabajo Informal,589230
+183,Masculino,15-24,SI,Trabajo Formal,473566
+184,Masculino,45-54,SI,Trabajo Formal,749804
+185,Femenino,25-34,SI,Sin trabajo,No corresponde
+186,Masculino,55-64,NO,No corresponde,No corresponde
+187,Femenino,15-24,SI,Trabajo Formal,631532
+188,Femenino,25-34,NO,No corresponde,No corresponde
+189,Masculino,25-34,SI,Trabajo Formal,572901
+190,Femenino,55-64,SI,Sin trabajo,No corresponde
+191,Masculino,25-34,SI,Sin trabajo,No corresponde
+192,Masculino,25-34,NO,No corresponde,No corresponde
+193,Masculino,25-34,SI,Trabajo Formal,627967
+194,Femenino,35-44,SI,Trabajo Informal,464859
+195,Masculino,15-24,SI,Trabajo Formal,833220
+196,Masculino,25-34,SI,Trabajo Formal,592426
+197,Masculino,15-24,SI,Trabajo Formal,840610
+198,Femenino,55-64,NO,No corresponde,No corresponde
+199,Masculino,25-34,NO,No corresponde,No corresponde
+200,Femenino,35-44,NO,No corresponde,No corresponde
+201,Masculino,25-34,NO,No corresponde,No corresponde
+202,Masculino,35-44,SI,Trabajo Formal,675059
+203,Femenino,15-24,NO,No corresponde,No corresponde
+204,Femenino,45-54,SI,Trabajo Informal,359751
+205,Femenino,55-64,SI,Sin trabajo,No corresponde
+206,Femenino,55-64,SI,Trabajo Informal,498090
+207,Masculino,25-34,SI,Trabajo Formal,477637
+208,Masculino,55-64,SI,Trabajo Formal,780135
+209,Masculino,35-44,SI,Trabajo Informal,519200
+210,Femenino,55-64,SI,Trabajo Formal,690951
+211,Femenino,45-54,SI,Trabajo Informal,384229
+212,Femenino,55-64,SI,Trabajo Formal,655793
+213,Masculino,25-34,SI,Sin trabajo,No corresponde
+214,Femenino,45-54,NO,No corresponde,No corresponde
+215,Masculino,25-34,SI,Trabajo Formal,685909
+216,Masculino,15-24,SI,Trabajo Formal,649266
+217,Femenino,55-64,NO,No corresponde,No corresponde
+218,Femenino,35-44,SI,Trabajo Informal,705347
+219,Femenino,25-34,SI,Trabajo Formal,555407
+220,Masculino,15-24,SI,Trabajo Formal,717430
+221,Femenino,35-44,SI,Trabajo Formal,412260
+222,Masculino,35-44,SI,Trabajo Informal,744706
+223,Masculino,25-34,SI,Sin trabajo,No corresponde
+224,Femenino,45-54,SI,Trabajo Formal,590286
+225,Masculino,15-24,SI,Trabajo Formal,845616
+226,Femenino,55-64,SI,Trabajo Informal,500241
+227,Masculino,15-24,SI,Sin trabajo,No corresponde
+228,Masculino,15-24,SI,Trabajo Formal,807903
+229,Masculino,35-44,SI,Trabajo Formal,459622
+230,Masculino,15-24,SI,Trabajo Informal,686422
+231,Masculino,45-54,SI,Trabajo Formal,567553
+232,Masculino,15-24,SI,Trabajo Formal,684248
+233,Masculino,55-64,SI,Trabajo Formal,765441
+234,Femenino,55-64,SI,Trabajo Informal,533124
+235,Masculino,15-24,NO,No corresponde,No corresponde
+236,Masculino,25-34,SI,Trabajo Formal,700128
+237,Masculino,35-44,SI,Trabajo Informal,551563
+238,Femenino,25-34,SI,Trabajo Formal,709228
+239,Femenino,25-34,NO,No corresponde,No corresponde
+240,Masculino,35-44,SI,Trabajo Formal,723844
+241,Masculino,15-24,SI,Sin trabajo,No corresponde
+242,Masculino,15-24,SI,Trabajo Formal,484337
+243,Femenino,55-64,SI,Trabajo Informal,610648
+244,Femenino,55-64,SI,Trabajo Formal,697582
+245,Femenino,55-64,NO,No corresponde,No corresponde
+246,Femenino,45-54,SI,Trabajo Formal,429007
+247,Femenino,35-44,SI,Sin trabajo,No corresponde
+248,Masculino,15-24,SI,Trabajo Formal,793360
+249,Femenino,35-44,NO,No corresponde,No corresponde
+250,Femenino,45-54,SI,Sin trabajo,No corresponde
+251,Masculino,25-34,SI,Trabajo Formal,751282
+252,Masculino,35-44,SI,Sin trabajo,No corresponde
+253,Masculino,45-54,SI,Trabajo Formal,476874
+254,Masculino,45-54,SI,Trabajo Formal,837398
+255,Femenino,45-54,NO,No corresponde,No corresponde
+256,Femenino,55-64,NO,No corresponde,No corresponde
+257,Femenino,55-64,NO,No corresponde,No corresponde
+258,Femenino,55-64,NO,No corresponde,No corresponde
+259,Femenino,15-24,SI,Trabajo Formal,421673
+260,Masculino,45-54,SI,Trabajo Formal,799818
+261,Masculino,35-44,SI,Trabajo Formal,727351
+262,Masculino,35-44,NO,No corresponde,No corresponde
+263,Masculino,25-34,SI,Trabajo Formal,506905
+264,Femenino,45-54,SI,Trabajo Informal,683676
+265,Masculino,35-44,SI,Trabajo Formal,825860
+266,Masculino,15-24,NO,No corresponde,No corresponde
+267,Masculino,15-24,SI,Trabajo Formal,772122
+268,Femenino,55-64,NO,No corresponde,No corresponde
+269,Masculino,35-44,SI,Trabajo Formal,848112
+270,Masculino,25-34,SI,Trabajo Formal,672989
+271,Masculino,25-34,SI,Sin trabajo,No corresponde
+272,Masculino,25-34,SI,Trabajo Formal,784887
+273,Masculino,15-24,SI,Trabajo Formal,605758
+274,Femenino,45-54,NO,No corresponde,No corresponde
+275,Masculino,15-24,SI,Trabajo Formal,646260
+276,Masculino,35-44,SI,Trabajo Formal,661077
+277,Femenino,55-64,SI,Trabajo Formal,407862
+278,Femenino,45-54,SI,Trabajo Formal,406873
+279,Masculino,25-34,NO,No corresponde,No corresponde
+280,Masculino,15-24,SI,Trabajo Formal,811372
+281,Masculino,45-54,SI,Trabajo Formal,728691
+282,Masculino,25-34,SI,Trabajo Informal,738836
+283,Masculino,25-34,SI,Sin trabajo,No corresponde
+284,Femenino,35-44,SI,Trabajo Formal,688286
+285,Masculino,45-54,SI,Trabajo Formal,557115
+286,Femenino,55-64,NO,No corresponde,No corresponde
+287,Masculino,25-34,SI,Trabajo Formal,734150
+288,Masculino,55-64,SI,Trabajo Informal,690708
+289,Masculino,45-54,SI,Trabajo Informal,714813
+290,Masculino,25-34,SI,Trabajo Informal,450604
+291,Masculino,15-24,SI,Trabajo Informal,571113
+292,Masculino,25-34,SI,Trabajo Informal,520641
+293,Masculino,25-34,NO,No corresponde,No corresponde
+294,Femenino,35-44,SI,Trabajo Formal,551014
+295,Masculino,25-34,NO,No corresponde,No corresponde
+296,Femenino,35-44,SI,Sin trabajo,No corresponde
+297,Masculino,15-24,SI,Trabajo Informal,638724
+298,Femenino,55-64,NO,No corresponde,No corresponde
+299,Masculino,25-34,SI,Trabajo Informal,457924
+300,Masculino,25-34,SI,Trabajo Formal,616677
+301,Femenino,55-64,NO,No corresponde,No corresponde
+302,Femenino,55-64,NO,No corresponde,No corresponde
+303,Femenino,25-34,SI,Sin trabajo,No corresponde
+304,Femenino,15-24,SI,Trabajo Informal,696001
+305,Masculino,35-44,SI,Trabajo Informal,490825
+306,Femenino,55-64,SI,Trabajo Formal,554483
+307,Femenino,55-64,NO,No corresponde,No corresponde
+308,Masculino,25-34,SI,Trabajo Formal,526344
+309,Femenino,45-54,SI,Trabajo Formal,412354
+310,Masculino,45-54,NO,No corresponde,No corresponde
+311,Masculino,35-44,SI,Trabajo Formal,759218
+312,Femenino,15-24,SI,Trabajo Formal,471310
+313,Masculino,15-24,SI,Trabajo Formal,548504
+314,Masculino,55-64,SI,Trabajo Formal,660753
+315,Masculino,15-24,NO,No corresponde,No corresponde
+316,Femenino,45-54,SI,Trabajo Formal,624947
+317,Femenino,55-64,SI,Trabajo Formal,653201
+318,Masculino,25-34,SI,Sin trabajo,No corresponde
+319,Masculino,25-34,SI,Trabajo Formal,600826
+320,Femenino,55-64,SI,Trabajo Formal,510987
+321,Femenino,55-64,NO,No corresponde,No corresponde
+322,Masculino,55-64,SI,Trabajo Formal,820991
+323,Femenino,25-34,SI,Trabajo Formal,728508
+324,Femenino,55-64,SI,Trabajo Formal,505675
+325,Femenino,55-64,SI,Trabajo Formal,554591
+326,Masculino,15-24,SI,Trabajo Formal,507097
+327,Masculino,25-34,SI,Trabajo Formal,494510
+328,Femenino,25-34,NO,No corresponde,No corresponde
+329,Masculino,35-44,SI,Trabajo Formal,678670
+330,Masculino,25-34,SI,Trabajo Formal,612702
+331,Masculino,15-24,SI,Trabajo Formal,508542
+332,Femenino,55-64,NO,No corresponde,No corresponde
+333,Masculino,25-34,SI,Trabajo Formal,693289
+334,Masculino,25-34,NO,No corresponde,No corresponde
+335,Masculino,15-24,NO,No corresponde,No corresponde
+336,Femenino,35-44,SI,Trabajo Formal,428949
+337,Masculino,15-24,SI,Trabajo Informal,780945
+338,Masculino,45-54,SI,Sin trabajo,No corresponde
+339,Masculino,25-34,SI,Sin trabajo,No corresponde
+340,Masculino,25-34,NO,No corresponde,No corresponde
+341,Masculino,25-34,SI,Trabajo Formal,518819
+342,Masculino,45-54,SI,Sin trabajo,No corresponde
+343,Masculino,35-44,NO,No corresponde,No corresponde
+344,Femenino,45-54,NO,No corresponde,No corresponde
+345,Masculino,15-24,SI,Trabajo Formal,513199
+346,Masculino,15-24,SI,Trabajo Formal,849167
+347,Masculino,25-34,SI,Trabajo Informal,635378
+348,Masculino,45-54,NO,No corresponde,No corresponde
+349,Masculino,25-34,SI,Sin trabajo,No corresponde
+350,Femenino,55-64,SI,Trabajo Formal,614804
+351,Femenino,55-64,SI,Trabajo Informal,671982
+352,Masculino,15-24,SI,Trabajo Informal,819812
+353,Masculino,55-64,SI,Trabajo Formal,585046
+354,Femenino,15-24,SI,Trabajo Formal,635730
+355,Masculino,45-54,SI,Trabajo Formal,622251
+356,Femenino,55-64,SI,Sin trabajo,No corresponde
+357,Femenino,45-54,SI,Trabajo Formal,554316
+358,Femenino,55-64,NO,No corresponde,No corresponde
+359,Masculino,25-34,SI,Trabajo Formal,729287
+360,Masculino,15-24,NO,No corresponde,No corresponde
+361,Femenino,35-44,NO,No corresponde,No corresponde
+362,Masculino,35-44,SI,Sin trabajo,No corresponde
+363,Masculino,55-64,SI,Trabajo Formal,470603
+364,Masculino,25-34,NO,No corresponde,No corresponde
+365,Femenino,35-44,NO,No corresponde,No corresponde
+366,Femenino,55-64,NO,No corresponde,No corresponde
+367,Masculino,15-24,SI,Trabajo Formal,846822
+368,Femenino,55-64,NO,No corresponde,No corresponde
+369,Femenino,45-54,NO,No corresponde,No corresponde
+370,Femenino,25-34,SI,Trabajo Formal,524312
+371,Femenino,55-64,NO,No corresponde,No corresponde
+372,Masculino,15-24,NO,No corresponde,No corresponde
+373,Masculino,35-44,SI,Trabajo Formal,566312
+374,Masculino,15-24,SI,Trabajo Informal,758557
+375,Femenino,25-34,SI,Trabajo Formal,716272
+376,Masculino,15-24,SI,Trabajo Formal,699104
+377,Masculino,35-44,SI,Trabajo Formal,826989
+378,Femenino,55-64,NO,No corresponde,No corresponde
+379,Masculino,25-34,NO,No corresponde,No corresponde
+380,Masculino,35-44,SI,Trabajo Formal,767246
+381,Femenino,55-64,SI,Sin trabajo,No corresponde
+382,Femenino,45-54,SI,Sin trabajo,No corresponde
+383,Masculino,55-64,SI,Trabajo Informal,832584
+384,Femenino,35-44,NO,No corresponde,No corresponde
+385,Masculino,25-34,NO,No corresponde,No corresponde
+386,Femenino,35-44,SI,Trabajo Formal,461927
+387,Masculino,25-34,SI,Sin trabajo,No corresponde
+388,Femenino,55-64,SI,Trabajo Formal,522071
+389,Femenino,55-64,SI,Trabajo Formal,643527
+390,Masculino,45-54,SI,Trabajo Informal,798002
+391,Masculino,15-24,SI,Trabajo Informal,541268
+392,Masculino,25-34,NO,No corresponde,No corresponde
+393,Masculino,25-34,SI,Trabajo Formal,843592
+394,Masculino,15-24,NO,No corresponde,No corresponde
+395,Femenino,15-24,SI,Sin trabajo,No corresponde
+396,Masculino,35-44,NO,No corresponde,No corresponde
+397,Masculino,55-64,SI,Trabajo Formal,654342
+398,Masculino,15-24,SI,Trabajo Formal,591014
+399,Masculino,35-44,SI,Trabajo Formal,548614
+400,Femenino,35-44,SI,Trabajo Formal,676010
+401,Femenino,55-64,SI,Sin trabajo,No corresponde
+402,Masculino,45-54,NO,No corresponde,No corresponde
+403,Femenino,45-54,SI,Trabajo Formal,418404
+404,Masculino,35-44,SI,Trabajo Formal,495220
+405,Masculino,45-54,SI,Trabajo Informal,815599
+406,Femenino,25-34,NO,No corresponde,No corresponde
+407,Femenino,55-64,SI,Sin trabajo,No corresponde
+408,Masculino,15-24,SI,Trabajo Formal,694510
+409,Femenino,55-64,SI,Trabajo Formal,435110
+410,Masculino,25-34,SI,Sin trabajo,No corresponde
+411,Masculino,15-24,SI,Trabajo Formal,505777
+412,Masculino,25-34,SI,Trabajo Formal,705879
+413,Femenino,55-64,SI,Trabajo Formal,576085
+414,Masculino,15-24,SI,Trabajo Formal,480465
+415,Masculino,35-44,SI,Trabajo Formal,595871
+416,Femenino,45-54,NO,No corresponde,No corresponde
+417,Masculino,15-24,SI,Trabajo Formal,801752
+418,Masculino,15-24,SI,Trabajo Informal,619383
+419,Femenino,35-44,NO,No corresponde,No corresponde
+420,Masculino,35-44,SI,Trabajo Formal,667566
+421,Femenino,45-54,NO,No corresponde,No corresponde
+422,Masculino,45-54,SI,Trabajo Informal,683049
+423,Masculino,15-24,SI,Trabajo Formal,823930
+424,Masculino,25-34,SI,Sin trabajo,No corresponde
+425,Femenino,55-64,NO,No corresponde,No corresponde
+426,Femenino,35-44,NO,No corresponde,No corresponde
+427,Masculino,45-54,SI,Trabajo Formal,464329
+428,Femenino,45-54,SI,Trabajo Informal,621920
+429,Masculino,15-24,SI,Sin trabajo,No corresponde
+430,Masculino,15-24,SI,Sin trabajo,No corresponde
+431,Masculino,15-24,SI,Trabajo Formal,490553
+432,Masculino,35-44,SI,Trabajo Formal,465614
+433,Masculino,25-34,SI,Trabajo Formal,815191
+434,Masculino,15-24,SI,Trabajo Formal,763198
+435,Masculino,25-34,NO,No corresponde,No corresponde
+436,Masculino,25-34,SI,Trabajo Formal,615056
+437,Femenino,45-54,SI,Trabajo Formal,405361
+438,Femenino,55-64,SI,Trabajo Informal,719077
+439,Femenino,35-44,NO,No corresponde,No corresponde
+440,Masculino,35-44,NO,No corresponde,No corresponde
+441,Femenino,15-24,SI,Trabajo Formal,697705
+442,Masculino,25-34,NO,No corresponde,No corresponde
+443,Masculino,15-24,NO,No corresponde,No corresponde
+444,Masculino,35-44,SI,Sin trabajo,No corresponde
+445,Femenino,35-44,SI,Sin trabajo,No corresponde
+446,Masculino,15-24,SI,Trabajo Formal,765007
+447,Masculino,35-44,NO,No corresponde,No corresponde
+448,Femenino,55-64,NO,No corresponde,No corresponde
+449,Masculino,15-24,NO,No corresponde,No corresponde
+450,Masculino,25-34,SI,Trabajo Informal,736971
+451,Masculino,35-44,SI,Trabajo Formal,581182
+452,Masculino,25-34,SI,Sin trabajo,No corresponde
+453,Femenino,35-44,SI,Trabajo Formal,587550
+454,Femenino,55-64,NO,No corresponde,No corresponde
+455,Masculino,45-54,SI,Trabajo Informal,637976
+456,Femenino,55-64,NO,No corresponde,No corresponde
+457,Masculino,25-34,SI,Trabajo Formal,711402
+458,Masculino,25-34,SI,Trabajo Informal,553201
+459,Masculino,55-64,SI,Trabajo Informal,635342
+460,Masculino,35-44,SI,Trabajo Formal,847669
+461,Masculino,45-54,NO,No corresponde,No corresponde
+462,Masculino,45-54,SI,Trabajo Informal,488769
+463,Masculino,25-34,SI,Trabajo Informal,453310
+464,Femenino,15-24,SI,Sin trabajo,No corresponde
+465,Masculino,25-34,SI,Sin trabajo,No corresponde
+466,Masculino,15-24,SI,Trabajo Formal,553715
+467,Masculino,25-34,SI,Trabajo Formal,503657
+468,Masculino,15-24,SI,Trabajo Formal,466433
+469,Masculino,45-54,SI,Sin trabajo,No corresponde
+470,Masculino,25-34,NO,No corresponde,No corresponde
+471,Masculino,15-24,SI,Trabajo Formal,843731
+472,Masculino,15-24,SI,Trabajo Informal,498644
+473,Femenino,15-24,SI,Sin trabajo,No corresponde
+474,Masculino,35-44,SI,Trabajo Formal,631113
+475,Femenino,25-34,SI,Trabajo Informal,457144
+476,Femenino,55-64,SI,Trabajo Informal,616235
+477,Masculino,15-24,SI,Trabajo Formal,709113
+478,Femenino,55-64,NO,No corresponde,No corresponde
+479,Femenino,35-44,NO,No corresponde,No corresponde
+480,Masculino,25-34,SI,Trabajo Formal,819449
+481,Masculino,25-34,NO,No corresponde,No corresponde
+482,Femenino,25-34,SI,Trabajo Formal,673732
+483,Masculino,55-64,SI,Trabajo Formal,666848
+484,Masculino,25-34,SI,Sin trabajo,No corresponde
+485,Femenino,55-64,NO,No corresponde,No corresponde
+486,Femenino,35-44,SI,Trabajo Informal,555604
+487,Femenino,55-64,NO,No corresponde,No corresponde
+488,Masculino,35-44,SI,Trabajo Formal,477651
+489,Femenino,35-44,SI,Sin trabajo,No corresponde
+490,Femenino,45-54,NO,No corresponde,No corresponde
+491,Femenino,55-64,NO,No corresponde,No corresponde
+492,Masculino,55-64,SI,Trabajo Formal,543061
+493,Masculino,35-44,SI,Trabajo Formal,821256
+494,Femenino,35-44,NO,No corresponde,No corresponde
+495,Femenino,45-54,NO,No corresponde,No corresponde
+496,Masculino,25-34,SI,Trabajo Formal,681894
+497,Masculino,25-34,SI,Trabajo Informal,458997
+498,Masculino,35-44,NO,No corresponde,No corresponde
+499,Masculino,35-44,SI,Trabajo Formal,628399
+500,Femenino,45-54,SI,Trabajo Formal,731406
+501,Femenino,25-34,SI,Trabajo Formal,379042
+502,Femenino,55-64,NO,No corresponde,No corresponde
+503,Masculino,35-44,SI,Sin trabajo,No corresponde
+504,Femenino,45-54,NO,No corresponde,No corresponde
+505,Femenino,35-44,NO,No corresponde,No corresponde
+506,Masculino,15-24,NO,No corresponde,No corresponde
+507,Masculino,15-24,SI,Trabajo Formal,601225
+508,Femenino,55-64,SI,Sin trabajo,No corresponde
+509,Masculino,15-24,SI,Trabajo Formal,505756
+510,Femenino,45-54,NO,No corresponde,No corresponde
+511,Femenino,45-54,SI,Trabajo Formal,689897
+512,Femenino,35-44,NO,No corresponde,No corresponde
+513,Femenino,45-54,SI,Sin trabajo,No corresponde
+514,Masculino,45-54,SI,Trabajo Formal,686708
+515,Masculino,45-54,SI,Sin trabajo,No corresponde
+516,Femenino,55-64,NO,No corresponde,No corresponde
+517,Masculino,55-64,SI,Trabajo Formal,615494
+518,Masculino,35-44,SI,Sin trabajo,No corresponde
+519,Femenino,45-54,SI,Sin trabajo,No corresponde
+520,Femenino,45-54,SI,Trabajo Formal,435359
+521,Femenino,25-34,SI,Trabajo Informal,464776
+522,Masculino,45-54,SI,Trabajo Formal,764186
+523,Masculino,25-34,NO,No corresponde,No corresponde
+524,Femenino,55-64,NO,No corresponde,No corresponde
+525,Masculino,45-54,SI,Trabajo Formal,524905
+526,Masculino,35-44,NO,No corresponde,No corresponde
+527,Masculino,45-54,SI,Trabajo Formal,562409
+528,Masculino,35-44,SI,Trabajo Formal,833704
+529,Femenino,15-24,SI,Trabajo Informal,459635
+530,Masculino,15-24,SI,Trabajo Formal,835882
+531,Masculino,25-34,SI,Trabajo Formal,668235
+532,Masculino,15-24,SI,Trabajo Formal,630382
+533,Femenino,35-44,NO,No corresponde,No corresponde
+534,Femenino,25-34,SI,Trabajo Formal,374738
+535,Femenino,55-64,SI,Trabajo Informal,540083
+536,Masculino,35-44,SI,Sin trabajo,No corresponde
+537,Masculino,45-54,SI,Trabajo Formal,521335
+538,Femenino,45-54,SI,Sin trabajo,No corresponde
+539,Femenino,35-44,SI,Trabajo Formal,430724
+540,Masculino,25-34,NO,No corresponde,No corresponde
+541,Masculino,25-34,SI,Trabajo Formal,490709
+542,Masculino,25-34,NO,No corresponde,No corresponde
+543,Femenino,45-54,SI,Trabajo Formal,465576
+544,Masculino,15-24,SI,Trabajo Formal,457506
+545,Masculino,35-44,SI,Trabajo Formal,696037
+546,Masculino,35-44,SI,Sin trabajo,No corresponde
+547,Masculino,15-24,SI,Trabajo Formal,543754
+548,Masculino,55-64,SI,Trabajo Informal,694291
+549,Masculino,35-44,SI,Trabajo Informal,466136
+550,Masculino,55-64,SI,Trabajo Formal,661654
+551,Masculino,45-54,SI,Trabajo Formal,597246
+552,Masculino,25-34,SI,Trabajo Formal,778826
+553,Masculino,25-34,SI,Trabajo Informal,466891
+554,Femenino,55-64,NO,No corresponde,No corresponde
+555,Femenino,25-34,SI,Trabajo Formal,573499
+556,Femenino,55-64,NO,No corresponde,No corresponde
+557,Masculino,55-64,NO,No corresponde,No corresponde
+558,Masculino,35-44,SI,Trabajo Informal,625021
+559,Masculino,35-44,SI,Trabajo Formal,533217
+560,Masculino,25-34,SI,Trabajo Informal,798960
+561,Femenino,45-54,SI,Trabajo Formal,505941
+562,Masculino,25-34,NO,No corresponde,No corresponde
+563,Masculino,45-54,SI,Sin trabajo,No corresponde
+564,Masculino,25-34,SI,Trabajo Formal,759320
+565,Masculino,25-34,SI,Trabajo Formal,497809
+566,Femenino,55-64,NO,No corresponde,No corresponde
+567,Femenino,35-44,SI,Trabajo Formal,731079
+568,Femenino,55-64,NO,No corresponde,No corresponde
+569,Masculino,35-44,SI,Trabajo Formal,623385
+570,Femenino,55-64,NO,No corresponde,No corresponde
+571,Femenino,25-34,SI,Sin trabajo,No corresponde
+572,Femenino,35-44,SI,Trabajo Formal,524232
+573,Femenino,55-64,SI,Trabajo Formal,363252
+574,Masculino,15-24,SI,Sin trabajo,No corresponde
+575,Masculino,15-24,SI,Trabajo Informal,752841
+576,Femenino,55-64,SI,Sin trabajo,No corresponde
+577,Masculino,15-24,SI,Sin trabajo,No corresponde
+578,Femenino,45-54,NO,No corresponde,No corresponde
+579,Masculino,25-34,SI,Trabajo Formal,782492
+580,Masculino,35-44,SI,Trabajo Formal,467538
+581,Masculino,15-24,SI,Trabajo Formal,567300
+582,Femenino,35-44,SI,Trabajo Formal,531583
+583,Masculino,55-64,SI,Sin trabajo,No corresponde
+584,Masculino,25-34,SI,Sin trabajo,No corresponde
+585,Masculino,15-24,SI,Trabajo Formal,733181
+586,Masculino,15-24,SI,Trabajo Formal,833522
+587,Femenino,45-54,SI,Sin trabajo,No corresponde
+588,Femenino,35-44,SI,Sin trabajo,No corresponde
+589,Femenino,35-44,NO,No corresponde,No corresponde
+590,Masculino,35-44,SI,Trabajo Formal,674461
+591,Femenino,25-34,SI,Trabajo Informal,377762
+592,Masculino,25-34,SI,Trabajo Formal,469263
+593,Masculino,45-54,SI,Trabajo Formal,827500
+594,Masculino,25-34,SI,Trabajo Formal,741113
+595,Masculino,35-44,SI,Trabajo Informal,536040
+596,Femenino,45-54,SI,Trabajo Informal,535536
+597,Masculino,15-24,SI,Trabajo Formal,753150
+598,Masculino,35-44,NO,No corresponde,No corresponde
+599,Femenino,35-44,NO,No corresponde,No corresponde
+600,Masculino,25-34,NO,No corresponde,No corresponde
+601,Femenino,55-64,NO,No corresponde,No corresponde
+602,Femenino,25-34,NO,No corresponde,No corresponde
+603,Masculino,45-54,SI,Trabajo Formal,646089
+604,Masculino,15-24,SI,Sin trabajo,No corresponde
+605,Femenino,55-64,NO,No corresponde,No corresponde
+606,Femenino,25-34,SI,Trabajo Formal,379161
+607,Masculino,35-44,SI,Trabajo Formal,751048
+608,Masculino,35-44,SI,Sin trabajo,No corresponde
+609,Femenino,35-44,SI,Trabajo Formal,498528
+610,Masculino,45-54,SI,Trabajo Informal,659687
+611,Masculino,45-54,SI,Trabajo Formal,790717
+612,Masculino,45-54,SI,Trabajo Formal,827106
+613,Masculino,15-24,SI,Trabajo Formal,500358
+614,Masculino,35-44,SI,Trabajo Formal,801128
+615,Femenino,35-44,NO,No corresponde,No corresponde
+616,Masculino,15-24,SI,Trabajo Formal,583259
+617,Masculino,35-44,SI,Trabajo Formal,652215
+618,Masculino,15-24,SI,Trabajo Informal,732825
+619,Masculino,15-24,NO,No corresponde,No corresponde
+620,Masculino,45-54,NO,No corresponde,No corresponde
+621,Masculino,35-44,SI,Trabajo Formal,518043
+622,Masculino,25-34,SI,Trabajo Informal,637253
+623,Masculino,15-24,SI,Sin trabajo,No corresponde
+624,Masculino,55-64,NO,No corresponde,No corresponde
+625,Masculino,15-24,SI,Trabajo Informal,593269
+626,Masculino,15-24,SI,Trabajo Formal,764026
+627,Masculino,25-34,NO,No corresponde,No corresponde
+628,Femenino,55-64,NO,No corresponde,No corresponde
+629,Masculino,15-24,NO,No corresponde,No corresponde
+630,Femenino,45-54,SI,Trabajo Formal,540458
+631,Masculino,15-24,SI,Trabajo Formal,579666
+632,Masculino,15-24,NO,No corresponde,No corresponde
+633,Femenino,45-54,NO,No corresponde,No corresponde
+634,Femenino,25-34,NO,No corresponde,No corresponde
+635,Masculino,15-24,SI,Trabajo Informal,716942
+636,Masculino,35-44,NO,No corresponde,No corresponde
+637,Masculino,35-44,SI,Trabajo Formal,450123
+638,Masculino,25-34,SI,Trabajo Formal,574326
+639,Masculino,45-54,SI,Trabajo Formal,791874
+640,Femenino,55-64,NO,No corresponde,No corresponde
+641,Masculino,55-64,SI,Trabajo Informal,820176
+642,Femenino,45-54,SI,Trabajo Formal,578385
+643,Femenino,45-54,NO,No corresponde,No corresponde
+644,Masculino,15-24,SI,Trabajo Formal,777959
+645,Femenino,15-24,NO,No corresponde,No corresponde
+646,Femenino,45-54,SI,Trabajo Formal,425655
+647,Masculino,25-34,SI,Sin trabajo,No corresponde
+648,Masculino,25-34,SI,Trabajo Formal,848734
+649,Femenino,35-44,NO,No corresponde,No corresponde
+650,Masculino,35-44,SI,Trabajo Formal,614308
+651,Masculino,45-54,SI,Trabajo Formal,487085
+652,Masculino,15-24,NO,No corresponde,No corresponde
+653,Masculino,25-34,SI,Sin trabajo,No corresponde
+654,Femenino,55-64,NO,No corresponde,No corresponde
+655,Femenino,55-64,SI,Trabajo Formal,474248
+656,Masculino,15-24,SI,Trabajo Formal,814709
+657,Masculino,15-24,SI,Trabajo Informal,726035
+658,Masculino,15-24,SI,Trabajo Formal,503980
+659,Femenino,15-24,NO,No corresponde,No corresponde
+660,Masculino,55-64,SI,Trabajo Formal,591290
+661,Femenino,35-44,SI,Sin trabajo,No corresponde
+662,Femenino,45-54,SI,Trabajo Formal,680547
+663,Femenino,55-64,SI,Trabajo Formal,451637
+664,Femenino,55-64,NO,No corresponde,No corresponde
+665,Masculino,15-24,SI,Trabajo Formal,820199
+666,Masculino,45-54,SI,Trabajo Informal,605922
+667,Femenino,25-34,SI,Sin trabajo,No corresponde
+668,Masculino,25-34,SI,Trabajo Formal,782784
+669,Femenino,45-54,SI,Trabajo Formal,614387
+670,Masculino,35-44,NO,No corresponde,No corresponde
+671,Femenino,55-64,NO,No corresponde,No corresponde
+672,Femenino,25-34,NO,No corresponde,No corresponde
+673,Masculino,15-24,NO,No corresponde,No corresponde
+674,Masculino,15-24,SI,Trabajo Informal,805782
+675,Masculino,25-34,SI,Trabajo Formal,530865
+676,Femenino,35-44,SI,Sin trabajo,No corresponde
+677,Femenino,35-44,NO,No corresponde,No corresponde
+678,Femenino,45-54,SI,Trabajo Formal,679978
+679,Femenino,55-64,SI,Trabajo Formal,357591
+680,Masculino,45-54,NO,No corresponde,No corresponde
+681,Femenino,55-64,SI,Trabajo Formal,423998
+682,Masculino,15-24,NO,No corresponde,No corresponde
+683,Masculino,35-44,SI,Trabajo Formal,593980
+684,Masculino,15-24,NO,No corresponde,No corresponde
+685,Femenino,25-34,NO,No corresponde,No corresponde
+686,Masculino,45-54,SI,Trabajo Formal,846127
+687,Femenino,55-64,SI,Sin trabajo,No corresponde
+688,Masculino,15-24,NO,No corresponde,No corresponde
+689,Masculino,15-24,NO,No corresponde,No corresponde
+690,Femenino,35-44,NO,No corresponde,No corresponde
+691,Masculino,25-34,NO,No corresponde,No corresponde
+692,Masculino,25-34,SI,Trabajo Formal,658622
+693,Masculino,35-44,SI,Trabajo Informal,461087
+694,Masculino,15-24,SI,Trabajo Informal,494283
+695,Femenino,25-34,NO,No corresponde,No corresponde
+696,Femenino,25-34,SI,Sin trabajo,No corresponde
+697,Femenino,55-64,NO,No corresponde,No corresponde
+698,Femenino,45-54,SI,Sin trabajo,No corresponde
+699,Femenino,25-34,SI,Sin trabajo,No corresponde
+700,Masculino,35-44,SI,Sin trabajo,No corresponde
+701,Femenino,45-54,SI,Trabajo Formal,685362
+702,Masculino,25-34,SI,Trabajo Formal,847216
+703,Masculino,45-54,SI,Trabajo Formal,687552
+704,Masculino,25-34,NO,No corresponde,No corresponde
+705,Femenino,55-64,SI,Trabajo Formal,574209
+706,Masculino,35-44,SI,Trabajo Formal,528934
+707,Femenino,45-54,SI,Trabajo Formal,613294
+708,Femenino,45-54,SI,Trabajo Formal,738149
+709,Masculino,35-44,SI,Trabajo Informal,666682
+710,Masculino,15-24,SI,Trabajo Formal,691536
+711,Masculino,45-54,SI,Sin trabajo,No corresponde
+712,Masculino,15-24,SI,Sin trabajo,No corresponde
+713,Femenino,45-54,NO,No corresponde,No corresponde
+714,Femenino,55-64,SI,Trabajo Informal,523234
+715,Femenino,55-64,SI,Trabajo Formal,667919
+716,Masculino,35-44,SI,Trabajo Formal,805314
+717,Masculino,25-34,SI,Trabajo Formal,773650
+718,Masculino,15-24,SI,Sin trabajo,No corresponde
+719,Femenino,55-64,SI,Trabajo Formal,588020
+720,Masculino,25-34,NO,No corresponde,No corresponde
+721,Femenino,25-34,SI,Trabajo Formal,362456
+722,Femenino,55-64,NO,No corresponde,No corresponde
+723,Masculino,55-64,SI,Trabajo Formal,510086
+724,Masculino,45-54,SI,Trabajo Formal,575165
+725,Femenino,25-34,SI,Trabajo Formal,611817
+726,Femenino,25-34,SI,Trabajo Formal,445047
+727,Masculino,15-24,SI,Trabajo Formal,526581
+728,Masculino,15-24,SI,Trabajo Formal,497781
+729,Masculino,35-44,SI,Trabajo Informal,719764
+730,Masculino,15-24,SI,Trabajo Informal,541714
+731,Masculino,35-44,SI,Trabajo Formal,749049
+732,Masculino,35-44,SI,Trabajo Informal,652685
+733,Femenino,35-44,NO,No corresponde,No corresponde
+734,Masculino,15-24,SI,Trabajo Formal,592570
+735,Masculino,25-34,NO,No corresponde,No corresponde
+736,Masculino,15-24,SI,Trabajo Formal,788571
+737,Femenino,45-54,NO,No corresponde,No corresponde
+738,Masculino,35-44,NO,No corresponde,No corresponde
+739,Masculino,45-54,SI,Trabajo Formal,697667
+740,Masculino,35-44,NO,No corresponde,No corresponde
+741,Masculino,55-64,SI,Sin trabajo,No corresponde
+742,Masculino,45-54,SI,Sin trabajo,No corresponde
+743,Femenino,55-64,SI,Sin trabajo,No corresponde
+744,Masculino,35-44,SI,Trabajo Informal,471104
+745,Masculino,25-34,SI,Trabajo Formal,646089
+746,Femenino,25-34,SI,Sin trabajo,No corresponde
+747,Femenino,45-54,NO,No corresponde,No corresponde
+748,Masculino,35-44,NO,No corresponde,No corresponde
+749,Masculino,15-24,NO,No corresponde,No corresponde
+750,Masculino,45-54,NO,No corresponde,No corresponde
+751,Masculino,25-34,SI,Sin trabajo,No corresponde
+752,Femenino,45-54,NO,No corresponde,No corresponde
+753,Femenino,15-24,SI,Trabajo Formal,600158
+754,Masculino,25-34,NO,No corresponde,No corresponde
+755,Femenino,45-54,NO,No corresponde,No corresponde
+756,Femenino,55-64,NO,No corresponde,No corresponde
+757,Femenino,55-64,SI,Trabajo Formal,554126
+758,Masculino,35-44,SI,Trabajo Formal,685410
+759,Masculino,15-24,SI,Trabajo Formal,781982
+760,Masculino,45-54,SI,Trabajo Informal,733728
+761,Masculino,15-24,NO,No corresponde,No corresponde
+762,Femenino,55-64,NO,No corresponde,No corresponde
+763,Femenino,55-64,NO,No corresponde,No corresponde
+764,Masculino,15-24,SI,Trabajo Formal,737300
+765,Femenino,45-54,NO,No corresponde,No corresponde
+766,Masculino,15-24,SI,Trabajo Informal,705737
+767,Femenino,15-24,NO,No corresponde,No corresponde
+768,Femenino,45-54,SI,Trabajo Formal,516746
+769,Femenino,45-54,SI,Trabajo Formal,382164
+770,Femenino,25-34,NO,No corresponde,No corresponde
+771,Masculino,55-64,SI,Sin trabajo,No corresponde
+772,Masculino,15-24,SI,Sin trabajo,No corresponde
+773,Masculino,25-34,SI,Trabajo Informal,842156
+774,Femenino,45-54,SI,Trabajo Formal,453240
+775,Masculino,55-64,SI,Trabajo Formal,493758
+776,Masculino,25-34,SI,Sin trabajo,No corresponde
+777,Femenino,45-54,SI,Trabajo Formal,553285
+778,Masculino,35-44,SI,Trabajo Informal,478073
+779,Masculino,15-24,SI,Trabajo Formal,554481
+780,Femenino,45-54,SI,Trabajo Formal,584535
+781,Masculino,15-24,NO,No corresponde,No corresponde
+782,Masculino,55-64,NO,No corresponde,No corresponde
+783,Masculino,25-34,SI,Trabajo Formal,514299
+784,Masculino,35-44,SI,Trabajo Formal,591438
+785,Masculino,15-24,SI,Sin trabajo,No corresponde
+786,Masculino,15-24,NO,No corresponde,No corresponde
+787,Masculino,35-44,NO,No corresponde,No corresponde
+788,Masculino,15-24,NO,No corresponde,No corresponde
+789,Masculino,45-54,SI,Trabajo Formal,466496
+790,Masculino,45-54,NO,No corresponde,No corresponde
+791,Masculino,15-24,SI,Trabajo Formal,629317
+792,Femenino,55-64,NO,No corresponde,No corresponde
+793,Femenino,25-34,SI,Sin trabajo,No corresponde
+794,Masculino,15-24,SI,Trabajo Formal,846562
+795,Masculino,35-44,NO,No corresponde,No corresponde
+796,Femenino,35-44,NO,No corresponde,No corresponde
+797,Femenino,25-34,NO,No corresponde,No corresponde
+798,Masculino,15-24,SI,Trabajo Formal,775508
+799,Masculino,25-34,SI,Trabajo Informal,633678
+800,Masculino,35-44,NO,No corresponde,No corresponde
+801,Femenino,55-64,SI,Trabajo Formal,481276
+802,Femenino,15-24,SI,Trabajo Formal,683570
+803,Masculino,45-54,SI,Trabajo Formal,719937
+804,Masculino,15-24,NO,No corresponde,No corresponde
+805,Masculino,15-24,NO,No corresponde,No corresponde
+806,Femenino,45-54,NO,No corresponde,No corresponde
+807,Femenino,25-34,NO,No corresponde,No corresponde
+808,Femenino,55-64,NO,No corresponde,No corresponde
+809,Masculino,25-34,SI,Sin trabajo,No corresponde
+810,Masculino,25-34,SI,Trabajo Formal,629260
+811,Masculino,25-34,NO,No corresponde,No corresponde
+812,Femenino,45-54,NO,No corresponde,No corresponde
+813,Femenino,25-34,SI,Trabajo Formal,493985
+814,Femenino,25-34,SI,Trabajo Formal,655166
+815,Masculino,35-44,SI,Trabajo Formal,724956
+816,Masculino,45-54,NO,No corresponde,No corresponde
+817,Femenino,55-64,SI,Trabajo Formal,463484
+818,Femenino,35-44,SI,Trabajo Formal,407939
+819,Masculino,15-24,SI,Trabajo Formal,714618
+820,Femenino,55-64,SI,Trabajo Formal,474135
+821,Masculino,35-44,SI,Trabajo Formal,707543
+822,Masculino,25-34,NO,No corresponde,No corresponde
+823,Femenino,55-64,NO,No corresponde,No corresponde
+824,Masculino,55-64,NO,No corresponde,No corresponde
+825,Femenino,45-54,NO,No corresponde,No corresponde
+826,Masculino,25-34,SI,Sin trabajo,No corresponde
+827,Masculino,15-24,SI,Trabajo Formal,630138
+828,Femenino,55-64,SI,Sin trabajo,No corresponde
+829,Masculino,15-24,SI,Trabajo Formal,821192
+830,Masculino,35-44,SI,Trabajo Formal,600893
+831,Masculino,35-44,SI,Trabajo Formal,848233
+832,Masculino,15-24,SI,Trabajo Formal,662150
+833,Femenino,55-64,SI,Trabajo Formal,607887
+834,Femenino,45-54,SI,Sin trabajo,No corresponde
+835,Femenino,45-54,SI,Trabajo Formal,626730
+836,Femenino,55-64,NO,No corresponde,No corresponde
+837,Femenino,35-44,NO,No corresponde,No corresponde
+838,Masculino,25-34,SI,Trabajo Formal,577139
+839,Masculino,15-24,SI,Trabajo Informal,593373
+840,Femenino,55-64,SI,Trabajo Formal,622217
+841,Femenino,15-24,NO,No corresponde,No corresponde
+842,Masculino,35-44,SI,Sin trabajo,No corresponde
+843,Femenino,45-54,NO,No corresponde,No corresponde
+844,Masculino,15-24,NO,No corresponde,No corresponde
+845,Masculino,55-64,SI,Trabajo Formal,499742
+846,Femenino,45-54,SI,Trabajo Informal,593045
+847,Femenino,45-54,NO,No corresponde,No corresponde
+848,Masculino,45-54,SI,Sin trabajo,No corresponde
+849,Femenino,55-64,NO,No corresponde,No corresponde
+850,Femenino,35-44,SI,Trabajo Formal,418300
+851,Femenino,25-34,NO,No corresponde,No corresponde
+852,Masculino,25-34,NO,No corresponde,No corresponde
+853,Masculino,25-34,SI,Trabajo Informal,638377
+854,Masculino,25-34,NO,No corresponde,No corresponde
+855,Femenino,35-44,NO,No corresponde,No corresponde
+856,Masculino,15-24,SI,Trabajo Formal,661802
+857,Masculino,25-34,NO,No corresponde,No corresponde
+858,Femenino,35-44,NO,No corresponde,No corresponde
+859,Masculino,25-34,SI,Trabajo Formal,706229
+860,Masculino,35-44,SI,Trabajo Informal,496154
+861,Masculino,15-24,SI,Sin trabajo,No corresponde
+862,Masculino,15-24,SI,Trabajo Informal,497599
+863,Femenino,55-64,NO,No corresponde,No corresponde
+864,Masculino,25-34,NO,No corresponde,No corresponde
+865,Masculino,15-24,NO,No corresponde,No corresponde
+866,Masculino,35-44,SI,Trabajo Formal,546672
+867,Masculino,35-44,SI,Trabajo Informal,565763
+868,Femenino,45-54,SI,Sin trabajo,No corresponde
+869,Masculino,45-54,SI,Trabajo Formal,595830
+870,Masculino,55-64,SI,Trabajo Formal,838330
+871,Femenino,35-44,SI,Sin trabajo,No corresponde
+872,Masculino,55-64,NO,No corresponde,No corresponde
+873,Femenino,35-44,SI,Trabajo Formal,598251
+874,Masculino,45-54,SI,Trabajo Formal,829321
+875,Femenino,35-44,NO,No corresponde,No corresponde
+876,Femenino,45-54,SI,Trabajo Formal,554776
+877,Masculino,15-24,SI,Trabajo Formal,637822
+878,Femenino,35-44,NO,No corresponde,No corresponde
+879,Femenino,45-54,SI,Trabajo Informal,363393
+880,Femenino,45-54,NO,No corresponde,No corresponde
+881,Femenino,25-34,NO,No corresponde,No corresponde
+882,Masculino,25-34,SI,Trabajo Formal,460877
+883,Femenino,55-64,SI,Trabajo Formal,468982
+884,Femenino,25-34,NO,No corresponde,No corresponde
+885,Masculino,45-54,SI,Trabajo Formal,543198
+886,Masculino,15-24,SI,Trabajo Formal,640986
+887,Masculino,35-44,NO,No corresponde,No corresponde
+888,Masculino,15-24,SI,Trabajo Informal,455906
+889,Masculino,25-34,SI,Trabajo Formal,468754
+890,Masculino,25-34,SI,Trabajo Formal,669501
+891,Masculino,15-24,SI,Trabajo Formal,511979
+892,Masculino,35-44,SI,Trabajo Formal,804708
+893,Femenino,45-54,SI,Trabajo Informal,691598
+894,Masculino,15-24,SI,Sin trabajo,No corresponde
+895,Masculino,35-44,SI,Trabajo Formal,758207
+896,Femenino,25-34,NO,No corresponde,No corresponde
+897,Masculino,25-34,NO,No corresponde,No corresponde
+898,Femenino,55-64,SI,Trabajo Formal,367061
+899,Masculino,15-24,SI,Trabajo Formal,788308
+900,Femenino,55-64,SI,Trabajo Informal,646090
+901,Femenino,35-44,SI,Trabajo Formal,364543
+902,Femenino,35-44,SI,Trabajo Formal,361531
+903,Masculino,15-24,SI,Trabajo Formal,518195
+904,Masculino,45-54,SI,Sin trabajo,No corresponde
+905,Masculino,15-24,SI,Trabajo Informal,739205
+906,Femenino,45-54,NO,No corresponde,No corresponde
+907,Masculino,15-24,SI,Sin trabajo,No corresponde
+908,Femenino,35-44,SI,Trabajo Informal,532442
+909,Masculino,55-64,SI,Trabajo Formal,473843
+910,Masculino,25-34,NO,No corresponde,No corresponde
+911,Femenino,55-64,NO,No corresponde,No corresponde
+912,Masculino,35-44,SI,Trabajo Formal,720480
+913,Masculino,15-24,SI,Trabajo Informal,560852
+914,Masculino,25-34,SI,Sin trabajo,No corresponde
+915,Masculino,45-54,SI,Trabajo Formal,623619
+916,Masculino,25-34,SI,Trabajo Formal,667911
+917,Femenino,55-64,SI,Trabajo Informal,444349
+918,Masculino,15-24,SI,Sin trabajo,No corresponde
+919,Femenino,25-34,SI,Trabajo Formal,413069
+920,Femenino,25-34,SI,Trabajo Informal,644036
+921,Masculino,15-24,SI,Trabajo Informal,463982
+922,Femenino,15-24,NO,No corresponde,No corresponde
+923,Masculino,25-34,NO,No corresponde,No corresponde
+924,Femenino,55-64,SI,Trabajo Formal,629533
+925,Masculino,55-64,SI,Trabajo Formal,500857
+926,Masculino,45-54,NO,No corresponde,No corresponde
+927,Femenino,55-64,NO,No corresponde,No corresponde
+928,Femenino,55-64,SI,Sin trabajo,No corresponde
+929,Femenino,35-44,SI,Trabajo Informal,378579
+930,Masculino,15-24,SI,Trabajo Formal,524634
+931,Masculino,45-54,NO,No corresponde,No corresponde
+932,Masculino,15-24,SI,Sin trabajo,No corresponde
+933,Femenino,55-64,NO,No corresponde,No corresponde
+934,Masculino,25-34,SI,Sin trabajo,No corresponde
+935,Femenino,55-64,SI,Sin trabajo,No corresponde
+936,Femenino,45-54,SI,Trabajo Informal,749719
+937,Masculino,15-24,SI,Trabajo Formal,839662
+938,Masculino,35-44,NO,No corresponde,No corresponde
+939,Masculino,35-44,SI,Trabajo Formal,618285
+940,Femenino,55-64,SI,Sin trabajo,No corresponde
+941,Masculino,55-64,SI,Trabajo Formal,471598
+942,Masculino,25-34,SI,Sin trabajo,No corresponde
+943,Masculino,45-54,SI,Sin trabajo,No corresponde
+944,Femenino,55-64,NO,No corresponde,No corresponde
+945,Masculino,15-24,SI,Sin trabajo,No corresponde
+946,Masculino,15-24,SI,Sin trabajo,No corresponde
+947,Femenino,35-44,SI,Trabajo Formal,431857
+948,Masculino,25-34,SI,Trabajo Informal,580674
+949,Masculino,55-64,SI,Trabajo Informal,637391
+950,Femenino,35-44,NO,No corresponde,No corresponde
+951,Masculino,25-34,NO,No corresponde,No corresponde
+952,Femenino,55-64,NO,No corresponde,No corresponde
+953,Masculino,35-44,SI,Trabajo Formal,452748
+954,Masculino,55-64,SI,Sin trabajo,No corresponde
+955,Femenino,25-34,SI,Trabajo Informal,580235
+956,Masculino,45-54,SI,Trabajo Informal,729477
+957,Masculino,15-24,SI,Trabajo Formal,841464
+958,Masculino,45-54,SI,Trabajo Formal,454479
+959,Masculino,25-34,NO,No corresponde,No corresponde
+960,Masculino,15-24,NO,No corresponde,No corresponde
+961,Masculino,25-34,SI,Trabajo Formal,798575
+962,Masculino,45-54,SI,Trabajo Formal,592504
+963,Masculino,25-34,SI,Trabajo Formal,601088
+964,Masculino,15-24,SI,Trabajo Formal,613567
+965,Masculino,25-34,SI,Trabajo Formal,748738
+966,Femenino,35-44,SI,Trabajo Formal,432607
+967,Masculino,35-44,SI,Sin trabajo,No corresponde
+968,Masculino,35-44,NO,No corresponde,No corresponde
+969,Masculino,15-24,SI,Trabajo Formal,504295
+970,Femenino,45-54,NO,No corresponde,No corresponde
+971,Masculino,35-44,SI,Trabajo Formal,770860
+972,Masculino,25-34,SI,Trabajo Informal,481835
+973,Masculino,15-24,SI,Trabajo Informal,661046
+974,Masculino,35-44,SI,Trabajo Formal,675117
+975,Femenino,55-64,NO,No corresponde,No corresponde
+976,Masculino,15-24,NO,No corresponde,No corresponde
+977,Femenino,25-34,SI,Trabajo Informal,437326
+978,Femenino,45-54,NO,No corresponde,No corresponde
+979,Masculino,25-34,SI,Trabajo Informal,776899
+980,Masculino,35-44,NO,No corresponde,No corresponde
+981,Masculino,15-24,SI,Trabajo Formal,800379
+982,Femenino,55-64,SI,Trabajo Formal,724063
+983,Femenino,55-64,SI,Trabajo Formal,569910
+984,Masculino,15-24,SI,Trabajo Formal,525225
+985,Femenino,55-64,SI,Trabajo Formal,658124
+986,Masculino,15-24,SI,Trabajo Formal,579304
+987,Femenino,45-54,SI,Trabajo Formal,598823
+988,Femenino,45-54,SI,Sin trabajo,No corresponde
+989,Femenino,45-54,SI,Sin trabajo,No corresponde
+990,Femenino,45-54,SI,Trabajo Formal,723532
+991,Masculino,35-44,SI,Trabajo Formal,653099
+992,Femenino,55-64,NO,No corresponde,No corresponde
+993,Femenino,35-44,SI,Trabajo Formal,697197
+994,Femenino,35-44,SI,Trabajo Formal,426355
+995,Masculino,25-34,SI,Sin trabajo,No corresponde
+996,Femenino,35-44,NO,No corresponde,No corresponde
+997,Femenino,55-64,NO,No corresponde,No corresponde
+998,Femenino,45-54,NO,No corresponde,No corresponde
+999,Masculino,15-24,SI,Trabajo Formal,504847
+1000,Masculino,25-34,SI,Trabajo Formal,466200
