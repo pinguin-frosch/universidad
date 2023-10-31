@@ -78,3 +78,24 @@ colnames(sueldos) <- temporadas
 
 # Calcular precio por frecuencia de gol por jugador sin decimales
 precio_goles_partido <- round(sueldos / goles_partido, 0)
+
+# Añadir la información principal al gráfico
+matplot(
+  temporadas,
+  t(goles),
+  type = "b",
+  pch = 15:20,
+  xlab = "Temporadas",
+  ylab = "Goles",
+  xaxt = "n"
+)
+# Agregar leyenda al gráfico
+legend(
+  "topleft",
+  inset = 0.01,
+  legend = jugadores,
+  pch = 15:20,
+  col = 1:6
+)
+# Usar las temporadas como los valores del eje x
+axis(1, temporadas)
