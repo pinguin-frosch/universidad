@@ -3,22 +3,22 @@ empresas <- c("Aranguiz", "NCN", "Sanhueza", "Valroa")
 meses <- c("Enero", "Febrero", "Marzo", "Abril")
 
 # Ingresos de empresas por meses en el recorrido Santa Bárbara -> Los Ángeles
-# |        |Enero |Febrero|Marzo |Abril |
-# |Aranguiz|170000|175550 |252300|260300|
-# |NCN     |172500|178050 |148250|151950|
-# |Sanhueza|71500 |73350  |102800|105250|
-# |Valroa  |350000|363500 |496500|513100|
+# |        |Enero   |Febrero |Marzo   |Abril   |
+# |Aranguiz|5270000 |4938000 |7812300 |7800000 |
+# |NCN     |3324750 |3115800 |3038650 |3035000 |
+# |Sanhueza|2216500 |2077200 |3173050 |3168750 |
+# |Valroa  |10850000|10167250|15380250|15356250|
 
-aranguiz <- c(170000, 175550, 252300, 260300)
-ncn <- c(172500, 178050, 148250, 151950)
-sanhueza <- c(71500, 73350, 102800, 105250)
-valroa <- c(350000, 363500, 496500, 513100)
+aranguiz <- c(5270000, 4938000, 7812300, 7800000)
+ncn <- c(3324750, 3115800, 3038650, 3035000)
+sanhueza <- c(2216500, 2077200, 3173050, 3168750)
+valroa <- c(10850000, 10167250, 15380250, 15356250)
 
 ingresos <- rbind(aranguiz, ncn, sanhueza, valroa)
 colnames(ingresos) <- meses
 rownames(ingresos) <- empresas
 
-graph <- function(data, sub_rows, sub_cols, scale = 10000) {
+graph <- function(data, sub_rows, sub_cols, scale = 1000000) {
   # Tomar solo un subconjunto de datos de la matriz
   data <- data[sub_rows, sub_cols]
   data <- data / scale
