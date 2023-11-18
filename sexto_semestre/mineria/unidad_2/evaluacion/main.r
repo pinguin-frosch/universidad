@@ -31,7 +31,7 @@ graph <- function(data, rows, cols, scale = 1000000, position = "topleft") {
     col = c(1, 2, 4, 6),
     pch = 15:20,
     xlab = "Meses",
-    ylab = sprintf("Ingresos en montos de %d$", scale),
+    ylab = sprintf("Ingresos en montos de $%d", scale),
     xaxt = "n",
     yaxt = "n",
     main = "Ingresos por empresa, primer cuatrimestre 2023."
@@ -55,5 +55,5 @@ graph(
   ingresos,
   cols = (meses != "Febrero"),
   rows = (empresas != "Valroa"),
-  scale = 25000
+  scale = 1500000
 )
