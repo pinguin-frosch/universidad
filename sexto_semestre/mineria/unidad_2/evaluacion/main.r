@@ -18,9 +18,9 @@ ingresos <- rbind(aranguiz, ncn, sanhueza, valroa)
 colnames(ingresos) <- meses
 rownames(ingresos) <- empresas
 
-graph <- function(data, sub_rows, sub_cols, scale = 1000000) {
+graph <- function(data, rows, cols, scale = 1000000, position = "topleft") {
   # Tomar solo un subconjunto de datos de la matriz
-  data <- data[sub_rows, sub_cols]
+  data <- data[rows, cols, drop = FALSE]
   data <- data / scale
 
   # Información principal del gráfico
@@ -39,26 +39,21 @@ graph <- function(data, sub_rows, sub_cols, scale = 1000000) {
 
   # Agregar leyenda al gráfico
   legend(
-    "topleft",
+    position,
     inset = 0.01,
     legend = rownames(data),
     pch = 15:20,
     col = c(1, 2, 4, 6)
   )
 
-  # Calcular los valores del eje y en la escala especificada
-  y_max <- ceiling(max(data))
-  y_step <- ceiling(y_max / 12)
-  y_labels <- seq(0, y_max, y_step)
-
   # Agregar los ejes manualmente para usar los nombres correctos
   axis(1, at = seq_along(colnames(data)), labels = colnames(data))
-  axis(2, at = y_labels, labels = y_labels, las = 1)
+  axis(2, las = 2)
 }
 
 graph(
   ingresos,
-  sub_cols = (meses != "Febrero"),
-  sub_rows = (empresas != "Valroa"),
+  cols = (meses != "Febrero"),
+  rows = (empresas != "Valroa"),
   scale = 25000
 )
