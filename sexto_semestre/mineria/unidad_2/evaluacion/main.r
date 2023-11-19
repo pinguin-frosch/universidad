@@ -1,3 +1,9 @@
+# Instalar ggplot2, no es necesario si ya se instaló
+install.packages("ggplot2")
+
+# Cargar la librería ggplot2
+library(ggplot2)
+
 # Definir empresas y meses de operación
 empresas <- c("Aranguiz", "NCN", "Sanhueza", "Valroa")
 meses <- c("Enero", "Febrero", "Marzo", "Abril")
@@ -51,9 +57,60 @@ graph <- function(data, rows, cols, scale = 1000000, position = "topleft") {
   axis(2, las = 2)
 }
 
+# Graficar toda la información de la matriz
+graph(ingresos)
+
+# Graficar un subconjunto de la matriz
 graph(
   ingresos,
   cols = (meses != "Febrero"),
   rows = (empresas != "Valroa"),
   scale = 1500000
 )
+
+# Graficar subconjunto de los buses NCN
+graph(
+  ingresos,
+  rows = (empresas == "NCN"),
+  position = "topright"
+)
+
+# Cargar archivo csv a un dataframe
+df <- read.csv(file = file.choose())
+
+# Calcular ingresos diarios
+df$ingresos <- df$estudiantes * 600 + df$adultos * 1850
+
+# Graficar todo el dataframe según distribución de pasajeros e ingresos
+qplot(
+  x = estudiantes,
+  y = adultos,
+  data = df,
+  color = mes,
+  size = ingresos,
+  main = "Ingresos por distribución de pasajeros",
+  xlab = "Estudiantes",
+  ylab = "Adultos"
+)
+
+# Graficar un subconjunto, los meses de marzo y abril
+qplot(
+  x = estudiantes,
+  y = adultos,
+  data = df[df$mes %in% c("Marzo", "Abril"), ],
+  color = mes,
+  size = ingresos,
+  main = "Ingresos por distribución de pasajeros",
+  xlab = "Estudiantes",
+  ylab = "Adultos"
+)
+
+# Calcular la razón estudiantes/adultos para cada mes
+enero <- df[df$mes == "Enero", ]
+sum(enero$estudiantes) / (sum(enero$estudiantes) + sum(enero$adultos))
+febrero <- df[df$mes == "Febrero", ]
+sum(febrero$estudiantes) / (sum(febrero$estudiantes) + sum(febrero$adultos))
+marzo <- df[df$mes == "Marzo", ]
+sum(marzo$estudiantes) / (sum(marzo$estudiantes) + sum(marzo$adultos))
+abril <- df[df$mes == "Abril", ]
+sum(abril$estudiantes) / (sum(abril$estudiantes) + sum(abril$adultos))
