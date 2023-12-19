@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Valroa",
+    "recorridos": [
+      {
+        "hora": 6,
+        "minuto": 30,
+        "capacidad": 45
+      },
+      {
+        "hora": 9,
+        "minuto": 0,
+        "capacidad": 45
+      },
+      {
+        "hora": 12,
+        "minuto": 15,
+        "capacidad": 45
+      },
+      {
+        "hora": 16,
+        "minuto": 45,
+        "capacidad": 45
+      },
+      {
+        "hora": 19,
+        "minuto": 0,
+        "capacidad": 45
+      }
+    ],
+    "meses": [
+      {
+        "nombre": "Enero",
+        "mes": 1,
+        "estudiantes": 496,
+        "adultos": 5704
+      },
+      {
+        "nombre": "Febrero",
+        "mes": 2,
+        "estudiantes": 465,
+        "adultos": 5345
+      },
+      {
+        "nombre": "Marzo",
+        "mes": 3,
+        "estudiantes": 2148,
+        "adultos": 7617
+      },
+      {
+        "nombre": "Abril",
+        "mes": 4,
+        "estudiantes": 2145,
+        "adultos": 7607
+      }
+    ]
+  }
+]
