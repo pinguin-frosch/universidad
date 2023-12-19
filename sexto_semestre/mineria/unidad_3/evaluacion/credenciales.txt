@@ -1,0 +1,3 @@
+usuario=mineria
+contraseña=password
+base de datos=evaluacion
