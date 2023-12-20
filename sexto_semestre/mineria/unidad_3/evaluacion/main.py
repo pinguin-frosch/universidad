@@ -34,7 +34,7 @@ def main():
 
     print("Pasando a instrucciones .sql\n")
     sql = recorridos_a_sql(resultados["recorridos"], resultados["nombre"], "recorrido")
-    archivo_sql = open(f"{resultados['nombre']}.sql", "w")
+    archivo_sql = open(f"{empresa}.sql", "w")
     archivo_sql.write(sql)
     archivo_sql.close()
 
