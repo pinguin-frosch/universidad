@@ -1,5 +1,5 @@
-[
-  {
+{
+  "valroa": {
     "nombre": "Valroa",
     "recorridos": [
       {
@@ -60,4 +60,4 @@
       }
     ]
   }
-]
+}
