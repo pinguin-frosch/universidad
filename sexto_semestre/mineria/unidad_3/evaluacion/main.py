@@ -32,7 +32,21 @@ def main():
     if continuar == "":
         return
 
-    print("Pasando a instrucciones .sql")
+    print("Pasando a instrucciones .sql\n")
+    sql = recorridos_a_sql(resultados["recorridos"], resultados["nombre"], "recorrido")
+    archivo_sql = open(f"{resultados['nombre']}.sql", "w")
+    archivo_sql.write(sql)
+    archivo_sql.close()
+
+def recorridos_a_sql(recorridos, nombre_empresa, nombre_tabla):
+    sql = f"INSERT INTO {nombre_tabla} VALUES\n"
+    for i, recorrido in enumerate(recorridos):
+        sql += f"('{nombre_empresa}', '{recorrido['fecha']}', {recorrido['estudiantes']}, {recorrido['adultos']}, {recorrido['capacidad']})"
+        if i == len(recorridos) - 1:
+            sql += ";"
+        else:
+            sql += ",\n"
+    return sql
 
 def generar_recorridos(empresa):
     e = {"nombre": empresa["nombre"], "meses": [], "recorridos": [], "sobrecargas": {}}
