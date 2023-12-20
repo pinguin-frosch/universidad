@@ -18,6 +18,11 @@
         "capacidad": 45
       },
       {
+        "hora": 15,
+        "minuto": 0,
+        "capacidad": 45
+      },
+      {
         "hora": 16,
         "minuto": 45,
         "capacidad": 45
